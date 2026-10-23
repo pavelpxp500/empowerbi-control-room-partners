@@ -1,0 +1,153 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "route",
+    "row_count": 16,
+    "inputs_real": [
+      "actual coordinates of the 24 stores (JSON-LD LocalBusiness)",
+      "actual dimensions for 16,064 products → volume per unit",
+      "declared weight for 8,216 products"
+    ],
+    "inputs_synthetic": [
+      "sales volume by store and category mix — from the synthetic layer",
+      "[I] road-circuity factor of 1.28 versus straight-line distance",
+      "[I] Euro pallet 1.2 × 0.8 × 1.8 m, 33 pallets per semi-trailer, 68% stacking efficiency",
+      "[I] minimum delivery frequency of six days per week (required by fresh products)"
+    ],
+    "seed": 42,
+    "method": "Clarke-Wright applied to residual loads; capacity equals one truck.",
+    "caveat": "Results describe a scenario based on modelled volume and capacity assumptions. They are not observed Selgros routes, loads, costs or operational savings."
+  },
+  "data": [
+    {
+      "route": "T06",
+      "stops": 2,
+      "stores": "Constanta South → Craiova",
+      "km": 1116.1,
+      "load_m3": 49.1,
+      "fill_pct": 86.0
+    },
+    {
+      "route": "T01",
+      "stops": 3,
+      "stores": "Cluj-Napoca → Oradea → Arad",
+      "km": 991.1,
+      "load_m3": 56.2,
+      "fill_pct": 98.5
+    },
+    {
+      "route": "T10",
+      "stops": 1,
+      "stores": "Timisoara",
+      "km": 882.5,
+      "load_m3": 42.4,
+      "fill_pct": 74.4
+    },
+    {
+      "route": "T08",
+      "stops": 2,
+      "stores": "Suceava → Iasi",
+      "km": 732.7,
+      "load_m3": 47.1,
+      "fill_pct": 82.5
+    },
+    {
+      "route": "T15",
+      "stops": 1,
+      "stores": "North Constanta",
+      "km": 719.7,
+      "load_m3": 37.4,
+      "fill_pct": 65.6
+    },
+    {
+      "route": "T05",
+      "stops": 2,
+      "stores": "Baia Mare → Mureș Ernei",
+      "km": 708.9,
+      "load_m3": 50.5,
+      "fill_pct": 88.6
+    },
+    {
+      "route": "T13",
+      "stops": 1,
+      "stores": "Bistrita",
+      "km": 489.7,
+      "load_m3": 39.8,
+      "fill_pct": 69.8
+    },
+    {
+      "route": "T12",
+      "stops": 1,
+      "stores": "Galati",
+      "km": 474.8,
+      "load_m3": 41.7,
+      "fill_pct": 73.0
+    },
+    {
+      "route": "T03",
+      "stops": 1,
+      "stores": "Brăila",
+      "km": 466.1,
+      "load_m3": 52.0,
+      "fill_pct": 91.2
+    },
+    {
+      "route": "T07",
+      "stops": 1,
+      "stores": "Alba Iulia",
+      "km": 432.7,
+      "load_m3": 47.6,
+      "fill_pct": 83.5
+    },
+    {
+      "route": "T09",
+      "stops": 3,
+      "stores": "Bucureşti Pantelimon → Bucureşti Berceni → Bucureş ti",
+      "km": 377.0,
+      "load_m3": 45.9,
+      "fill_pct": 80.4
+    },
+    {
+      "route": "T16",
+      "stops": 1,
+      "stores": "Bacau",
+      "km": 370.5,
+      "load_m3": 36.6,
+      "fill_pct": 64.1
+    },
+    {
+      "route": "T14",
+      "stops": 1,
+      "stores": "Târgu Mureș",
+      "km": 339.4,
+      "load_m3": 37.8,
+      "fill_pct": 66.3
+    },
+    {
+      "route": "T04",
+      "stops": 1,
+      "stores": "Bucharest Băneasa",
+      "km": 330.8,
+      "load_m3": 51.4,
+      "fill_pct": 90.1
+    },
+    {
+      "route": "T11",
+      "stops": 1,
+      "stores": "Sibiu",
+      "km": 304.1,
+      "load_m3": 42.1,
+      "fill_pct": 73.7
+    },
+    {
+      "route": "T02",
+      "stops": 1,
+      "stores": "Ploiești",
+      "km": 191.3,
+      "load_m3": 55.9,
+      "fill_pct": 98.0
+    }
+  ]
+}

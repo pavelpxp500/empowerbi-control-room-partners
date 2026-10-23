@@ -1,0 +1,219 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1",
+    "row_count": 24,
+    "seed": 43,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Order backlog and category coverage; allocatable inventory is unique per item × location.",
+    "seeds": [
+      43,
+      44
+    ]
+  },
+  "data": [
+    {
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "open_lines": 1992.0,
+      "overdue_lines": 182.0,
+      "qty_open": 260.74,
+      "open_value_ron": 15319.81,
+      "allocation_cover_pct": 15.77
+    },
+    {
+      "cat_l1": "Personal care and cosmetics",
+      "open_lines": 5622.0,
+      "overdue_lines": 543.0,
+      "qty_open": 568.07,
+      "open_value_ron": 9455.83,
+      "allocation_cover_pct": 10.02
+    },
+    {
+      "cat_l1": "Staples and canned goods",
+      "open_lines": 10384.0,
+      "overdue_lines": 1030.0,
+      "qty_open": 1199.57,
+      "open_value_ron": 8802.09,
+      "allocation_cover_pct": 8.83
+    },
+    {
+      "cat_l1": "Confectionery and snacks",
+      "open_lines": 8985.0,
+      "overdue_lines": 946.0,
+      "qty_open": 1681.77,
+      "open_value_ron": 8743.06,
+      "allocation_cover_pct": 11.72
+    },
+    {
+      "cat_l1": "Toys",
+      "open_lines": 1604.0,
+      "overdue_lines": 159.0,
+      "qty_open": 246.3,
+      "open_value_ron": 8699.84,
+      "allocation_cover_pct": 9.01
+    },
+    {
+      "cat_l1": "Spirits",
+      "open_lines": 1864.0,
+      "overdue_lines": 167.0,
+      "qty_open": 115.63,
+      "open_value_ron": 6037.22,
+      "allocation_cover_pct": 9.91
+    },
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "open_lines": 3450.0,
+      "overdue_lines": 346.0,
+      "qty_open": 202.65,
+      "open_value_ron": 5953.58,
+      "allocation_cover_pct": 7.42
+    },
+    {
+      "cat_l1": "Household cleaning and care",
+      "open_lines": 3856.0,
+      "overdue_lines": 359.0,
+      "qty_open": 347.45,
+      "open_value_ron": 4949.56,
+      "allocation_cover_pct": 13.71
+    },
+    {
+      "cat_l1": "Office supplies and stationery",
+      "open_lines": 4893.0,
+      "overdue_lines": 479.0,
+      "qty_open": 604.87,
+      "open_value_ron": 4841.71,
+      "allocation_cover_pct": 8.92
+    },
+    {
+      "cat_l1": "Cheese, dairy and eggs",
+      "open_lines": 6052.0,
+      "overdue_lines": 567.0,
+      "qty_open": 527.46,
+      "open_value_ron": 4511.93,
+      "allocation_cover_pct": 8.5
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "open_lines": 4378.0,
+      "overdue_lines": 425.0,
+      "qty_open": 707.8,
+      "open_value_ron": 4336.31,
+      "allocation_cover_pct": 14.86
+    },
+    {
+      "cat_l1": "Electronics, appliances and IT",
+      "open_lines": 688.0,
+      "overdue_lines": 68.0,
+      "qty_open": 79.45,
+      "open_value_ron": 3949.55,
+      "allocation_cover_pct": 5.54
+    },
+    {
+      "cat_l1": "Coffee and tea",
+      "open_lines": 2327.0,
+      "overdue_lines": 233.0,
+      "qty_open": 361.91,
+      "open_value_ron": 3694.47,
+      "allocation_cover_pct": 4.06
+    },
+    {
+      "cat_l1": "Garden and patio",
+      "open_lines": 896.0,
+      "overdue_lines": 80.0,
+      "qty_open": 114.45,
+      "open_value_ron": 3305.9,
+      "allocation_cover_pct": 11.65
+    },
+    {
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "open_lines": 1602.0,
+      "overdue_lines": 166.0,
+      "qty_open": 137.89,
+      "open_value_ron": 2984.38,
+      "allocation_cover_pct": 14.94
+    },
+    {
+      "cat_l1": "Kitchen and tableware",
+      "open_lines": 739.0,
+      "overdue_lines": 62.0,
+      "qty_open": 86.92,
+      "open_value_ron": 2155.5,
+      "allocation_cover_pct": 3.78
+    },
+    {
+      "cat_l1": "Children's clothing, footwear and accessories",
+      "open_lines": 1028.0,
+      "overdue_lines": 95.0,
+      "qty_open": 113.44,
+      "open_value_ron": 2139.89,
+      "allocation_cover_pct": 2.39
+    },
+    {
+      "cat_l1": null,
+      "open_lines": 530.0,
+      "overdue_lines": 62.0,
+      "qty_open": 93.83,
+      "open_value_ron": 1546.3,
+      "allocation_cover_pct": 17.37
+    },
+    {
+      "cat_l1": "Foodservice",
+      "open_lines": 144.0,
+      "overdue_lines": 15.0,
+      "qty_open": 17.74,
+      "open_value_ron": 1537.74,
+      "allocation_cover_pct": 16.19
+    },
+    {
+      "cat_l1": "Beer and cider",
+      "open_lines": 1411.0,
+      "overdue_lines": 130.0,
+      "qty_open": 273.12,
+      "open_value_ron": 1537.15,
+      "allocation_cover_pct": 12.32
+    },
+    {
+      "cat_l1": "Frozen foods",
+      "open_lines": 1248.0,
+      "overdue_lines": 122.0,
+      "qty_open": 96.76,
+      "open_value_ron": 1482.71,
+      "allocation_cover_pct": 8.45
+    },
+    {
+      "cat_l1": "Pet food and accessories",
+      "open_lines": 1171.0,
+      "overdue_lines": 115.0,
+      "qty_open": 132.92,
+      "open_value_ron": 1349.1,
+      "allocation_cover_pct": 6.46
+    },
+    {
+      "cat_l1": "Cereals and breakfast",
+      "open_lines": 1351.0,
+      "overdue_lines": 133.0,
+      "qty_open": 202.08,
+      "open_value_ron": 1295.7,
+      "allocation_cover_pct": 6.47
+    },
+    {
+      "cat_l1": "Sports and outdoors",
+      "open_lines": 379.0,
+      "overdue_lines": 42.0,
+      "qty_open": 37.57,
+      "open_value_ron": 1205.46,
+      "allocation_cover_pct": 4.66
+    }
+  ]
+}

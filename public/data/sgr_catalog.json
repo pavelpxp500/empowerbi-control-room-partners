@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1",
+    "row_count": 5,
+    "deposit_ron": 0.5
+  },
+  "data": [
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "sgr_skus": 410,
+      "skus": 917,
+      "sgr_share_pct": 44.71,
+      "median_net_sgr": 29.74
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "sgr_skus": 295,
+      "skus": 562,
+      "sgr_share_pct": 52.49,
+      "median_net_sgr": 5.7
+    },
+    {
+      "cat_l1": "Spirits",
+      "sgr_skus": 216,
+      "skus": 587,
+      "sgr_share_pct": 36.8,
+      "median_net_sgr": 60.74
+    },
+    {
+      "cat_l1": "Beer and cider",
+      "sgr_skus": 121,
+      "skus": 183,
+      "sgr_share_pct": 66.12,
+      "median_net_sgr": 5.38
+    },
+    {
+      "cat_l1": "Water",
+      "sgr_skus": 64,
+      "skus": 125,
+      "sgr_share_pct": 51.2,
+      "median_net_sgr": 3.81
+    }
+  ]
+}

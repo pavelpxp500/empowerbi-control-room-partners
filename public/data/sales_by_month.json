@@ -1,0 +1,365 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "month",
+    "row_count": 43,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[I] cash & carry seasonality: December peak, February trough, summer supported by HoReCa",
+      "[I] 8.2% growth from 2023 to 2024; 2026 trend of −1.2% versus 2025",
+      "[A] monthly totals reconcile exactly to the published annual figures: FY2024 RON 4.550bn, FY2025 RON 4.460bn",
+      "[I] aggregate gross margin of 11.55%, typical of cash & carry wholesale",
+      "[I] 0.35 pp erosion after the VAT cutover from 19% to 21% on 1 August 2025"
+    ]
+  },
+  "data": [
+    {
+      "month": "2023-01",
+      "net_ron": 299059992.4,
+      "gm_ron": 34904578.11,
+      "gm_pct": 11.67,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-02",
+      "net_ron": 280529013.55,
+      "gm_ron": 33144898.65,
+      "gm_pct": 11.82,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-03",
+      "net_ron": 340449155.51,
+      "gm_ron": 37238310.09,
+      "gm_pct": 10.94,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-04",
+      "net_ron": 373499492.29,
+      "gm_ron": 42637723.8,
+      "gm_pct": 11.42,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-05",
+      "net_ron": 341317279.07,
+      "gm_ron": 38747851.21,
+      "gm_pct": 11.35,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-06",
+      "net_ron": 349527591.28,
+      "gm_ron": 39432553.96,
+      "gm_pct": 11.28,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-07",
+      "net_ron": 370712976.36,
+      "gm_ron": 42388953.8,
+      "gm_pct": 11.43,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-08",
+      "net_ron": 363832675.17,
+      "gm_ron": 44307089.67,
+      "gm_pct": 12.18,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-09",
+      "net_ron": 341957066.43,
+      "gm_ron": 38252517.49,
+      "gm_pct": 11.19,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-10",
+      "net_ron": 339343237.69,
+      "gm_ron": 40574174.54,
+      "gm_pct": 11.96,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-11",
+      "net_ron": 358952457.27,
+      "gm_ron": 38921913.81,
+      "gm_pct": 10.84,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2023-12",
+      "net_ron": 445994663.72,
+      "gm_ron": 50885084.53,
+      "gm_pct": 11.41,
+      "yoy_pct": null,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-01",
+      "net_ron": 320635274.8,
+      "gm_ron": 37252548.61,
+      "gm_pct": 11.62,
+      "yoy_pct": 7.2,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-02",
+      "net_ron": 316337004.62,
+      "gm_ron": 37315788.06,
+      "gm_pct": 11.8,
+      "yoy_pct": 12.8,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-03",
+      "net_ron": 364691603.83,
+      "gm_ron": 43211269.36,
+      "gm_pct": 11.85,
+      "yoy_pct": 7.1,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-04",
+      "net_ron": 387532778.33,
+      "gm_ron": 46051317.74,
+      "gm_pct": 11.88,
+      "yoy_pct": 3.8,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-05",
+      "net_ron": 386454526.62,
+      "gm_ron": 44069479.02,
+      "gm_pct": 11.4,
+      "yoy_pct": 13.2,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-06",
+      "net_ron": 379411034.92,
+      "gm_ron": 43085204.77,
+      "gm_pct": 11.36,
+      "yoy_pct": 8.5,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-07",
+      "net_ron": 405726578.89,
+      "gm_ron": 48323455.06,
+      "gm_pct": 11.91,
+      "yoy_pct": 9.4,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-08",
+      "net_ron": 394240599.35,
+      "gm_ron": 45218025.51,
+      "gm_pct": 11.47,
+      "yoy_pct": 8.4,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-09",
+      "net_ron": 367161375.53,
+      "gm_ron": 40439931.34,
+      "gm_pct": 11.01,
+      "yoy_pct": 7.4,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-10",
+      "net_ron": 366991513.34,
+      "gm_ron": 40640711.27,
+      "gm_pct": 11.07,
+      "yoy_pct": 8.1,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-11",
+      "net_ron": 389511517.9,
+      "gm_ron": 43484403.84,
+      "gm_pct": 11.16,
+      "yoy_pct": 8.5,
+      "is_complete_period": true
+    },
+    {
+      "month": "2024-12",
+      "net_ron": 471306191.87,
+      "gm_ron": 55419987.9,
+      "gm_pct": 11.76,
+      "yoy_pct": 5.7,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-01",
+      "net_ron": 309584110.48,
+      "gm_ron": 35942154.29,
+      "gm_pct": 11.61,
+      "yoy_pct": -3.4,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-02",
+      "net_ron": 299267083.35,
+      "gm_ron": 35433234.19,
+      "gm_pct": 11.84,
+      "yoy_pct": -5.4,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-03",
+      "net_ron": 356290196.57,
+      "gm_ron": 40512168.8,
+      "gm_pct": 11.37,
+      "yoy_pct": -2.3,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-04",
+      "net_ron": 387998791.73,
+      "gm_ron": 45072215.92,
+      "gm_pct": 11.62,
+      "yoy_pct": 0.1,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-05",
+      "net_ron": 377389243.46,
+      "gm_ron": 44580040.18,
+      "gm_pct": 11.81,
+      "yoy_pct": -2.3,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-06",
+      "net_ron": 381196718.35,
+      "gm_ron": 43532949.05,
+      "gm_pct": 11.42,
+      "yoy_pct": 0.5,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-07",
+      "net_ron": 406156891.36,
+      "gm_ron": 47690315.08,
+      "gm_pct": 11.74,
+      "yoy_pct": 0.1,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-08",
+      "net_ron": 381757600.46,
+      "gm_ron": 41695531.16,
+      "gm_pct": 10.92,
+      "yoy_pct": -3.2,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-09",
+      "net_ron": 355747987.84,
+      "gm_ron": 39301320.8,
+      "gm_pct": 11.05,
+      "yoy_pct": -3.1,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-10",
+      "net_ron": 357041262.57,
+      "gm_ron": 39416177.45,
+      "gm_pct": 11.04,
+      "yoy_pct": -2.7,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-11",
+      "net_ron": 375306691.29,
+      "gm_ron": 40149361.62,
+      "gm_pct": 10.7,
+      "yoy_pct": -3.6,
+      "is_complete_period": true
+    },
+    {
+      "month": "2025-12",
+      "net_ron": 472263422.54,
+      "gm_ron": 53859416.34,
+      "gm_pct": 11.4,
+      "yoy_pct": 0.2,
+      "is_complete_period": true
+    },
+    {
+      "month": "2026-01",
+      "net_ron": 306934265.79,
+      "gm_ron": 33771519.98,
+      "gm_pct": 11.0,
+      "yoy_pct": -0.9,
+      "is_complete_period": true
+    },
+    {
+      "month": "2026-02",
+      "net_ron": 296193396.03,
+      "gm_ron": 33189203.19,
+      "gm_pct": 11.21,
+      "yoy_pct": -1.0,
+      "is_complete_period": true
+    },
+    {
+      "month": "2026-03",
+      "net_ron": 353169438.27,
+      "gm_ron": 40268074.2,
+      "gm_pct": 11.4,
+      "yoy_pct": -0.9,
+      "is_complete_period": true
+    },
+    {
+      "month": "2026-04",
+      "net_ron": 388353645.53,
+      "gm_ron": 44223938.74,
+      "gm_pct": 11.39,
+      "yoy_pct": 0.1,
+      "is_complete_period": true
+    },
+    {
+      "month": "2026-05",
+      "net_ron": 374111122.0,
+      "gm_ron": 42945943.14,
+      "gm_pct": 11.48,
+      "yoy_pct": -0.9,
+      "is_complete_period": true
+    },
+    {
+      "month": "2026-06",
+      "net_ron": 380457768.13,
+      "gm_ron": 42453897.85,
+      "gm_pct": 11.16,
+      "yoy_pct": -0.2,
+      "is_complete_period": true
+    },
+    {
+      "month": "2026-07",
+      "net_ron": 401689783.65,
+      "gm_ron": 44275110.42,
+      "gm_pct": 11.02,
+      "yoy_pct": -1.1,
+      "is_complete_period": true
+    }
+  ]
+}

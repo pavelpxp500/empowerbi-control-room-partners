@@ -1,0 +1,252 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "store",
+    "row_count": 24
+  },
+  "data": [
+    {
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "city": "Băneasa",
+      "lat": 44.49457,
+      "lon": 26.078923,
+      "skus": 16080,
+      "out_of_stock": 4549,
+      "oos_pct": 28.29
+    },
+    {
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "city": "Pantelimon",
+      "lat": 44.44971,
+      "lon": 26.220041,
+      "skus": 16080,
+      "out_of_stock": 4716,
+      "oos_pct": 29.33
+    },
+    {
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "city": "București - Berceni",
+      "lat": 44.379448,
+      "lon": 26.128227,
+      "skus": 16080,
+      "out_of_stock": 4955,
+      "oos_pct": 30.81
+    },
+    {
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "city": "Iași",
+      "lat": 47.132586,
+      "lon": 27.571749,
+      "skus": 16080,
+      "out_of_stock": 5120,
+      "oos_pct": 31.84
+    },
+    {
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "city": "Galați",
+      "lat": 45.411115,
+      "lon": 28.014787,
+      "skus": 16080,
+      "out_of_stock": 5154,
+      "oos_pct": 32.05
+    },
+    {
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "city": "Brașov",
+      "lat": 45.61683,
+      "lon": 25.652765,
+      "skus": 16080,
+      "out_of_stock": 5182,
+      "oos_pct": 32.23
+    },
+    {
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "city": "Oradea",
+      "lat": 47.027605,
+      "lon": 21.965378,
+      "skus": 16080,
+      "out_of_stock": 5350,
+      "oos_pct": 33.27
+    },
+    {
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "city": "Craiova",
+      "lat": 44.298391,
+      "lon": 23.834564,
+      "skus": 16080,
+      "out_of_stock": 5370,
+      "oos_pct": 33.4
+    },
+    {
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "city": "Suceava",
+      "lat": 47.667199,
+      "lon": 26.244642,
+      "skus": 16080,
+      "out_of_stock": 5396,
+      "oos_pct": 33.56
+    },
+    {
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "city": "Timișoara",
+      "lat": 45.782058,
+      "lon": 21.219666,
+      "skus": 16080,
+      "out_of_stock": 5455,
+      "oos_pct": 33.92
+    },
+    {
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "city": "Bacău",
+      "lat": 46.585669,
+      "lon": 26.906453,
+      "skus": 16080,
+      "out_of_stock": 5466,
+      "oos_pct": 33.99
+    },
+    {
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "city": "Prahova",
+      "lat": 44.99478,
+      "lon": 26.014219,
+      "skus": 16080,
+      "out_of_stock": 5506,
+      "oos_pct": 34.24
+    },
+    {
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "city": "București - Drumul Taberei",
+      "lat": 44.426182,
+      "lon": 25.999484,
+      "skus": 16080,
+      "out_of_stock": 5541,
+      "oos_pct": 34.46
+    },
+    {
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "city": "Constanţa",
+      "lat": 44.20671,
+      "lon": 28.616448,
+      "skus": 16080,
+      "out_of_stock": 5568,
+      "oos_pct": 34.63
+    },
+    {
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "city": "Arad",
+      "lat": 46.17233,
+      "lon": 21.37368,
+      "skus": 16080,
+      "out_of_stock": 5580,
+      "oos_pct": 34.7
+    },
+    {
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "city": "Brăila",
+      "lat": 45.270461,
+      "lon": 27.933981,
+      "skus": 16080,
+      "out_of_stock": 5587,
+      "oos_pct": 34.75
+    },
+    {
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "city": "Târgu Mureș",
+      "lat": 46.61761,
+      "lon": 24.67896,
+      "skus": 16080,
+      "out_of_stock": 5591,
+      "oos_pct": 34.77
+    },
+    {
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "city": "Cluj-Napoca",
+      "lat": 46.778187,
+      "lon": 23.66019,
+      "skus": 16080,
+      "out_of_stock": 5682,
+      "oos_pct": 35.34
+    },
+    {
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "city": "Constanţa",
+      "lat": 44.117074,
+      "lon": 28.606327,
+      "skus": 16080,
+      "out_of_stock": 6071,
+      "oos_pct": 37.75
+    },
+    {
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "city": "Sibiu",
+      "lat": 45.818032,
+      "lon": 24.149884,
+      "skus": 16080,
+      "out_of_stock": 6291,
+      "oos_pct": 39.12
+    },
+    {
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "city": "Baia Mare",
+      "lat": 47.64614,
+      "lon": 23.55044,
+      "skus": 16080,
+      "out_of_stock": 6701,
+      "oos_pct": 41.67
+    },
+    {
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "city": "Alba Iulia",
+      "lat": 46.081012,
+      "lon": 23.574665,
+      "skus": 16080,
+      "out_of_stock": 7277,
+      "oos_pct": 45.25
+    },
+    {
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "city": "Târgu Mureș",
+      "lat": 46.53111,
+      "lon": 24.54929,
+      "skus": 16080,
+      "out_of_stock": 7789,
+      "oos_pct": 48.44
+    },
+    {
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "city": "Bistrița",
+      "lat": 47.145573,
+      "lon": 24.508668,
+      "skus": 16080,
+      "out_of_stock": 7884,
+      "oos_pct": 49.03
+    }
+  ]
+}

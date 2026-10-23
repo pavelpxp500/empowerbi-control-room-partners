@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "offer_condition_type",
+    "row_count": 2,
+    "legend": {
+      "RSGW": "short-window action",
+      "RSGL": "long-term list price",
+      "RSGS": "quantity threshold",
+      "RAPP": "exclusive price in application"
+    }
+  },
+  "data": [
+    {
+      "offer_type": "RSGL",
+      "sku_count": 6690,
+      "avg_window_days": 472.0,
+      "median_discount_pct": 33.03,
+      "p90_discount_pct": 68.76,
+      "first_from": "2025-06-26",
+      "last_until": "2027-12-31"
+    },
+    {
+      "offer_type": "RSGW",
+      "sku_count": 2598,
+      "avg_window_days": 28.0,
+      "median_discount_pct": 20.0,
+      "p90_discount_pct": 38.89,
+      "first_from": "2026-07-29",
+      "last_until": "2026-09-20"
+    }
+  ]
+}

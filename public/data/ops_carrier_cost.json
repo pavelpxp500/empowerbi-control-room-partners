@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "carrier",
+    "row_count": 12,
+    "seed": 45,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Cost is pre-aggregated before the shipment join, preventing duplicated kilometres."
+  },
+  "data": [
+    {
+      "carrier_id": "T04",
+      "carrier_name": "Carpat Trans",
+      "carrier_type": "third-party",
+      "shipments": 31,
+      "km_road": 11832.7,
+      "invoiced_ron": 77635.87,
+      "ron_per_km": 6.56,
+      "diff_ron": 2482.44,
+      "on_time_pct": 80.6,
+      "fill_pct": 80.1
+    },
+    {
+      "carrier_id": "T09",
+      "carrier_name": "Prut Cargo",
+      "carrier_type": "third-party",
+      "shipments": 28,
+      "km_road": 12731.8,
+      "invoiced_ron": 71792.92,
+      "ron_per_km": 5.64,
+      "diff_ron": 998.28,
+      "on_time_pct": 82.1,
+      "fill_pct": 70.9
+    },
+    {
+      "carrier_id": "T01",
+      "carrier_name": "In-house fleet",
+      "carrier_type": "in-house fleet",
+      "shipments": 39,
+      "km_road": 10405.3,
+      "invoiced_ron": 67522.86,
+      "ron_per_km": 6.49,
+      "diff_ron": 1654.58,
+      "on_time_pct": 87.2,
+      "fill_pct": 97.6
+    },
+    {
+      "carrier_id": "T03",
+      "carrier_name": "Danube Logistics",
+      "carrier_type": "third-party",
+      "shipments": 21,
+      "km_road": 13160.0,
+      "invoiced_ron": 63127.04,
+      "ron_per_km": 4.8,
+      "diff_ron": 1811.4,
+      "on_time_pct": 85.7,
+      "fill_pct": 64.4
+    },
+    {
+      "carrier_id": "T11",
+      "carrier_name": "Argeș Freight",
+      "carrier_type": "third-party",
+      "shipments": 21,
+      "km_road": 9538.2,
+      "invoiced_ron": 59049.5,
+      "ron_per_km": 6.19,
+      "diff_ron": 1443.44,
+      "on_time_pct": 71.4,
+      "fill_pct": 81.0
+    },
+    {
+      "carrier_id": "T02",
+      "carrier_name": "Transilvania Cargo",
+      "carrier_type": "third-party",
+      "shipments": 20,
+      "km_road": 8919.0,
+      "invoiced_ron": 57085.19,
+      "ron_per_km": 6.4,
+      "diff_ron": 1264.77,
+      "on_time_pct": 85.0,
+      "fill_pct": 89.2
+    },
+    {
+      "carrier_id": "T08",
+      "carrier_name": "Olt Distribution",
+      "carrier_type": "third-party",
+      "shipments": 16,
+      "km_road": 10195.7,
+      "invoiced_ron": 57014.45,
+      "ron_per_km": 5.59,
+      "diff_ron": 1400.66,
+      "on_time_pct": 87.5,
+      "fill_pct": 73.9
+    },
+    {
+      "carrier_id": "T05",
+      "carrier_name": "Delta Freight",
+      "carrier_type": "third-party",
+      "shipments": 28,
+      "km_road": 10330.2,
+      "invoiced_ron": 56776.36,
+      "ron_per_km": 5.5,
+      "diff_ron": 708.42,
+      "on_time_pct": 82.1,
+      "fill_pct": 82.7
+    },
+    {
+      "carrier_id": "T12",
+      "carrier_name": "Dobrogea Lines",
+      "carrier_type": "third-party",
+      "shipments": 17,
+      "km_road": 8907.1,
+      "invoiced_ron": 50955.32,
+      "ron_per_km": 5.72,
+      "diff_ron": 1556.66,
+      "on_time_pct": 82.4,
+      "fill_pct": 65.7
+    },
+    {
+      "carrier_id": "T07",
+      "carrier_name": "Banat Logistic",
+      "carrier_type": "third-party",
+      "shipments": 22,
+      "km_road": 7078.6,
+      "invoiced_ron": 49200.67,
+      "ron_per_km": 6.95,
+      "diff_ron": 703.29,
+      "on_time_pct": 77.3,
+      "fill_pct": 87.5
+    },
+    {
+      "carrier_id": "T10",
+      "carrier_name": "Someș Trans",
+      "carrier_type": "third-party",
+      "shipments": 15,
+      "km_road": 7385.0,
+      "invoiced_ron": 40523.98,
+      "ron_per_km": 5.49,
+      "diff_ron": 1619.38,
+      "on_time_pct": 66.7,
+      "fill_pct": 78.8
+    },
+    {
+      "carrier_id": "T06",
+      "carrier_name": "Moldova Express",
+      "carrier_type": "third-party",
+      "shipments": 16,
+      "km_road": 5062.7,
+      "invoiced_ron": 34244.41,
+      "ron_per_km": 6.76,
+      "diff_ron": 889.15,
+      "on_time_pct": 93.8,
+      "fill_pct": 90.7
+    }
+  ]
+}

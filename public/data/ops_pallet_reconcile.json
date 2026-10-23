@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "receipt_pattern",
+    "row_count": 2,
+    "seed": 44,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Physical reconciliation; the pallet variance remains intentionally visible."
+  },
+  "data": [
+    {
+      "receipt_pattern": "single receipt",
+      "pallets": 20131,
+      "value_ron": 81086060.54,
+      "avg_receipt_span_days": 0.0
+    },
+    {
+      "receipt_pattern": "mixed receipts",
+      "pallets": 4419,
+      "value_ron": 17367386.76,
+      "avg_receipt_span_days": 20.9
+    }
+  ]
+}

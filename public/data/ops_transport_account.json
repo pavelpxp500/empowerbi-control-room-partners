@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "account",
+    "row_count": 3,
+    "seed": 45,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "account": "6231",
+      "shipments": 274,
+      "provisioned_ron": 489612.42,
+      "invoiced_ron": 501123.91,
+      "diff_ron": 11511.49
+    },
+    {
+      "account": "6234",
+      "shipments": 274,
+      "provisioned_ron": 139497.95,
+      "invoiced_ron": 143578.81,
+      "diff_ron": 4080.86
+    },
+    {
+      "account": "6233",
+      "shipments": 274,
+      "provisioned_ron": 39285.73,
+      "invoiced_ron": 40225.85,
+      "diff_ron": 940.12
+    }
+  ]
+}

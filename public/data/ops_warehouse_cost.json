@@ -1,0 +1,172 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "warehouse",
+    "row_count": 25,
+    "seed": 46,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "generated warehouse costs for May–July 2026 (seed 46)"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "warehouse_id": "W900",
+      "cost_ron": 2732566.26,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W372",
+      "cost_ron": 355770.9,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W375",
+      "cost_ron": 321483.4,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W350",
+      "cost_ron": 305859.0,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W364",
+      "cost_ron": 304439.77,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W363",
+      "cost_ron": 295225.24,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W361",
+      "cost_ron": 286765.97,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W354",
+      "cost_ron": 276275.34,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W360",
+      "cost_ron": 258862.77,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W368",
+      "cost_ron": 256652.29,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W369",
+      "cost_ron": 255077.69,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W355",
+      "cost_ron": 242346.53,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W366",
+      "cost_ron": 235906.38,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W356",
+      "cost_ron": 230736.1,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W351",
+      "cost_ron": 230543.03,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W352",
+      "cost_ron": 220010.79,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W357",
+      "cost_ron": 214803.05,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W373",
+      "cost_ron": 211505.16,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W370",
+      "cost_ron": 195189.59,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W358",
+      "cost_ron": 178127.54,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W365",
+      "cost_ron": 178036.41,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W367",
+      "cost_ron": 161710.63,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W362",
+      "cost_ron": 148696.05,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W359",
+      "cost_ron": 141404.69,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    },
+    {
+      "warehouse_id": "W371",
+      "cost_ron": 140279.01,
+      "avg_allocation_share_pct": 2.703,
+      "categories": 37
+    }
+  ]
+}

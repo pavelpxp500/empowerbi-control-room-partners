@@ -1,0 +1,1102 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "shipment",
+    "row_count": 120,
+    "seed": 45,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "shipment_id": "EIN-20260706-057",
+      "carrier_id": "T10",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 6036.33,
+      "invoiced_ron": 6589.55,
+      "diff_ron": 553.22,
+      "diff_pct": 9.16
+    },
+    {
+      "shipment_id": "EIN-20260706-025",
+      "carrier_id": "T04",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5769.25,
+      "invoiced_ron": 6274.31,
+      "diff_ron": 505.06,
+      "diff_pct": 8.75
+    },
+    {
+      "shipment_id": "EIN-20260706-013",
+      "carrier_id": "T02",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5921.11,
+      "invoiced_ron": 6352.87,
+      "diff_ron": 431.76,
+      "diff_pct": 7.29
+    },
+    {
+      "shipment_id": "EIN-20260706-073",
+      "carrier_id": "T11",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5113.95,
+      "invoiced_ron": 5505.38,
+      "diff_ron": 391.43,
+      "diff_pct": 7.65
+    },
+    {
+      "shipment_id": "EIN-20260706-012",
+      "carrier_id": "T10",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4134.98,
+      "invoiced_ron": 4472.49,
+      "diff_ron": 337.51,
+      "diff_pct": 8.16
+    },
+    {
+      "shipment_id": "EIN-20260706-063",
+      "carrier_id": "T11",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3874.47,
+      "invoiced_ron": 4209.21,
+      "diff_ron": 334.74,
+      "diff_pct": 8.64
+    },
+    {
+      "shipment_id": "EIN-20260706-044",
+      "carrier_id": "T08",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5880.24,
+      "invoiced_ron": 6175.3,
+      "diff_ron": 295.06,
+      "diff_pct": 5.02
+    },
+    {
+      "shipment_id": "EIN-20260706-082",
+      "carrier_id": "T12",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5173.55,
+      "invoiced_ron": 5466.11,
+      "diff_ron": 292.56,
+      "diff_pct": 5.65
+    },
+    {
+      "shipment_id": "EIN-20260706-084",
+      "carrier_id": "T12",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4380.72,
+      "invoiced_ron": 4671.62,
+      "diff_ron": 290.9,
+      "diff_pct": 6.64
+    },
+    {
+      "shipment_id": "EIN-20260706-022",
+      "carrier_id": "T03",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4428.25,
+      "invoiced_ron": 4716.11,
+      "diff_ron": 287.86,
+      "diff_pct": 6.5
+    },
+    {
+      "shipment_id": "EIN-20260706-075",
+      "carrier_id": "T03",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4916.66,
+      "invoiced_ron": 5202.76,
+      "diff_ron": 286.1,
+      "diff_pct": 5.82
+    },
+    {
+      "shipment_id": "EIN-20260706-043",
+      "carrier_id": "T08",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5674.09,
+      "invoiced_ron": 5945.33,
+      "diff_ron": 271.24,
+      "diff_pct": 4.78
+    },
+    {
+      "shipment_id": "EIN-20260706-008",
+      "carrier_id": "T06",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4087.38,
+      "invoiced_ron": 4346.14,
+      "diff_ron": 258.76,
+      "diff_pct": 6.33
+    },
+    {
+      "shipment_id": "EIN-20260706-027",
+      "carrier_id": "T04",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4121.87,
+      "invoiced_ron": 4375.63,
+      "diff_ron": 253.76,
+      "diff_pct": 6.16
+    },
+    {
+      "shipment_id": "EIN-20260706-031",
+      "carrier_id": "T03",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4000.08,
+      "invoiced_ron": 4253.62,
+      "diff_ron": 253.54,
+      "diff_pct": 6.34
+    },
+    {
+      "shipment_id": "EIN-20260706-080",
+      "carrier_id": "T10",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3470.44,
+      "invoiced_ron": 3723.7,
+      "diff_ron": 253.26,
+      "diff_pct": 7.3
+    },
+    {
+      "shipment_id": "EIN-20260706-037",
+      "carrier_id": "T04",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4607.86,
+      "invoiced_ron": 4861.1,
+      "diff_ron": 253.24,
+      "diff_pct": 5.5
+    },
+    {
+      "shipment_id": "EIN-20260706-035",
+      "carrier_id": "T12",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4865.06,
+      "invoiced_ron": 5109.11,
+      "diff_ron": 244.05,
+      "diff_pct": 5.02
+    },
+    {
+      "shipment_id": "EIN-20260706-011",
+      "carrier_id": "T10",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4419.22,
+      "invoiced_ron": 4662.52,
+      "diff_ron": 243.3,
+      "diff_pct": 5.51
+    },
+    {
+      "shipment_id": "EIN-20260706-030",
+      "carrier_id": "T09",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5182.89,
+      "invoiced_ron": 4945.84,
+      "diff_ron": -237.05,
+      "diff_pct": -4.57
+    },
+    {
+      "shipment_id": "EIN-20260706-069",
+      "carrier_id": "T09",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3583.95,
+      "invoiced_ron": 3812.99,
+      "diff_ron": 229.04,
+      "diff_pct": 6.39
+    },
+    {
+      "shipment_id": "EIN-20260706-002",
+      "carrier_id": "T11",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3454.11,
+      "invoiced_ron": 3676.79,
+      "diff_ron": 222.68,
+      "diff_pct": 6.45
+    },
+    {
+      "shipment_id": "E360-20260706-003",
+      "carrier_id": "T11",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 3116.35,
+      "invoiced_ron": 3334.87,
+      "diff_ron": 218.52,
+      "diff_pct": 7.01
+    },
+    {
+      "shipment_id": "EIN-20260706-052",
+      "carrier_id": "T03",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3410.04,
+      "invoiced_ron": 3628.16,
+      "diff_ron": 218.12,
+      "diff_pct": 6.4
+    },
+    {
+      "shipment_id": "EIN-20260706-050",
+      "carrier_id": "T11",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 6172.18,
+      "invoiced_ron": 5954.24,
+      "diff_ron": -217.94,
+      "diff_pct": -3.53
+    },
+    {
+      "shipment_id": "EIN-20260706-070",
+      "carrier_id": "T10",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4283.22,
+      "invoiced_ron": 4500.8,
+      "diff_ron": 217.58,
+      "diff_pct": 5.08
+    },
+    {
+      "shipment_id": "EIN-20260706-018",
+      "carrier_id": "T05",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 2320.99,
+      "invoiced_ron": 2531.23,
+      "diff_ron": 210.24,
+      "diff_pct": 9.06
+    },
+    {
+      "shipment_id": "EIN-20260706-026",
+      "carrier_id": "T05",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 2803.54,
+      "invoiced_ron": 3004.97,
+      "diff_ron": 201.43,
+      "diff_pct": 7.18
+    },
+    {
+      "shipment_id": "E358-20260706-001",
+      "carrier_id": "T03",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2690.63,
+      "invoiced_ron": 2888.75,
+      "diff_ron": 198.12,
+      "diff_pct": 7.36
+    },
+    {
+      "shipment_id": "E368-20260706-005",
+      "carrier_id": "T02",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2344.53,
+      "invoiced_ron": 2541.52,
+      "diff_ron": 196.99,
+      "diff_pct": 8.4
+    },
+    {
+      "shipment_id": "E372-20260706-003",
+      "carrier_id": "T08",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2215.17,
+      "invoiced_ron": 2401.61,
+      "diff_ron": 186.44,
+      "diff_pct": 8.42
+    },
+    {
+      "shipment_id": "EIN-20260706-034",
+      "carrier_id": "T02",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5401.15,
+      "invoiced_ron": 5576.69,
+      "diff_ron": 175.54,
+      "diff_pct": 3.25
+    },
+    {
+      "shipment_id": "EIN-20260706-014",
+      "carrier_id": "T09",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3593.02,
+      "invoiced_ron": 3765.2,
+      "diff_ron": 172.18,
+      "diff_pct": 4.79
+    },
+    {
+      "shipment_id": "EIN-20260706-045",
+      "carrier_id": "T04",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3297.27,
+      "invoiced_ron": 3466.65,
+      "diff_ron": 169.38,
+      "diff_pct": 5.14
+    },
+    {
+      "shipment_id": "E363-20260706-002",
+      "carrier_id": "T04",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2320.27,
+      "invoiced_ron": 2487.92,
+      "diff_ron": 167.65,
+      "diff_pct": 7.23
+    },
+    {
+      "shipment_id": "E360-20260706-001",
+      "carrier_id": "T04",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2571.34,
+      "invoiced_ron": 2730.66,
+      "diff_ron": 159.32,
+      "diff_pct": 6.2
+    },
+    {
+      "shipment_id": "EIN-20260706-056",
+      "carrier_id": "T08",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3339.56,
+      "invoiced_ron": 3496.57,
+      "diff_ron": 157.01,
+      "diff_pct": 4.7
+    },
+    {
+      "shipment_id": "E366-20260706-000",
+      "carrier_id": "T04",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1874.13,
+      "invoiced_ron": 2029.5,
+      "diff_ron": 155.37,
+      "diff_pct": 8.29
+    },
+    {
+      "shipment_id": "EIN-20260706-006",
+      "carrier_id": "T05",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4983.87,
+      "invoiced_ron": 4828.78,
+      "diff_ron": -155.09,
+      "diff_pct": -3.11
+    },
+    {
+      "shipment_id": "E352-20260706-004",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1632.55,
+      "invoiced_ron": 1783.48,
+      "diff_ron": 150.93,
+      "diff_pct": 9.25
+    },
+    {
+      "shipment_id": "EIN-20260706-078",
+      "carrier_id": "T02",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3893.58,
+      "invoiced_ron": 4041.5,
+      "diff_ron": 147.92,
+      "diff_pct": 3.8
+    },
+    {
+      "shipment_id": "E360-20260706-004",
+      "carrier_id": "T12",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 3127.83,
+      "invoiced_ron": 3274.55,
+      "diff_ron": 146.72,
+      "diff_pct": 4.69
+    },
+    {
+      "shipment_id": "EIN-20260706-048",
+      "carrier_id": "T09",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 1975.82,
+      "invoiced_ron": 2117.31,
+      "diff_ron": 141.49,
+      "diff_pct": 7.16
+    },
+    {
+      "shipment_id": "E368-20260706-000",
+      "carrier_id": "T04",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2759.39,
+      "invoiced_ron": 2893.84,
+      "diff_ron": 134.45,
+      "diff_pct": 4.87
+    },
+    {
+      "shipment_id": "EIN-20260706-061",
+      "carrier_id": "T08",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 6204.7,
+      "invoiced_ron": 6336.46,
+      "diff_ron": 131.76,
+      "diff_pct": 2.12
+    },
+    {
+      "shipment_id": "EIN-20260706-016",
+      "carrier_id": "T03",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4311.49,
+      "invoiced_ron": 4442.99,
+      "diff_ron": 131.5,
+      "diff_pct": 3.05
+    },
+    {
+      "shipment_id": "E355-20260706-001",
+      "carrier_id": "T07",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2402.25,
+      "invoiced_ron": 2533.75,
+      "diff_ron": 131.5,
+      "diff_pct": 5.47
+    },
+    {
+      "shipment_id": "EIN-20260706-041",
+      "carrier_id": "T04",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5449.47,
+      "invoiced_ron": 5580.77,
+      "diff_ron": 131.3,
+      "diff_pct": 2.41
+    },
+    {
+      "shipment_id": "E363-20260706-004",
+      "carrier_id": "T12",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2350.38,
+      "invoiced_ron": 2481.67,
+      "diff_ron": 131.29,
+      "diff_pct": 5.59
+    },
+    {
+      "shipment_id": "E357-20260706-004",
+      "carrier_id": "T03",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2479.56,
+      "invoiced_ron": 2606.58,
+      "diff_ron": 127.02,
+      "diff_pct": 5.12
+    },
+    {
+      "shipment_id": "E375-20260706-005",
+      "carrier_id": "T07",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1983.03,
+      "invoiced_ron": 2110.0,
+      "diff_ron": 126.97,
+      "diff_pct": 6.4
+    },
+    {
+      "shipment_id": "EIN-20260706-077",
+      "carrier_id": "T02",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4978.57,
+      "invoiced_ron": 5103.18,
+      "diff_ron": 124.61,
+      "diff_pct": 2.5
+    },
+    {
+      "shipment_id": "E355-20260706-003",
+      "carrier_id": "T07",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2462.28,
+      "invoiced_ron": 2585.77,
+      "diff_ron": 123.49,
+      "diff_pct": 5.02
+    },
+    {
+      "shipment_id": "E358-20260706-006",
+      "carrier_id": "T11",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2581.76,
+      "invoiced_ron": 2704.07,
+      "diff_ron": 122.31,
+      "diff_pct": 4.74
+    },
+    {
+      "shipment_id": "E358-20260706-007",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2241.11,
+      "invoiced_ron": 2362.95,
+      "diff_ron": 121.84,
+      "diff_pct": 5.44
+    },
+    {
+      "shipment_id": "E358-20260706-002",
+      "carrier_id": "T09",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2640.55,
+      "invoiced_ron": 2759.98,
+      "diff_ron": 119.43,
+      "diff_pct": 4.52
+    },
+    {
+      "shipment_id": "E356-20260706-003",
+      "carrier_id": "T02",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2165.1,
+      "invoiced_ron": 2284.43,
+      "diff_ron": 119.33,
+      "diff_pct": 5.51
+    },
+    {
+      "shipment_id": "E368-20260706-007",
+      "carrier_id": "T09",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2448.68,
+      "invoiced_ron": 2563.86,
+      "diff_ron": 115.18,
+      "diff_pct": 4.7
+    },
+    {
+      "shipment_id": "E365-20260706-001",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1991.53,
+      "invoiced_ron": 2106.17,
+      "diff_ron": 114.64,
+      "diff_pct": 5.76
+    },
+    {
+      "shipment_id": "E351-20260706-006",
+      "carrier_id": "T06",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1803.81,
+      "invoiced_ron": 1918.36,
+      "diff_ron": 114.55,
+      "diff_pct": 6.35
+    },
+    {
+      "shipment_id": "E355-20260706-007",
+      "carrier_id": "T12",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2510.7,
+      "invoiced_ron": 2623.79,
+      "diff_ron": 113.09,
+      "diff_pct": 4.5
+    },
+    {
+      "shipment_id": "E366-20260706-002",
+      "carrier_id": "T06",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1948.34,
+      "invoiced_ron": 2058.04,
+      "diff_ron": 109.7,
+      "diff_pct": 5.63
+    },
+    {
+      "shipment_id": "E356-20260706-002",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1464.71,
+      "invoiced_ron": 1574.3,
+      "diff_ron": 109.59,
+      "diff_pct": 7.48
+    },
+    {
+      "shipment_id": "EIN-20260706-032",
+      "carrier_id": "T09",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 2574.28,
+      "invoiced_ron": 2682.77,
+      "diff_ron": 108.49,
+      "diff_pct": 4.21
+    },
+    {
+      "shipment_id": "E372-20260706-002",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2232.17,
+      "invoiced_ron": 2340.17,
+      "diff_ron": 108.0,
+      "diff_pct": 4.84
+    },
+    {
+      "shipment_id": "E355-20260706-006",
+      "carrier_id": "T02",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2632.96,
+      "invoiced_ron": 2525.54,
+      "diff_ron": -107.42,
+      "diff_pct": -4.08
+    },
+    {
+      "shipment_id": "E373-20260706-003",
+      "carrier_id": "T04",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1907.36,
+      "invoiced_ron": 2014.68,
+      "diff_ron": 107.32,
+      "diff_pct": 5.63
+    },
+    {
+      "shipment_id": "E368-20260706-002",
+      "carrier_id": "T06",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2511.63,
+      "invoiced_ron": 2617.16,
+      "diff_ron": 105.53,
+      "diff_pct": 4.2
+    },
+    {
+      "shipment_id": "E354-20260706-003",
+      "carrier_id": "T07",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1964.3,
+      "invoiced_ron": 2069.51,
+      "diff_ron": 105.21,
+      "diff_pct": 5.36
+    },
+    {
+      "shipment_id": "E352-20260706-000",
+      "carrier_id": "T09",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1357.58,
+      "invoiced_ron": 1462.02,
+      "diff_ron": 104.44,
+      "diff_pct": 7.69
+    },
+    {
+      "shipment_id": "E351-20260706-002",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1190.7,
+      "invoiced_ron": 1293.95,
+      "diff_ron": 103.25,
+      "diff_pct": 8.67
+    },
+    {
+      "shipment_id": "E370-20260706-003",
+      "carrier_id": "T04",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1574.25,
+      "invoiced_ron": 1677.0,
+      "diff_ron": 102.75,
+      "diff_pct": 6.53
+    },
+    {
+      "shipment_id": "EIN-20260706-023",
+      "carrier_id": "T12",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3279.62,
+      "invoiced_ron": 3381.68,
+      "diff_ron": 102.06,
+      "diff_pct": 3.11
+    },
+    {
+      "shipment_id": "E365-20260706-002",
+      "carrier_id": "T11",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1842.81,
+      "invoiced_ron": 1943.56,
+      "diff_ron": 100.75,
+      "diff_pct": 5.47
+    },
+    {
+      "shipment_id": "EIN-20260706-083",
+      "carrier_id": "T08",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4485.49,
+      "invoiced_ron": 4585.4,
+      "diff_ron": 99.91,
+      "diff_pct": 2.23
+    },
+    {
+      "shipment_id": "E373-20260706-004",
+      "carrier_id": "T11",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2029.14,
+      "invoiced_ron": 2128.68,
+      "diff_ron": 99.54,
+      "diff_pct": 4.91
+    },
+    {
+      "shipment_id": "EIN-20260706-015",
+      "carrier_id": "T09",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 2694.37,
+      "invoiced_ron": 2595.45,
+      "diff_ron": -98.92,
+      "diff_pct": -3.67
+    },
+    {
+      "shipment_id": "EIN-20260706-020",
+      "carrier_id": "T11",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5881.2,
+      "invoiced_ron": 5782.63,
+      "diff_ron": -98.57,
+      "diff_pct": -1.68
+    },
+    {
+      "shipment_id": "E351-20260706-003",
+      "carrier_id": "T03",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1268.1,
+      "invoiced_ron": 1366.56,
+      "diff_ron": 98.46,
+      "diff_pct": 7.76
+    },
+    {
+      "shipment_id": "EIN-20260706-074",
+      "carrier_id": "T02",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4378.59,
+      "invoiced_ron": 4476.08,
+      "diff_ron": 97.49,
+      "diff_pct": 2.23
+    },
+    {
+      "shipment_id": "E369-20260706-000",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1213.3,
+      "invoiced_ron": 1309.82,
+      "diff_ron": 96.52,
+      "diff_pct": 7.96
+    },
+    {
+      "shipment_id": "E365-20260706-000",
+      "carrier_id": "T11",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1731.94,
+      "invoiced_ron": 1828.07,
+      "diff_ron": 96.13,
+      "diff_pct": 5.55
+    },
+    {
+      "shipment_id": "EIN-20260706-065",
+      "carrier_id": "T12",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4365.41,
+      "invoiced_ron": 4459.73,
+      "diff_ron": 94.32,
+      "diff_pct": 2.16
+    },
+    {
+      "shipment_id": "EIN-20260706-088",
+      "carrier_id": "T03",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3244.12,
+      "invoiced_ron": 3151.02,
+      "diff_ron": -93.1,
+      "diff_pct": -2.87
+    },
+    {
+      "shipment_id": "E351-20260706-008",
+      "carrier_id": "T02",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1536.63,
+      "invoiced_ron": 1626.45,
+      "diff_ron": 89.82,
+      "diff_pct": 5.85
+    },
+    {
+      "shipment_id": "E369-20260706-005",
+      "carrier_id": "T12",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1327.39,
+      "invoiced_ron": 1416.89,
+      "diff_ron": 89.5,
+      "diff_pct": 6.74
+    },
+    {
+      "shipment_id": "E375-20260706-003",
+      "carrier_id": "T05",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1188.44,
+      "invoiced_ron": 1277.01,
+      "diff_ron": 88.57,
+      "diff_pct": 7.45
+    },
+    {
+      "shipment_id": "E364-20260706-004",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1612.68,
+      "invoiced_ron": 1700.47,
+      "diff_ron": 87.79,
+      "diff_pct": 5.44
+    },
+    {
+      "shipment_id": "E357-20260706-006",
+      "carrier_id": "T09",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 3173.84,
+      "invoiced_ron": 3261.25,
+      "diff_ron": 87.41,
+      "diff_pct": 2.75
+    },
+    {
+      "shipment_id": "E357-20260706-003",
+      "carrier_id": "T08",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2838.9,
+      "invoiced_ron": 2925.83,
+      "diff_ron": 86.93,
+      "diff_pct": 3.06
+    },
+    {
+      "shipment_id": "E372-20260706-001",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1857.1,
+      "invoiced_ron": 1943.27,
+      "diff_ron": 86.17,
+      "diff_pct": 4.64
+    },
+    {
+      "shipment_id": "EIN-20260706-005",
+      "carrier_id": "T03",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 2678.48,
+      "invoiced_ron": 2764.32,
+      "diff_ron": 85.84,
+      "diff_pct": 3.2
+    },
+    {
+      "shipment_id": "E375-20260706-001",
+      "carrier_id": "T04",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1459.62,
+      "invoiced_ron": 1545.08,
+      "diff_ron": 85.46,
+      "diff_pct": 5.85
+    },
+    {
+      "shipment_id": "EIN-20260706-067",
+      "carrier_id": "T11",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 2481.75,
+      "invoiced_ron": 2397.26,
+      "diff_ron": -84.49,
+      "diff_pct": -3.4
+    },
+    {
+      "shipment_id": "E363-20260706-001",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1638.95,
+      "invoiced_ron": 1723.25,
+      "diff_ron": 84.3,
+      "diff_pct": 5.14
+    },
+    {
+      "shipment_id": "EIN-20260706-047",
+      "carrier_id": "T07",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5010.79,
+      "invoiced_ron": 4926.68,
+      "diff_ron": -84.11,
+      "diff_pct": -1.68
+    },
+    {
+      "shipment_id": "EIN-20260706-072",
+      "carrier_id": "T05",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 2335.99,
+      "invoiced_ron": 2252.42,
+      "diff_ron": -83.57,
+      "diff_pct": -3.58
+    },
+    {
+      "shipment_id": "EIN-20260706-028",
+      "carrier_id": "T12",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3880.59,
+      "invoiced_ron": 3963.32,
+      "diff_ron": 82.73,
+      "diff_pct": 2.13
+    },
+    {
+      "shipment_id": "E369-20260706-003",
+      "carrier_id": "T04",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1925.84,
+      "invoiced_ron": 2008.55,
+      "diff_ron": 82.71,
+      "diff_pct": 4.29
+    },
+    {
+      "shipment_id": "E355-20260706-000",
+      "carrier_id": "T03",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2063.98,
+      "invoiced_ron": 2146.36,
+      "diff_ron": 82.38,
+      "diff_pct": 3.99
+    },
+    {
+      "shipment_id": "E375-20260706-002",
+      "carrier_id": "T09",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1620.97,
+      "invoiced_ron": 1703.31,
+      "diff_ron": 82.34,
+      "diff_pct": 5.08
+    },
+    {
+      "shipment_id": "EIN-20260706-079",
+      "carrier_id": "T03",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 5606.19,
+      "invoiced_ron": 5688.03,
+      "diff_ron": 81.84,
+      "diff_pct": 1.46
+    },
+    {
+      "shipment_id": "E362-20260706-006",
+      "carrier_id": "T08",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1425.74,
+      "invoiced_ron": 1506.74,
+      "diff_ron": 81.0,
+      "diff_pct": 5.68
+    },
+    {
+      "shipment_id": "E359-20260706-003",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1586.71,
+      "invoiced_ron": 1667.51,
+      "diff_ron": 80.8,
+      "diff_pct": 5.09
+    },
+    {
+      "shipment_id": "E365-20260706-006",
+      "carrier_id": "T03",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1878.38,
+      "invoiced_ron": 1958.5,
+      "diff_ron": 80.12,
+      "diff_pct": 4.27
+    },
+    {
+      "shipment_id": "E356-20260706-004",
+      "carrier_id": "T05",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1535.43,
+      "invoiced_ron": 1614.97,
+      "diff_ron": 79.54,
+      "diff_pct": 5.18
+    },
+    {
+      "shipment_id": "EIN-20260706-087",
+      "carrier_id": "T12",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 1610.28,
+      "invoiced_ron": 1531.01,
+      "diff_ron": -79.27,
+      "diff_pct": -4.92
+    },
+    {
+      "shipment_id": "EIN-20260706-009",
+      "carrier_id": "T07",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4784.22,
+      "invoiced_ron": 4707.57,
+      "diff_ron": -76.65,
+      "diff_pct": -1.6
+    },
+    {
+      "shipment_id": "E352-20260706-006",
+      "carrier_id": "T05",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1314.58,
+      "invoiced_ron": 1390.44,
+      "diff_ron": 75.86,
+      "diff_pct": 5.77
+    },
+    {
+      "shipment_id": "E356-20260706-001",
+      "carrier_id": "T05",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1823.63,
+      "invoiced_ron": 1899.47,
+      "diff_ron": 75.84,
+      "diff_pct": 4.16
+    },
+    {
+      "shipment_id": "E351-20260706-007",
+      "carrier_id": "T11",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1661.87,
+      "invoiced_ron": 1736.3,
+      "diff_ron": 74.43,
+      "diff_pct": 4.48
+    },
+    {
+      "shipment_id": "E368-20260706-006",
+      "carrier_id": "T07",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2672.6,
+      "invoiced_ron": 2746.73,
+      "diff_ron": 74.13,
+      "diff_pct": 2.77
+    },
+    {
+      "shipment_id": "EIN-20260706-066",
+      "carrier_id": "T10",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 4969.11,
+      "invoiced_ron": 4897.85,
+      "diff_ron": -71.26,
+      "diff_pct": -1.43
+    },
+    {
+      "shipment_id": "EIN-20260706-086",
+      "carrier_id": "T06",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 2214.4,
+      "invoiced_ron": 2285.12,
+      "diff_ron": 70.72,
+      "diff_pct": 3.19
+    },
+    {
+      "shipment_id": "E359-20260706-007",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1575.65,
+      "invoiced_ron": 1646.1,
+      "diff_ron": 70.45,
+      "diff_pct": 4.47
+    },
+    {
+      "shipment_id": "E357-20260706-007",
+      "carrier_id": "T03",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 2400.71,
+      "invoiced_ron": 2330.58,
+      "diff_ron": -70.13,
+      "diff_pct": -2.92
+    },
+    {
+      "shipment_id": "E359-20260706-009",
+      "carrier_id": "T01",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1911.43,
+      "invoiced_ron": 1981.21,
+      "diff_ron": 69.78,
+      "diff_pct": 3.65
+    },
+    {
+      "shipment_id": "E363-20260706-000",
+      "carrier_id": "T05",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1721.58,
+      "invoiced_ron": 1791.16,
+      "diff_ron": 69.58,
+      "diff_pct": 4.04
+    },
+    {
+      "shipment_id": "E367-20260706-002",
+      "carrier_id": "T05",
+      "flow_type": "warehouse → store",
+      "provisioned_ron": 1632.24,
+      "invoiced_ron": 1701.46,
+      "diff_ron": 69.22,
+      "diff_pct": 4.24
+    },
+    {
+      "shipment_id": "EIN-20260706-042",
+      "carrier_id": "T04",
+      "flow_type": "supplier → warehouse",
+      "provisioned_ron": 3057.89,
+      "invoiced_ron": 2990.12,
+      "diff_ron": -67.77,
+      "diff_pct": -2.22
+    }
+  ]
+}

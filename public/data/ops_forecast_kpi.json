@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "forecast_backtest",
+    "row_count": 1,
+    "seed": 45,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "WAPE = sum of absolute errors / sum of observed quantities; the denominator is explicit."
+  },
+  "data": [
+    {
+      "forecast_rows": 28800,
+      "skus": 1200,
+      "best_horizon_wape_pct": 4.7755416942,
+      "worst_horizon_wape_pct": 19.4964679917,
+      "best_planner_wape_pct": 10.9362752163,
+      "worst_planner_wape_pct": 11.5699683478,
+      "longest_horizon_bias_pct": -0.61
+    }
+  ]
+}

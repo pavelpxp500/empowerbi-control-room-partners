@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "case_qty",
+    "row_count": 15,
+    "inputs_real": [
+      "quantity thresholds declared in the catalogue"
+    ]
+  },
+  "data": [
+    {
+      "case_qty": 2.0,
+      "skus": 2347,
+      "median_price": 30.17,
+      "fresh_skus": 108
+    },
+    {
+      "case_qty": 3.0,
+      "skus": 1366,
+      "median_price": 11.64,
+      "fresh_skus": 94
+    },
+    {
+      "case_qty": 12.0,
+      "skus": 366,
+      "median_price": 5.43,
+      "fresh_skus": 10
+    },
+    {
+      "case_qty": 6.0,
+      "skus": 307,
+      "median_price": 6.02,
+      "fresh_skus": 48
+    },
+    {
+      "case_qty": 4.0,
+      "skus": 265,
+      "median_price": 7.79,
+      "fresh_skus": 26
+    },
+    {
+      "case_qty": 24.0,
+      "skus": 171,
+      "median_price": 4.05,
+      "fresh_skus": 4
+    },
+    {
+      "case_qty": 5.0,
+      "skus": 142,
+      "median_price": 5.69,
+      "fresh_skus": 12
+    },
+    {
+      "case_qty": 10.0,
+      "skus": 120,
+      "median_price": 3.13,
+      "fresh_skus": 3
+    },
+    {
+      "case_qty": 8.0,
+      "skus": 118,
+      "median_price": 5.36,
+      "fresh_skus": 9
+    },
+    {
+      "case_qty": 48.0,
+      "skus": 79,
+      "median_price": 3.55,
+      "fresh_skus": 0
+    },
+    {
+      "case_qty": 9.0,
+      "skus": 70,
+      "median_price": 7.2,
+      "fresh_skus": 19
+    },
+    {
+      "case_qty": 20.0,
+      "skus": 40,
+      "median_price": 2.8,
+      "fresh_skus": 2
+    },
+    {
+      "case_qty": 60.0,
+      "skus": 29,
+      "median_price": 1.97,
+      "fresh_skus": 1
+    },
+    {
+      "case_qty": 16.0,
+      "skus": 24,
+      "median_price": 3.7,
+      "fresh_skus": 3
+    },
+    {
+      "case_qty": 40.0,
+      "skus": 21,
+      "median_price": 2.3,
+      "fresh_skus": 0
+    }
+  ]
+}

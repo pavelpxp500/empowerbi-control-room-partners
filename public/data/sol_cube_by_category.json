@@ -1,0 +1,315 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1",
+    "row_count": 37,
+    "inputs_real": [
+      "declared product dimensions by category",
+      "category median net price"
+    ],
+    "inputs_synthetic": [
+      "[I] 68% stacking efficiency on a Euro pallet"
+    ],
+    "note": "m³ per RON 1,000 = the category's median volume divided by its median price. This is a rough estimator, not a sales-weighted average."
+  },
+  "data": [
+    {
+      "cat_l1": "Water",
+      "median_m3": 0.00164268,
+      "skus": 125,
+      "median_price": 3.77,
+      "m3_per_1000_ron": 0.436,
+      "cases_per_pallet": 715.0
+    },
+    {
+      "cat_l1": "Fruit and vegetables",
+      "median_m3": 0.003287295,
+      "skus": 193,
+      "median_price": 8.1,
+      "m3_per_1000_ron": 0.406,
+      "cases_per_pallet": 357.0
+    },
+    {
+      "cat_l1": "Cleaning, organisation and storage",
+      "median_m3": 0.0064033125,
+      "skus": 90,
+      "median_price": 16.02,
+      "m3_per_1000_ron": 0.4,
+      "cases_per_pallet": 184.0
+    },
+    {
+      "cat_l1": "Bakery",
+      "median_m3": 0.001599,
+      "skus": 101,
+      "median_price": 7.65,
+      "m3_per_1000_ron": 0.209,
+      "cases_per_pallet": 735.0
+    },
+    {
+      "cat_l1": "Frozen foods",
+      "median_m3": 0.003795,
+      "skus": 280,
+      "median_price": 18.81,
+      "m3_per_1000_ron": 0.202,
+      "cases_per_pallet": 310.0
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "median_m3": 0.001123625,
+      "skus": 562,
+      "median_price": 6.41,
+      "m3_per_1000_ron": 0.175,
+      "cases_per_pallet": 1046.0
+    },
+    {
+      "cat_l1": "Garden and patio",
+      "median_m3": 0.00472675,
+      "skus": 248,
+      "median_price": 33.605,
+      "m3_per_1000_ron": 0.141,
+      "cases_per_pallet": 249.0
+    },
+    {
+      "cat_l1": "Beer and cider",
+      "median_m3": 0.0008172,
+      "skus": 183,
+      "median_price": 5.86,
+      "m3_per_1000_ron": 0.139,
+      "cases_per_pallet": 1438.0
+    },
+    {
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "median_m3": 0.003031032,
+      "skus": 409,
+      "median_price": 26.27,
+      "m3_per_1000_ron": 0.115,
+      "cases_per_pallet": 388.0
+    },
+    {
+      "cat_l1": "Confectionery and snacks",
+      "median_m3": 0.000737646,
+      "skus": 1157,
+      "median_price": 7.15,
+      "m3_per_1000_ron": 0.103,
+      "cases_per_pallet": 1593.0
+    },
+    {
+      "cat_l1": "Household cleaning and care",
+      "median_m3": 0.0015444,
+      "skus": 783,
+      "median_price": 15.47,
+      "m3_per_1000_ron": 0.1,
+      "cases_per_pallet": 761.0
+    },
+    {
+      "cat_l1": "Staples and canned goods",
+      "median_m3": 0.000858,
+      "skus": 1457,
+      "median_price": 8.92,
+      "m3_per_1000_ron": 0.096,
+      "cases_per_pallet": 1370.0
+    },
+    {
+      "cat_l1": "Frozen meat",
+      "median_m3": 0.0015,
+      "skus": 29,
+      "median_price": 16.21,
+      "m3_per_1000_ron": 0.093,
+      "cases_per_pallet": 783.0
+    },
+    {
+      "cat_l1": "Children's clothing, footwear and accessories",
+      "median_m3": 0.003,
+      "skus": 1068,
+      "median_price": 33.33,
+      "m3_per_1000_ron": 0.09,
+      "cases_per_pallet": 392.0
+    },
+    {
+      "cat_l1": "Cereals and breakfast",
+      "median_m3": 0.001323,
+      "skus": 222,
+      "median_price": 14.91,
+      "m3_per_1000_ron": 0.089,
+      "cases_per_pallet": 888.0
+    },
+    {
+      "cat_l1": "Kitchen and tableware",
+      "median_m3": 0.002331,
+      "skus": 279,
+      "median_price": 27.72,
+      "m3_per_1000_ron": 0.084,
+      "cases_per_pallet": 504.0
+    },
+    {
+      "cat_l1": "Baby products",
+      "median_m3": 0.002575,
+      "skus": 99,
+      "median_price": 32.62,
+      "m3_per_1000_ron": 0.079,
+      "cases_per_pallet": 456.0
+    },
+    {
+      "cat_l1": "Sports and outdoors",
+      "median_m3": 0.0064428443,
+      "skus": 140,
+      "median_price": 81.82,
+      "m3_per_1000_ron": 0.079,
+      "cases_per_pallet": 182.0
+    },
+    {
+      "cat_l1": "Pet food and accessories",
+      "median_m3": 0.0009576,
+      "skus": 157,
+      "median_price": 12.27,
+      "m3_per_1000_ron": 0.078,
+      "cases_per_pallet": 1227.0
+    },
+    {
+      "cat_l1": "Ice cream",
+      "median_m3": 0.00191478,
+      "skus": 65,
+      "median_price": 25.78,
+      "m3_per_1000_ron": 0.074,
+      "cases_per_pallet": 614.0
+    },
+    {
+      "cat_l1": "Deli meats",
+      "median_m3": 0.001368,
+      "skus": 113,
+      "median_price": 19.05,
+      "m3_per_1000_ron": 0.072,
+      "cases_per_pallet": 859.0
+    },
+    {
+      "cat_l1": "Cheese, dairy and eggs",
+      "median_m3": 0.000658125,
+      "skus": 848,
+      "median_price": 9.36,
+      "m3_per_1000_ron": 0.07,
+      "cases_per_pallet": 1785.0
+    },
+    {
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "median_m3": 0.0042,
+      "skus": 1560,
+      "median_price": 66.11,
+      "m3_per_1000_ron": 0.064,
+      "cases_per_pallet": 280.0
+    },
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "median_m3": 0.0019197,
+      "skus": 917,
+      "median_price": 30.57,
+      "m3_per_1000_ron": 0.063,
+      "cases_per_pallet": 612.0
+    },
+    {
+      "cat_l1": "Ready-to-eat",
+      "median_m3": 0.0006075,
+      "skus": 110,
+      "median_price": 10.02,
+      "m3_per_1000_ron": 0.061,
+      "cases_per_pallet": 1934.0
+    },
+    {
+      "cat_l1": "Fresh meat",
+      "median_m3": 0.0015,
+      "skus": 60,
+      "median_price": 26.12,
+      "m3_per_1000_ron": 0.057,
+      "cases_per_pallet": 783.0
+    },
+    {
+      "cat_l1": "Textiles",
+      "median_m3": 0.004032,
+      "skus": 71,
+      "median_price": 74.37,
+      "m3_per_1000_ron": 0.054,
+      "cases_per_pallet": 291.0
+    },
+    {
+      "cat_l1": "Toys",
+      "median_m3": 0.002301932,
+      "skus": 694,
+      "median_price": 51.23,
+      "m3_per_1000_ron": 0.045,
+      "cases_per_pallet": 510.0
+    },
+    {
+      "cat_l1": "Fish and seafood",
+      "median_m3": 0.001344,
+      "skus": 124,
+      "median_price": 34.675,
+      "m3_per_1000_ron": 0.039,
+      "cases_per_pallet": 874.0
+    },
+    {
+      "cat_l1": "Coffee and tea",
+      "median_m3": 0.000945,
+      "skus": 370,
+      "median_price": 24.08,
+      "m3_per_1000_ron": 0.039,
+      "cases_per_pallet": 1243.0
+    },
+    {
+      "cat_l1": "Foodservice",
+      "median_m3": 0.00370575,
+      "skus": 101,
+      "median_price": 123.14,
+      "m3_per_1000_ron": 0.03,
+      "cases_per_pallet": 317.0
+    },
+    {
+      "cat_l1": "Spirits",
+      "median_m3": 0.00162288,
+      "skus": 587,
+      "median_price": 61.15,
+      "m3_per_1000_ron": 0.027,
+      "cases_per_pallet": 724.0
+    },
+    {
+      "cat_l1": "Personal care and cosmetics",
+      "median_m3": 0.000540568,
+      "skus": 1242,
+      "median_price": 20.975,
+      "m3_per_1000_ron": 0.026,
+      "cases_per_pallet": 2174.0
+    },
+    {
+      "cat_l1": "Office supplies and stationery",
+      "median_m3": 0.00028818,
+      "skus": 672,
+      "median_price": 11.56,
+      "m3_per_1000_ron": 0.025,
+      "cases_per_pallet": 4077.0
+    },
+    {
+      "cat_l1": "Automotive",
+      "median_m3": 0.000485675,
+      "skus": 90,
+      "median_price": 21.0,
+      "m3_per_1000_ron": 0.023,
+      "cases_per_pallet": 2419.0
+    },
+    {
+      "cat_l1": "Power tools and hand tools",
+      "median_m3": 0.00029875,
+      "skus": 38,
+      "median_price": 15.12,
+      "m3_per_1000_ron": 0.02,
+      "cases_per_pallet": 3933.0
+    },
+    {
+      "cat_l1": "Electronics, appliances and IT",
+      "median_m3": 0.0011487,
+      "skus": 422,
+      "median_price": 82.64,
+      "m3_per_1000_ron": 0.014,
+      "cases_per_pallet": 1023.0
+    }
+  ]
+}

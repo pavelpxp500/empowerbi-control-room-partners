@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "customer_portfolio",
+    "row_count": 1,
+    "seed": 42,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "generated customer master and credit limits (seed 42)",
+      "detailed sales for 2026-W28 (seeds 42 / 43)",
+      "generated price agreements (seed 45)"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Detailed weekly exposure is compared with the generated credit limit; it is not an accounting balance.",
+    "seeds": [
+      42,
+      43,
+      45
+    ]
+  },
+  "data": [
+    {
+      "customers": 220,
+      "net_ron_12m": 850536943.56,
+      "credit_limit_ron": 22401200.0,
+      "high_risk_customers": 53,
+      "restricted_customers": 11,
+      "avg_completeness_pct": 85.8,
+      "detail_week_net_ron": 13132205.29,
+      "over_limit_customers": 103,
+      "avg_agreement_discount_pct": 3.52,
+      "anonymous_week_net_ron": 9903917.31
+    }
+  ]
+}

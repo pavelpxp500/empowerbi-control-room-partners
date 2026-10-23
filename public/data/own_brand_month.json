@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "month",
+    "row_count": 24,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[I] own-brand sales share and margin difference are generated"
+    ]
+  },
+  "data": [
+    {
+      "month": "2024-08",
+      "own_brand_share_pct": 8.46,
+      "own_brand_gm_pct": 19.26,
+      "national_gm_pct": 9.97
+    },
+    {
+      "month": "2024-09",
+      "own_brand_share_pct": 8.35,
+      "own_brand_gm_pct": 18.67,
+      "national_gm_pct": 11.06
+    },
+    {
+      "month": "2024-10",
+      "own_brand_share_pct": 8.82,
+      "own_brand_gm_pct": 17.52,
+      "national_gm_pct": 10.17
+    },
+    {
+      "month": "2024-11",
+      "own_brand_share_pct": 8.62,
+      "own_brand_gm_pct": 18.21,
+      "national_gm_pct": 11.1
+    },
+    {
+      "month": "2024-12",
+      "own_brand_share_pct": 8.69,
+      "own_brand_gm_pct": 17.27,
+      "national_gm_pct": 9.89
+    },
+    {
+      "month": "2025-01",
+      "own_brand_share_pct": 9.15,
+      "own_brand_gm_pct": 18.83,
+      "national_gm_pct": 10.52
+    },
+    {
+      "month": "2025-02",
+      "own_brand_share_pct": 9.48,
+      "own_brand_gm_pct": 17.17,
+      "national_gm_pct": 10.89
+    },
+    {
+      "month": "2025-03",
+      "own_brand_share_pct": 9.36,
+      "own_brand_gm_pct": 18.91,
+      "national_gm_pct": 9.64
+    },
+    {
+      "month": "2025-04",
+      "own_brand_share_pct": 9.58,
+      "own_brand_gm_pct": 18.57,
+      "national_gm_pct": 10.88
+    },
+    {
+      "month": "2025-05",
+      "own_brand_share_pct": 9.43,
+      "own_brand_gm_pct": 18.42,
+      "national_gm_pct": 9.76
+    },
+    {
+      "month": "2025-06",
+      "own_brand_share_pct": 10.0,
+      "own_brand_gm_pct": 18.94,
+      "national_gm_pct": 10.94
+    },
+    {
+      "month": "2025-07",
+      "own_brand_share_pct": 9.95,
+      "own_brand_gm_pct": 19.05,
+      "national_gm_pct": 10.98
+    },
+    {
+      "month": "2025-08",
+      "own_brand_share_pct": 9.88,
+      "own_brand_gm_pct": 18.83,
+      "national_gm_pct": 10.78
+    },
+    {
+      "month": "2025-09",
+      "own_brand_share_pct": 10.33,
+      "own_brand_gm_pct": 17.55,
+      "national_gm_pct": 10.77
+    },
+    {
+      "month": "2025-10",
+      "own_brand_share_pct": 10.29,
+      "own_brand_gm_pct": 18.28,
+      "national_gm_pct": 10.28
+    },
+    {
+      "month": "2025-11",
+      "own_brand_share_pct": 10.85,
+      "own_brand_gm_pct": 17.96,
+      "national_gm_pct": 9.96
+    },
+    {
+      "month": "2025-12",
+      "own_brand_share_pct": 10.88,
+      "own_brand_gm_pct": 19.1,
+      "national_gm_pct": 11.44
+    },
+    {
+      "month": "2026-01",
+      "own_brand_share_pct": 10.69,
+      "own_brand_gm_pct": 18.62,
+      "national_gm_pct": 9.76
+    },
+    {
+      "month": "2026-02",
+      "own_brand_share_pct": 11.41,
+      "own_brand_gm_pct": 17.74,
+      "national_gm_pct": 9.96
+    },
+    {
+      "month": "2026-03",
+      "own_brand_share_pct": 11.21,
+      "own_brand_gm_pct": 18.35,
+      "national_gm_pct": 10.46
+    },
+    {
+      "month": "2026-04",
+      "own_brand_share_pct": 11.61,
+      "own_brand_gm_pct": 18.4,
+      "national_gm_pct": 9.64
+    },
+    {
+      "month": "2026-05",
+      "own_brand_share_pct": 11.83,
+      "own_brand_gm_pct": 18.36,
+      "national_gm_pct": 10.88
+    },
+    {
+      "month": "2026-06",
+      "own_brand_share_pct": 11.65,
+      "own_brand_gm_pct": 17.28,
+      "national_gm_pct": 10.28
+    },
+    {
+      "month": "2026-07",
+      "own_brand_share_pct": 12.29,
+      "own_brand_gm_pct": 18.51,
+      "national_gm_pct": 10.2
+    }
+  ]
+}

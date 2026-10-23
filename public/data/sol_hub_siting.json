@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "scenario",
+    "row_count": 4,
+    "inputs_real": [
+      "coordinates of the 24 stores"
+    ],
+    "inputs_synthetic": [
+      "each store's volume share — from the synthetic layer"
+    ],
+    "seed": 42,
+    "method": "k-medoids restricted to existing locations; cost is the weighted average road distance from hub to store.",
+    "caveat": "Only the hub-to-store leg is measured. The real decision also depends on the supplier-to-hub flow, which is not available."
+  },
+  "data": [
+    {
+      "hubs": 0,
+      "sites": "Brașov (current situation)",
+      "avg_km_weighted": 244.7,
+      "plants": "350",
+      "vs_brasov_pct": 0.0
+    },
+    {
+      "hubs": 1,
+      "sites": "Brașov",
+      "avg_km_weighted": 244.7,
+      "plants": "350",
+      "vs_brasov_pct": 0.0
+    },
+    {
+      "hubs": 2,
+      "sites": "Bucureşti Pantelimon, Cluj-Napoca",
+      "avg_km_weighted": 157.0,
+      "plants": "352,359",
+      "vs_brasov_pct": -35.8
+    },
+    {
+      "hubs": 3,
+      "sites": "Bucharest Pantelimon, Cluj-Napoca, Iași",
+      "avg_km_weighted": 124.4,
+      "plants": "352,359,364",
+      "vs_brasov_pct": -49.2
+    }
+  ]
+}

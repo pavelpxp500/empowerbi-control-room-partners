@@ -1,0 +1,238 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1",
+    "row_count": 36,
+    "inputs_real": [
+      "inventory status for 16,080 products × 24 stores (385,920 pairs)",
+      "network assortment membership (present in at least 18 of 24 stores)",
+      "category, brand and net price for each product"
+    ],
+    "inputs_synthetic": [
+      "category sales velocity and each store's share — from the synthetic layer",
+      "[I] 70% substitution rate: this share of blocked demand moves to another product on the shelf"
+    ],
+    "seed": 42,
+    "caveat": "Gap value combines public availability with modelled velocity. It does not demonstrate lost demand, causality or a realisable financial opportunity."
+  },
+  "data": [
+    {
+      "cat_l1": "Cheese, dairy and eggs",
+      "gaps": 1022,
+      "value_week_ron": 163326.27,
+      "skus": 362
+    },
+    {
+      "cat_l1": "Staples and canned goods",
+      "gaps": 947,
+      "value_week_ron": 80977.35,
+      "skus": 363
+    },
+    {
+      "cat_l1": "Fruit and vegetables",
+      "gaps": 182,
+      "value_week_ron": 56624.42,
+      "skus": 58
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "gaps": 367,
+      "value_week_ron": 42459.62,
+      "skus": 183
+    },
+    {
+      "cat_l1": "Confectionery and snacks",
+      "gaps": 593,
+      "value_week_ron": 39221.22,
+      "skus": 273
+    },
+    {
+      "cat_l1": "Deli meats",
+      "gaps": 159,
+      "value_week_ron": 39055.67,
+      "skus": 62
+    },
+    {
+      "cat_l1": "Spirits",
+      "gaps": 386,
+      "value_week_ron": 30670.36,
+      "skus": 138
+    },
+    {
+      "cat_l1": "Coffee and tea",
+      "gaps": 257,
+      "value_week_ron": 30243.16,
+      "skus": 111
+    },
+    {
+      "cat_l1": "Frozen foods",
+      "gaps": 207,
+      "value_week_ron": 30185.28,
+      "skus": 100
+    },
+    {
+      "cat_l1": "Fish and seafood",
+      "gaps": 122,
+      "value_week_ron": 26513.81,
+      "skus": 48
+    },
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "gaps": 455,
+      "value_week_ron": 26046.38,
+      "skus": 214
+    },
+    {
+      "cat_l1": "Fresh meat",
+      "gaps": 59,
+      "value_week_ron": 24932.79,
+      "skus": 20
+    },
+    {
+      "cat_l1": "Bakery",
+      "gaps": 140,
+      "value_week_ron": 23982.46,
+      "skus": 59
+    },
+    {
+      "cat_l1": "Beer and cider",
+      "gaps": 115,
+      "value_week_ron": 15254.54,
+      "skus": 58
+    },
+    {
+      "cat_l1": "Frozen meat",
+      "gaps": 55,
+      "value_week_ron": 13975.91,
+      "skus": 17
+    },
+    {
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "gaps": 829,
+      "value_week_ron": 12047.35,
+      "skus": 189
+    },
+    {
+      "cat_l1": "Toys",
+      "gaps": 649,
+      "value_week_ron": 9963.5,
+      "skus": 172
+    },
+    {
+      "cat_l1": "Personal care and cosmetics",
+      "gaps": 534,
+      "value_week_ron": 8885.11,
+      "skus": 225
+    },
+    {
+      "cat_l1": "Ready-to-eat",
+      "gaps": 97,
+      "value_week_ron": 8153.71,
+      "skus": 39
+    },
+    {
+      "cat_l1": "Office supplies and stationery",
+      "gaps": 451,
+      "value_week_ron": 7059.51,
+      "skus": 166
+    },
+    {
+      "cat_l1": "Cereals and breakfast",
+      "gaps": 109,
+      "value_week_ron": 6758.96,
+      "skus": 55
+    },
+    {
+      "cat_l1": "Ice cream",
+      "gaps": 73,
+      "value_week_ron": 6750.8,
+      "skus": 25
+    },
+    {
+      "cat_l1": "Water",
+      "gaps": 66,
+      "value_week_ron": 6337.56,
+      "skus": 34
+    },
+    {
+      "cat_l1": "Household cleaning and care",
+      "gaps": 265,
+      "value_week_ron": 4718.83,
+      "skus": 144
+    },
+    {
+      "cat_l1": "Electronics, appliances and IT",
+      "gaps": 277,
+      "value_week_ron": 4386.82,
+      "skus": 82
+    },
+    {
+      "cat_l1": "Kitchen and tableware",
+      "gaps": 284,
+      "value_week_ron": 3794.94,
+      "skus": 63
+    },
+    {
+      "cat_l1": "Foodservice",
+      "gaps": 63,
+      "value_week_ron": 3255.78,
+      "skus": 15
+    },
+    {
+      "cat_l1": "Garden and patio",
+      "gaps": 200,
+      "value_week_ron": 3059.23,
+      "skus": 54
+    },
+    {
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "gaps": 125,
+      "value_week_ron": 2447.14,
+      "skus": 68
+    },
+    {
+      "cat_l1": "Sports and outdoors",
+      "gaps": 160,
+      "value_week_ron": 2378.78,
+      "skus": 38
+    },
+    {
+      "cat_l1": "Children's clothing, footwear and accessories",
+      "gaps": 110,
+      "value_week_ron": 1692.24,
+      "skus": 22
+    },
+    {
+      "cat_l1": "Textiles",
+      "gaps": 100,
+      "value_week_ron": 1509.98,
+      "skus": 30
+    },
+    {
+      "cat_l1": "Pet food and accessories",
+      "gaps": 73,
+      "value_week_ron": 1104.54,
+      "skus": 42
+    },
+    {
+      "cat_l1": "Cleaning, organisation and storage",
+      "gaps": 60,
+      "value_week_ron": 985.38,
+      "skus": 17
+    },
+    {
+      "cat_l1": "Baby products",
+      "gaps": 52,
+      "value_week_ron": 743.66,
+      "skus": 18
+    },
+    {
+      "cat_l1": "Automotive",
+      "gaps": 46,
+      "value_week_ron": 632.94,
+      "skus": 12
+    }
+  ]
+}

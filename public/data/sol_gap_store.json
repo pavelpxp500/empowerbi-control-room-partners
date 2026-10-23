@@ -1,0 +1,238 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "store",
+    "row_count": 24,
+    "inputs_real": [
+      "inventory status for 16,080 products × 24 stores (385,920 pairs)",
+      "network assortment membership (present in at least 18 of 24 stores)",
+      "category, brand and net price for each product"
+    ],
+    "inputs_synthetic": [
+      "category sales velocity and each store's share — from the synthetic layer",
+      "[I] 70% substitution rate: this share of blocked demand moves to another product on the shelf"
+    ],
+    "seed": 42,
+    "caveat": "Gap value combines public availability with modelled velocity. It does not demonstrate lost demand, causality or a realisable financial opportunity."
+  },
+  "data": [
+    {
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "city": "Bistrița",
+      "gaps": 1313,
+      "value_week_ron": 68239.19,
+      "core_range": 8879,
+      "fill_rate_pct": 85.21
+    },
+    {
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "city": "Târgu Mureș",
+      "gaps": 1209,
+      "value_week_ron": 69146.11,
+      "core_range": 8879,
+      "fill_rate_pct": 86.38
+    },
+    {
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "city": "Alba Iulia",
+      "gaps": 982,
+      "value_week_ron": 45202.29,
+      "core_range": 8879,
+      "fill_rate_pct": 88.94
+    },
+    {
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "city": "Baia Mare",
+      "gaps": 899,
+      "value_week_ron": 53403.62,
+      "core_range": 8879,
+      "fill_rate_pct": 89.87
+    },
+    {
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "city": "Sibiu",
+      "gaps": 794,
+      "value_week_ron": 20919.68,
+      "core_range": 8879,
+      "fill_rate_pct": 91.06
+    },
+    {
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "city": "Suceava",
+      "gaps": 373,
+      "value_week_ron": 34657.2,
+      "core_range": 8879,
+      "fill_rate_pct": 95.8
+    },
+    {
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "city": "Constanţa",
+      "gaps": 351,
+      "value_week_ron": 37388.49,
+      "core_range": 8879,
+      "fill_rate_pct": 96.05
+    },
+    {
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "city": "Brăila",
+      "gaps": 326,
+      "value_week_ron": 29737.09,
+      "core_range": 8879,
+      "fill_rate_pct": 96.33
+    },
+    {
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "city": "Constanţa",
+      "gaps": 324,
+      "value_week_ron": 36148.15,
+      "core_range": 8879,
+      "fill_rate_pct": 96.35
+    },
+    {
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "city": "București - Drumul Taberei",
+      "gaps": 284,
+      "value_week_ron": 28348.94,
+      "core_range": 8879,
+      "fill_rate_pct": 96.8
+    },
+    {
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "city": "Târgu Mureș",
+      "gaps": 284,
+      "value_week_ron": 24937.78,
+      "core_range": 8879,
+      "fill_rate_pct": 96.8
+    },
+    {
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "city": "Bacău",
+      "gaps": 267,
+      "value_week_ron": 22711.57,
+      "core_range": 8879,
+      "fill_rate_pct": 96.99
+    },
+    {
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "city": "Galați",
+      "gaps": 246,
+      "value_week_ron": 24740.57,
+      "core_range": 8879,
+      "fill_rate_pct": 97.23
+    },
+    {
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "city": "Cluj-Napoca",
+      "gaps": 237,
+      "value_week_ron": 30107.12,
+      "core_range": 8879,
+      "fill_rate_pct": 97.33
+    },
+    {
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "city": "Băneasa",
+      "gaps": 216,
+      "value_week_ron": 39130.03,
+      "core_range": 8879,
+      "fill_rate_pct": 97.57
+    },
+    {
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "city": "București - Berceni",
+      "gaps": 216,
+      "value_week_ron": 19348.53,
+      "core_range": 8879,
+      "fill_rate_pct": 97.57
+    },
+    {
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "city": "Craiova",
+      "gaps": 211,
+      "value_week_ron": 23632.35,
+      "core_range": 8879,
+      "fill_rate_pct": 97.62
+    },
+    {
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "city": "Brașov",
+      "gaps": 192,
+      "value_week_ron": 27013.25,
+      "core_range": 8879,
+      "fill_rate_pct": 97.84
+    },
+    {
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "city": "Iași",
+      "gaps": 191,
+      "value_week_ron": 22120.61,
+      "core_range": 8879,
+      "fill_rate_pct": 97.85
+    },
+    {
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "city": "Timișoara",
+      "gaps": 186,
+      "value_week_ron": 19172.65,
+      "core_range": 8879,
+      "fill_rate_pct": 97.91
+    },
+    {
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "city": "Oradea",
+      "gaps": 182,
+      "value_week_ron": 16996.33,
+      "core_range": 8879,
+      "fill_rate_pct": 97.95
+    },
+    {
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "city": "Prahova",
+      "gaps": 179,
+      "value_week_ron": 18008.78,
+      "core_range": 8879,
+      "fill_rate_pct": 97.98
+    },
+    {
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "city": "Arad",
+      "gaps": 160,
+      "value_week_ron": 10720.26,
+      "core_range": 8879,
+      "fill_rate_pct": 98.2
+    },
+    {
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "city": "Pantelimon",
+      "gaps": 127,
+      "value_week_ron": 18305.41,
+      "core_range": 8879,
+      "fill_rate_pct": 98.57
+    }
+  ]
+}

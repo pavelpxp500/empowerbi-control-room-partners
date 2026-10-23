@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "horizon",
+    "row_count": 3,
+    "seed": 45,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Line-level accuracy is shown separately from WAPE to avoid conflating averages."
+  },
+  "data": [
+    {
+      "horizon_weeks": 1,
+      "forecast_version": "V1 - one week before",
+      "rows": 9600,
+      "skus": 1200,
+      "wape_pct": 4.78,
+      "bias_pct": -0.1,
+      "avg_line_accuracy_pct": 95.19
+    },
+    {
+      "horizon_weeks": 2,
+      "forecast_version": "V2 - two weeks prior",
+      "rows": 9600,
+      "skus": 1200,
+      "wape_pct": 9.58,
+      "bias_pct": 0.28,
+      "avg_line_accuracy_pct": 90.35
+    },
+    {
+      "horizon_weeks": 4,
+      "forecast_version": "V4 - four weeks prior",
+      "rows": 9600,
+      "skus": 1200,
+      "wape_pct": 19.5,
+      "bias_pct": -0.61,
+      "avg_line_accuracy_pct": 80.55
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "selgros-control-room",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader runner",
+    "build": "tsc -b && vite build --configLoader runner",
+    "test": "node checkpoints/run-dashboard-tests.mjs",
+    "preview": "vite preview --configLoader runner"
+  },
+  "dependencies": {
+    "@fontsource-variable/open-sans": "^5.3.0",
+    "@fontsource-variable/oswald": "^5.3.0",
+    "clsx": "^2.1.1",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.6.1",
+    "recharts": "^2.15.4"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.54.2",
+    "@cloudflare/workers-types": "^5.20260831.1",
+    "@openai/sites-vite-plugin": "^0.2.0",
+    "@types/node": "^26.4.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vite": "^8.2.2",
+    "wrangler": "^4.130.0"
+  }
+}

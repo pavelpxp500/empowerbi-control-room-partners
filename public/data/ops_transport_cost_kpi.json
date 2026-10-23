@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "detail_window",
+    "row_count": 1,
+    "seed": 45,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Accrual and invoice are compared on the same shipment × cost type."
+  },
+  "data": [
+    {
+      "provisioned_ron": 668396.1,
+      "invoiced_ron": 684928.57,
+      "diff_ron": 16532.47,
+      "diff_pct": 2.47,
+      "costed_shipments": 274,
+      "shipments": 274,
+      "late_shipments": 49,
+      "avg_fill_pct": 81.3,
+      "cost_per_shipment_ron": 2499.74
+    }
+  ]
+}

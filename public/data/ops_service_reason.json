@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "direction_x_fail_reason",
+    "row_count": 8,
+    "seed": 43,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "direction": "outbound",
+      "fail_reason": "delivered as planned",
+      "lines": 240535,
+      "share_pct": 93.4,
+      "missed_value_ron": 0.0
+    },
+    {
+      "direction": "outbound",
+      "fail_reason": "delay",
+      "lines": 9340,
+      "share_pct": 3.63,
+      "missed_value_ron": 0.0
+    },
+    {
+      "direction": "outbound",
+      "fail_reason": "quantity",
+      "lines": 5273,
+      "share_pct": 2.05,
+      "missed_value_ron": 85149.26
+    },
+    {
+      "direction": "outbound",
+      "fail_reason": "both",
+      "lines": 2390,
+      "share_pct": 0.93,
+      "missed_value_ron": 33642.96
+    },
+    {
+      "direction": "inbound",
+      "fail_reason": "delivered as planned",
+      "lines": 10728,
+      "share_pct": 89.4,
+      "missed_value_ron": 0.0
+    },
+    {
+      "direction": "inbound",
+      "fail_reason": "delay",
+      "lines": 645,
+      "share_pct": 5.38,
+      "missed_value_ron": 0.0
+    },
+    {
+      "direction": "inbound",
+      "fail_reason": "quantity",
+      "lines": 469,
+      "share_pct": 3.91,
+      "missed_value_ron": 1297036.14
+    },
+    {
+      "direction": "inbound",
+      "fail_reason": "both",
+      "lines": 158,
+      "share_pct": 1.32,
+      "missed_value_ron": 360810.57
+    }
+  ]
+}

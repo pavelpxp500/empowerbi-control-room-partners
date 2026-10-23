@@ -1,0 +1,432 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "brand",
+    "row_count": 60
+  },
+  "data": [
+    {
+      "brand": "(unbranded)",
+      "sku_count": 1696,
+      "median_net": 29.57,
+      "pct_on_offer": 90.5,
+      "categories": 27
+    },
+    {
+      "brand": "BLUE SEVEN",
+      "sku_count": 576,
+      "median_net": 41.32,
+      "pct_on_offer": 100.0,
+      "categories": 2
+    },
+    {
+      "brand": "TOPSELLER",
+      "sku_count": 205,
+      "median_net": 5.86,
+      "pct_on_offer": 12.7,
+      "categories": 20
+    },
+    {
+      "brand": "Transgourmet Quality",
+      "sku_count": 177,
+      "median_net": 26.87,
+      "pct_on_offer": 4.5,
+      "categories": 12
+    },
+    {
+      "brand": "DORINA",
+      "sku_count": 117,
+      "median_net": 49.58,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "Xti",
+      "sku_count": 113,
+      "median_net": 123.14,
+      "pct_on_offer": 100.0,
+      "categories": 2
+    },
+    {
+      "brand": "ANNA VIOTTI",
+      "sku_count": 99,
+      "median_net": 164.46,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "PAW PATROL",
+      "sku_count": 96,
+      "median_net": 33.04,
+      "pct_on_offer": 99.0,
+      "categories": 3
+    },
+    {
+      "brand": "Bestway",
+      "sku_count": 88,
+      "median_net": 49.58,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "APOLLO",
+      "sku_count": 87,
+      "median_net": 33.05,
+      "pct_on_offer": 100.0,
+      "categories": 2
+    },
+    {
+      "brand": "LEGO",
+      "sku_count": 84,
+      "median_net": 105.0,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "DIRKJE",
+      "sku_count": 79,
+      "median_net": 57.84,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "Ariel",
+      "sku_count": 70,
+      "median_net": 70.8,
+      "pct_on_offer": 72.9,
+      "categories": 1
+    },
+    {
+      "brand": "Herlitz",
+      "sku_count": 68,
+      "median_net": 12.39,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "GORETTI",
+      "sku_count": 67,
+      "median_net": 172.73,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "NIVEA",
+      "sku_count": 67,
+      "median_net": 26.3,
+      "pct_on_offer": 76.1,
+      "categories": 1
+    },
+    {
+      "brand": "Hochland",
+      "sku_count": 66,
+      "median_net": 9.4,
+      "pct_on_offer": 19.7,
+      "categories": 1
+    },
+    {
+      "brand": "Selgros productie proprie",
+      "sku_count": 66,
+      "median_net": 11.09,
+      "pct_on_offer": 16.7,
+      "categories": 3
+    },
+    {
+      "brand": "SORBETTO",
+      "sku_count": 66,
+      "median_net": 41.31,
+      "pct_on_offer": 100.0,
+      "categories": 2
+    },
+    {
+      "brand": "LONCOLOR",
+      "sku_count": 66,
+      "median_net": 14.45,
+      "pct_on_offer": 74.2,
+      "categories": 1
+    },
+    {
+      "brand": "Dove",
+      "sku_count": 63,
+      "median_net": 23.59,
+      "pct_on_offer": 54.0,
+      "categories": 1
+    },
+    {
+      "brand": "SYOSS",
+      "sku_count": 60,
+      "median_net": 24.16,
+      "pct_on_offer": 86.7,
+      "categories": 1
+    },
+    {
+      "brand": "Dr. Oetker",
+      "sku_count": 60,
+      "median_net": 4.46,
+      "pct_on_offer": 30.0,
+      "categories": 4
+    },
+    {
+      "brand": "Nivea",
+      "sku_count": 59,
+      "median_net": 26.43,
+      "pct_on_offer": 86.4,
+      "categories": 2
+    },
+    {
+      "brand": "MILKA",
+      "sku_count": 59,
+      "median_net": 4.87,
+      "pct_on_offer": 8.5,
+      "categories": 1
+    },
+    {
+      "brand": "HEINNER",
+      "sku_count": 58,
+      "median_net": 54.13,
+      "pct_on_offer": 100.0,
+      "categories": 7
+    },
+    {
+      "brand": "AIR WICK",
+      "sku_count": 56,
+      "median_net": 27.7,
+      "pct_on_offer": 60.7,
+      "categories": 1
+    },
+    {
+      "brand": "TRANSGOURMET QUALITY",
+      "sku_count": 55,
+      "median_net": 23.59,
+      "pct_on_offer": 7.3,
+      "categories": 6
+    },
+    {
+      "brand": "Gillette",
+      "sku_count": 54,
+      "median_net": 35.81,
+      "pct_on_offer": 42.6,
+      "categories": 1
+    },
+    {
+      "brand": "FABRIZIO DE MASSI",
+      "sku_count": 53,
+      "median_net": 123.14,
+      "pct_on_offer": 100.0,
+      "categories": 3
+    },
+    {
+      "brand": "ROSHEN",
+      "sku_count": 53,
+      "median_net": 5.79,
+      "pct_on_offer": 18.9,
+      "categories": 1
+    },
+    {
+      "brand": "SAVEX",
+      "sku_count": 52,
+      "median_net": 24.89,
+      "pct_on_offer": 67.3,
+      "categories": 1
+    },
+    {
+      "brand": "MAPED",
+      "sku_count": 52,
+      "median_net": 14.04,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "SPIDERMAN",
+      "sku_count": 51,
+      "median_net": 28.92,
+      "pct_on_offer": 98.0,
+      "categories": 2
+    },
+    {
+      "brand": "Chio",
+      "sku_count": 50,
+      "median_net": 5.22,
+      "pct_on_offer": 20.0,
+      "categories": 1
+    },
+    {
+      "brand": "TRANSGOURMET ECONOMY",
+      "sku_count": 49,
+      "median_net": 14.14,
+      "pct_on_offer": 4.1,
+      "categories": 6
+    },
+    {
+      "brand": "SC UNIC SPOT RO SRL",
+      "sku_count": 46,
+      "median_net": 5.78,
+      "pct_on_offer": 100.0,
+      "categories": 4
+    },
+    {
+      "brand": "HEIDI",
+      "sku_count": 46,
+      "median_net": 10.5,
+      "pct_on_offer": 63.0,
+      "categories": 1
+    },
+    {
+      "brand": "Persil",
+      "sku_count": 45,
+      "median_net": 73.27,
+      "pct_on_offer": 84.4,
+      "categories": 1
+    },
+    {
+      "brand": "LOTTO",
+      "sku_count": 44,
+      "median_net": 82.64,
+      "pct_on_offer": 100.0,
+      "categories": 4
+    },
+    {
+      "brand": "GABBY'S DOLLHOUSE",
+      "sku_count": 44,
+      "median_net": 45.45,
+      "pct_on_offer": 100.0,
+      "categories": 2
+    },
+    {
+      "brand": "OLYMPUS",
+      "sku_count": 43,
+      "median_net": 9.0,
+      "pct_on_offer": 18.6,
+      "categories": 1
+    },
+    {
+      "brand": "JOLIDON",
+      "sku_count": 42,
+      "median_net": 57.84,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "FARA BRAND",
+      "sku_count": 42,
+      "median_net": 11.57,
+      "pct_on_offer": 54.8,
+      "categories": 4
+    },
+    {
+      "brand": "FROZEN",
+      "sku_count": 41,
+      "median_net": 33.05,
+      "pct_on_offer": 100.0,
+      "categories": 3
+    },
+    {
+      "brand": "FRANCESCA DE MASSI",
+      "sku_count": 41,
+      "median_net": 20.65,
+      "pct_on_offer": 100.0,
+      "categories": 2
+    },
+    {
+      "brand": "Actuelle",
+      "sku_count": 39,
+      "median_net": 82.64,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "MONIN",
+      "sku_count": 39,
+      "median_net": 45.61,
+      "pct_on_offer": 5.1,
+      "categories": 2
+    },
+    {
+      "brand": "KOTANYI",
+      "sku_count": 39,
+      "median_net": 4.49,
+      "pct_on_offer": 17.9,
+      "categories": 1
+    },
+    {
+      "brand": "Lenor",
+      "sku_count": 38,
+      "median_net": 24.4,
+      "pct_on_offer": 52.6,
+      "categories": 1
+    },
+    {
+      "brand": "THE PEOPLE REP",
+      "sku_count": 38,
+      "median_net": 57.84,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "Transgourmet Economy",
+      "sku_count": 38,
+      "median_net": 12.96,
+      "pct_on_offer": 18.4,
+      "categories": 9
+    },
+    {
+      "brand": "PILOT",
+      "sku_count": 38,
+      "median_net": 17.06,
+      "pct_on_offer": 100.0,
+      "categories": 1
+    },
+    {
+      "brand": "MINNIE",
+      "sku_count": 37,
+      "median_net": 24.78,
+      "pct_on_offer": 100.0,
+      "categories": 2
+    },
+    {
+      "brand": "Arovit",
+      "sku_count": 37,
+      "median_net": 11.24,
+      "pct_on_offer": 21.6,
+      "categories": 3
+    },
+    {
+      "brand": "GLADE",
+      "sku_count": 36,
+      "median_net": 22.32,
+      "pct_on_offer": 75.0,
+      "categories": 1
+    },
+    {
+      "brand": "BELLA",
+      "sku_count": 35,
+      "median_net": 8.19,
+      "pct_on_offer": 17.1,
+      "categories": 4
+    },
+    {
+      "brand": "BiC",
+      "sku_count": 35,
+      "median_net": 15.73,
+      "pct_on_offer": 100.0,
+      "categories": 2
+    },
+    {
+      "brand": "BONDUELLE",
+      "sku_count": 35,
+      "median_net": 10.08,
+      "pct_on_offer": 40.0,
+      "categories": 3
+    },
+    {
+      "brand": "Zewa",
+      "sku_count": 34,
+      "median_net": 13.92,
+      "pct_on_offer": 35.3,
+      "categories": 1
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "cost_type",
+    "row_count": 6,
+    "seed": 45,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "cost_type": "CT01",
+      "cost_type_label": "base route",
+      "shipments": 274,
+      "provisioned_ron": 357351.25,
+      "invoiced_ron": 365267.45,
+      "diff_ron": 7916.2,
+      "diff_pct": 2.22
+    },
+    {
+      "cost_type": "CT06",
+      "cost_type_label": "handling",
+      "shipments": 274,
+      "provisioned_ron": 109287.95,
+      "invoiced_ron": 112532.59,
+      "diff_ron": 3244.64,
+      "diff_pct": 2.97
+    },
+    {
+      "cost_type": "CT02",
+      "cost_type_label": "additional kilometres",
+      "shipments": 274,
+      "provisioned_ron": 100791.41,
+      "invoiced_ron": 103611.37,
+      "diff_ron": 2819.96,
+      "diff_pct": 2.8
+    },
+    {
+      "cost_type": "CT05",
+      "cost_type_label": "road tolls",
+      "shipments": 274,
+      "provisioned_ron": 39285.73,
+      "invoiced_ron": 40225.85,
+      "diff_ron": 940.12,
+      "diff_pct": 2.39
+    },
+    {
+      "cost_type": "CT07",
+      "cost_type_label": "refrigeration",
+      "shipments": 121,
+      "provisioned_ron": 31469.76,
+      "invoiced_ron": 32245.09,
+      "diff_ron": 775.33,
+      "diff_pct": 2.46
+    },
+    {
+      "cost_type": "CT03",
+      "cost_type_label": "additional stops",
+      "shipments": 274,
+      "provisioned_ron": 30210.0,
+      "invoiced_ron": 31046.22,
+      "diff_ron": 836.22,
+      "diff_pct": 2.77
+    }
+  ]
+}

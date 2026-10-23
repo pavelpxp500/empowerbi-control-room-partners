@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "finance_reconciliation",
+    "row_count": 1,
+    "seed": 46,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "generated inventory postings for 2026-W28 (seed 44)",
+      "generated purchase orders for 2026-W28 (seed 43)",
+      "generated costs and fees for May–July 2026 (seed 46)"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Debits equal credits for inventory postings; PO mismatches use absolute values rather than netting.",
+    "seeds": [
+      43,
+      44,
+      46
+    ]
+  },
+  "data": [
+    {
+      "posting_rows": 77942,
+      "balance_diff_ron": 0.0,
+      "debit_ron": 79481185.16,
+      "credit_ron": 79481185.16,
+      "po_lines": 12000,
+      "mismatch_lines": 1940,
+      "mismatch_abs_ron": 742375.4,
+      "warehouse_cost_ron": 8378273.59,
+      "fee_due_ron": 18561211.98,
+      "fee_open_ron": 2499900.22
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1",
+    "row_count": 20,
+    "seed": 44,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "cat_l1": "Cheese, dairy and eggs",
+      "skus": 22,
+      "pallets": 51.8,
+      "value_ron": 500964.73
+    },
+    {
+      "cat_l1": "Frozen foods",
+      "skus": 9,
+      "pallets": 103.5,
+      "value_ron": 316228.23
+    },
+    {
+      "cat_l1": "Personal care and cosmetics",
+      "skus": 26,
+      "pallets": 15.1,
+      "value_ron": 246563.68
+    },
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "skus": 23,
+      "pallets": 18.0,
+      "value_ron": 237740.85
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "skus": 9,
+      "pallets": 56.3,
+      "value_ron": 227880.78
+    },
+    {
+      "cat_l1": "Confectionery and snacks",
+      "skus": 19,
+      "pallets": 46.5,
+      "value_ron": 226076.98
+    },
+    {
+      "cat_l1": "Coffee and tea",
+      "skus": 15,
+      "pallets": 10.8,
+      "value_ron": 194556.22
+    },
+    {
+      "cat_l1": "Beer and cider",
+      "skus": 7,
+      "pallets": 46.5,
+      "value_ron": 146642.02
+    },
+    {
+      "cat_l1": "Fish and seafood",
+      "skus": 4,
+      "pallets": 29.3,
+      "value_ron": 137333.29
+    },
+    {
+      "cat_l1": "Household cleaning and care",
+      "skus": 18,
+      "pallets": 20.8,
+      "value_ron": 114562.59
+    },
+    {
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "skus": 7,
+      "pallets": 15.0,
+      "value_ron": 112985.18
+    },
+    {
+      "cat_l1": "Toys",
+      "skus": 7,
+      "pallets": 6.6,
+      "value_ron": 111086.68
+    },
+    {
+      "cat_l1": "Electronics, appliances and IT",
+      "skus": 6,
+      "pallets": 6.5,
+      "value_ron": 98715.96
+    },
+    {
+      "cat_l1": "Deli meats",
+      "skus": 3,
+      "pallets": 5.2,
+      "value_ron": 88062.06
+    },
+    {
+      "cat_l1": "Spirits",
+      "skus": 12,
+      "pallets": 3.0,
+      "value_ron": 78202.62
+    },
+    {
+      "cat_l1": "Ice cream",
+      "skus": 4,
+      "pallets": 9.2,
+      "value_ron": 75746.4
+    },
+    {
+      "cat_l1": "Frozen meat",
+      "skus": 2,
+      "pallets": 8.5,
+      "value_ron": 73882.05
+    },
+    {
+      "cat_l1": "Textiles",
+      "skus": 3,
+      "pallets": 10.8,
+      "value_ron": 69526.28
+    },
+    {
+      "cat_l1": "Office supplies and stationery",
+      "skus": 9,
+      "pallets": 6.7,
+      "value_ron": 60612.08
+    },
+    {
+      "cat_l1": "Kitchen and tableware",
+      "skus": 3,
+      "pallets": 7.7,
+      "value_ron": 53022.09
+    }
+  ]
+}

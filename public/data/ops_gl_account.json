@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "account",
+    "row_count": 4,
+    "seed": 44,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "generated inventory postings for 2026-W28 (seed 44)"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "account": "371",
+      "account_name": "Merchandise inventory",
+      "account_type": "inventory",
+      "posting_rows": 73152,
+      "debit_ron": 78764903.53,
+      "credit_ron": 55890982.32,
+      "net_ron": 22873921.21
+    },
+    {
+      "account": "408",
+      "account_name": "Suppliers — invoices not received",
+      "account_type": "third parties",
+      "posting_rows": 2990,
+      "debit_ron": null,
+      "credit_ron": 23590202.84,
+      "net_ron": -23590202.84
+    },
+    {
+      "account": "6588",
+      "account_name": "Inventory impairment and write-offs",
+      "account_type": "cost",
+      "posting_rows": 1577,
+      "debit_ron": 632613.96,
+      "credit_ron": null,
+      "net_ron": 632613.96
+    },
+    {
+      "account": "401",
+      "account_name": "Suppliers",
+      "account_type": "third parties",
+      "posting_rows": 223,
+      "debit_ron": 83667.67,
+      "credit_ron": null,
+      "net_ron": 83667.67
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "store",
+    "row_count": 24,
+    "inputs_real": [
+      "average availability for each of 37 categories, by store"
+    ],
+    "method": "k-means, k = 3, on the standardised category-availability vector."
+  },
+  "data": [
+    {
+      "plant": "351",
+      "cluster": 2,
+      "avg_avail_pct": 71.25,
+      "archetype": "full assortment",
+      "store_name": "Selgros București Băneasa",
+      "city": "Băneasa"
+    },
+    {
+      "plant": "352",
+      "cluster": 2,
+      "avg_avail_pct": 70.99,
+      "archetype": "full assortment",
+      "store_name": "Selgros București Pantelimon",
+      "city": "Pantelimon"
+    },
+    {
+      "plant": "354",
+      "cluster": 2,
+      "avg_avail_pct": 70.84,
+      "archetype": "full assortment",
+      "store_name": "Selgros București Berceni",
+      "city": "București - Berceni"
+    },
+    {
+      "plant": "364",
+      "cluster": 2,
+      "avg_avail_pct": 69.32,
+      "archetype": "full assortment",
+      "store_name": "Selgros Iași",
+      "city": "Iași"
+    },
+    {
+      "plant": "365",
+      "cluster": 2,
+      "avg_avail_pct": 68.76,
+      "archetype": "full assortment",
+      "store_name": "Selgros Galați",
+      "city": "Galați"
+    },
+    {
+      "plant": "350",
+      "cluster": 2,
+      "avg_avail_pct": 68.7,
+      "archetype": "full assortment",
+      "store_name": "Selgros Brașov",
+      "city": "Brașov"
+    },
+    {
+      "plant": "356",
+      "cluster": 2,
+      "avg_avail_pct": 68.27,
+      "archetype": "full assortment",
+      "store_name": "Selgros Craiova",
+      "city": "Craiova"
+    },
+    {
+      "plant": "358",
+      "cluster": 2,
+      "avg_avail_pct": 68.11,
+      "archetype": "full assortment",
+      "store_name": "Selgros Oradea",
+      "city": "Oradea"
+    },
+    {
+      "plant": "357",
+      "cluster": 2,
+      "avg_avail_pct": 68.06,
+      "archetype": "full assortment",
+      "store_name": "Selgros Timișoara",
+      "city": "Timișoara"
+    },
+    {
+      "plant": "361",
+      "cluster": 2,
+      "avg_avail_pct": 67.97,
+      "archetype": "full assortment",
+      "store_name": "Selgros Ploiești",
+      "city": "Prahova"
+    },
+    {
+      "plant": "360",
+      "cluster": 2,
+      "avg_avail_pct": 67.88,
+      "archetype": "full assortment",
+      "store_name": "Selgros Arad",
+      "city": "Arad"
+    },
+    {
+      "plant": "362",
+      "cluster": 2,
+      "avg_avail_pct": 67.47,
+      "archetype": "full assortment",
+      "store_name": "Selgros Bacău",
+      "city": "Bacău"
+    },
+    {
+      "plant": "359",
+      "cluster": 2,
+      "avg_avail_pct": 66.92,
+      "archetype": "full assortment",
+      "store_name": "Selgros Cluj-Napoca",
+      "city": "Cluj-Napoca"
+    },
+    {
+      "plant": "375",
+      "cluster": 2,
+      "avg_avail_pct": 66.75,
+      "archetype": "full assortment",
+      "store_name": "Selgros Mureș Ernei",
+      "city": "Târgu Mureș"
+    },
+    {
+      "plant": "366",
+      "cluster": 2,
+      "avg_avail_pct": 66.41,
+      "archetype": "full assortment",
+      "store_name": "Selgros Brăila",
+      "city": "Brăila"
+    },
+    {
+      "plant": "363",
+      "cluster": 2,
+      "avg_avail_pct": 66.32,
+      "archetype": "full assortment",
+      "store_name": "Selgros Suceava",
+      "city": "Suceava"
+    },
+    {
+      "plant": "368",
+      "cluster": 2,
+      "avg_avail_pct": 65.58,
+      "archetype": "full assortment",
+      "store_name": "Selgros Constanța Nord",
+      "city": "Constanţa"
+    },
+    {
+      "plant": "367",
+      "cluster": 2,
+      "avg_avail_pct": 65.49,
+      "archetype": "full assortment",
+      "store_name": "Selgros București Drumul Taberei",
+      "city": "București - Drumul Taberei"
+    },
+    {
+      "plant": "355",
+      "cluster": 2,
+      "avg_avail_pct": 64.17,
+      "archetype": "full assortment",
+      "store_name": "Selgros Constanța Sud",
+      "city": "Constanţa"
+    },
+    {
+      "plant": "371",
+      "cluster": 0,
+      "avg_avail_pct": 62.12,
+      "archetype": "mid-size assortment",
+      "store_name": "Selgros Sibiu",
+      "city": "Sibiu"
+    },
+    {
+      "plant": "372",
+      "cluster": 0,
+      "avg_avail_pct": 58.48,
+      "archetype": "mid-size assortment",
+      "store_name": "Selgros Baia Mare",
+      "city": "Baia Mare"
+    },
+    {
+      "plant": "370",
+      "cluster": 1,
+      "avg_avail_pct": 56.83,
+      "archetype": "limited assortment",
+      "store_name": "Selgros Alba Iulia",
+      "city": "Alba Iulia"
+    },
+    {
+      "plant": "369",
+      "cluster": 1,
+      "avg_avail_pct": 53.59,
+      "archetype": "limited assortment",
+      "store_name": "Selgros Târgu Mureș",
+      "city": "Târgu Mureș"
+    },
+    {
+      "plant": "373",
+      "cluster": 1,
+      "avg_avail_pct": 52.66,
+      "archetype": "limited assortment",
+      "store_name": "Selgros Bistrița",
+      "city": "Bistrița"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "data_label": "ENGINE OUTPUT — BENCHMARK MAPPING",
+    "publisher": "Independent analysis — sanitised analytical derivative",
+    "source": "Independent mapping between the external catalogue's 74 solution entries and Selgros application routes",
+    "generated_at": "2026-08-30T00:00:00+03:00",
+    "snapshot_id": "external-solutions-2026-08-30",
+    "source_sha256": "1cee28b9a9d658ed48e77db5c321f0fc21ba42c0fafe6eda7611b2e100b4a02b",
+    "etl_version": "benchmark-sanitize-2.0",
+    "grain": "Selgros route × snapshot",
+    "row_count": 21,
+    "method": "Allow-listed fields, removal of internal links, names and comments, and deterministic aggregation; stages remain as declared in the source.",
+    "caveat": "Generalised catalogue based on external material supplied by the beneficiary. It does not prove implementation, adoption, validation or operational performance at Selgros, and it is not officially issued or approved by Selgros Romania.",
+    "assumptions": [
+      "The benchmark describes requirements and deliverables from the supplied external material; it does not measure Selgros performance.",
+      "Mapping to Selgros routes is an independent inference and does not confirm adoption or operational equivalence."
+    ]
+  },
+  "data": [
+    {
+      "route_order": 1,
+      "route": "/",
+      "route_label": "Executive",
+      "coverage": "Direct",
+      "catalog_card_count": 5,
+      "portfolio_report_count": 18,
+      "catalog_card_ids": [
+        "SLS-01",
+        "SLS-03",
+        "SLS-05",
+        "SLS-08",
+        "NAV-06"
+      ],
+      "avg_source_stage_index": 64.0,
+      "avg_complexity_score": 77.8,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 2,
+      "route": "/assortment",
+      "route_label": "Assortment",
+      "coverage": "Direct",
+      "catalog_card_count": 5,
+      "portfolio_report_count": 6,
+      "catalog_card_ids": [
+        "SLS-02",
+        "SLS-06",
+        "MDM-01",
+        "MDM-02",
+        "MDM-07"
+      ],
+      "avg_source_stage_index": 86.0,
+      "avg_complexity_score": 78.8,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 3,
+      "route": "/segments",
+      "route_label": "Customer segments",
+      "coverage": "Not covered",
+      "catalog_card_count": 0,
+      "portfolio_report_count": 0,
+      "catalog_card_ids": [],
+      "avg_source_stage_index": null,
+      "avg_complexity_score": null,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 4,
+      "route": "/network",
+      "route_label": "Network & geography",
+      "coverage": "Partial",
+      "catalog_card_count": 1,
+      "portfolio_report_count": 0,
+      "catalog_card_ids": [
+        "NAV-03"
+      ],
+      "avg_source_stage_index": 45.0,
+      "avg_complexity_score": 70.0,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 5,
+      "route": "/margin",
+      "route_label": "Margin & replenishment",
+      "coverage": "Partial",
+      "catalog_card_count": 1,
+      "portfolio_report_count": 0,
+      "catalog_card_ids": [
+        "STK-04"
+      ],
+      "avg_source_stage_index": 45.0,
+      "avg_complexity_score": 85.0,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 6,
+      "route": "/pricing",
+      "route_label": "Pricing & promotions",
+      "coverage": "Partial",
+      "catalog_card_count": 1,
+      "portfolio_report_count": 6,
+      "catalog_card_ids": [
+        "MDM-04"
+      ],
+      "avg_source_stage_index": 45.0,
+      "avg_complexity_score": 81.0,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 7,
+      "route": "/availability",
+      "route_label": "Availability",
+      "coverage": "Direct",
+      "catalog_card_count": 2,
+      "portfolio_report_count": 1,
+      "catalog_card_ids": [
+        "STK-02",
+        "STK-06"
+      ],
+      "avg_source_stage_index": 72.5,
+      "avg_complexity_score": 70.0,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 8,
+      "route": "/deposit-return",
+      "route_label": "Deposit-return system",
+      "coverage": "Not covered",
+      "catalog_card_count": 0,
+      "portfolio_report_count": 0,
+      "catalog_card_ids": [],
+      "avg_source_stage_index": null,
+      "avg_complexity_score": null,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 9,
+      "route": "/own-brands",
+      "route_label": "Own brands",
+      "coverage": "Not covered",
+      "catalog_card_count": 0,
+      "portfolio_report_count": 0,
+      "catalog_card_ids": [],
+      "avg_source_stage_index": null,
+      "avg_complexity_score": null,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 10,
+      "route": "/assortment-gaps",
+      "route_label": "Assortment gaps",
+      "coverage": "Partial",
+      "catalog_card_count": 1,
+      "portfolio_report_count": 0,
+      "catalog_card_ids": [
+        "STK-03"
+      ],
+      "avg_source_stage_index": 45.0,
+      "avg_complexity_score": 81.0,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 11,
+      "route": "/transport",
+      "route_label": "Transport & routes",
+      "coverage": "Direct",
+      "catalog_card_count": 6,
+      "portfolio_report_count": 10,
+      "catalog_card_ids": [
+        "TRP-01",
+        "TRP-04",
+        "TRP-06",
+        "TRP-07",
+        "TRP-08",
+        "OTF-10"
+      ],
+      "avg_source_stage_index": 83.3,
+      "avg_complexity_score": 76.5,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 12,
+      "route": "/replenishment",
+      "route_label": "Replenishment policy",
+      "coverage": "Direct",
+      "catalog_card_count": 2,
+      "portfolio_report_count": 7,
+      "catalog_card_ids": [
+        "OTF-04",
+        "OTF-05"
+      ],
+      "avg_source_stage_index": 45.0,
+      "avg_complexity_score": 83.0,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 13,
+      "route": "/stock-age",
+      "route_label": "Stock age",
+      "coverage": "Direct",
+      "catalog_card_count": 2,
+      "portfolio_report_count": 3,
+      "catalog_card_ids": [
+        "STK-01",
+        "STK-05"
+      ],
+      "avg_source_stage_index": 72.5,
+      "avg_complexity_score": 86.5,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 14,
+      "route": "/service-level",
+      "route_label": "Service level",
+      "coverage": "Direct",
+      "catalog_card_count": 3,
+      "portfolio_report_count": 1,
+      "catalog_card_ids": [
+        "OTF-01",
+        "OTF-02",
+        "OTF-11"
+      ],
+      "avg_source_stage_index": 45.0,
+      "avg_complexity_score": 83.3,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 15,
+      "route": "/order-delivery",
+      "route_label": "Order & delivery",
+      "coverage": "Direct",
+      "catalog_card_count": 6,
+      "portfolio_report_count": 18,
+      "catalog_card_ids": [
+        "STK-08",
+        "OTF-03",
+        "OTF-06",
+        "OTF-07",
+        "OTF-08",
+        "OTF-09"
+      ],
+      "avg_source_stage_index": 50.8,
+      "avg_complexity_score": 83.3,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 16,
+      "route": "/transport-cost",
+      "route_label": "Transport cost",
+      "coverage": "Direct",
+      "catalog_card_count": 3,
+      "portfolio_report_count": 1,
+      "catalog_card_ids": [
+        "TRP-02",
+        "TRP-03",
+        "TRP-05"
+      ],
+      "avg_source_stage_index": 53.3,
+      "avg_complexity_score": 89.3,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 17,
+      "route": "/forecast",
+      "route_label": "Forecast",
+      "coverage": "Direct",
+      "catalog_card_count": 6,
+      "portfolio_report_count": 16,
+      "catalog_card_ids": [
+        "STK-07",
+        "FCT-01",
+        "FCT-02",
+        "FCT-03",
+        "FCT-04",
+        "FCT-05"
+      ],
+      "avg_source_stage_index": 54.2,
+      "avg_complexity_score": 77.5,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 18,
+      "route": "/customer",
+      "route_label": "Customer",
+      "coverage": "Direct",
+      "catalog_card_count": 5,
+      "portfolio_report_count": 9,
+      "catalog_card_ids": [
+        "FIN-04",
+        "FIN-05",
+        "MDM-05",
+        "MDM-06",
+        "MDM-09"
+      ],
+      "avg_source_stage_index": 57.0,
+      "avg_complexity_score": 74.2,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 19,
+      "route": "/finance",
+      "route_label": "Finance",
+      "coverage": "Direct",
+      "catalog_card_count": 12,
+      "portfolio_report_count": 8,
+      "catalog_card_ids": [
+        "SLS-04",
+        "SLS-07",
+        "FIN-01",
+        "FIN-02",
+        "FIN-03",
+        "FIN-06",
+        "FIN-07",
+        "FIN-08",
+        "FIN-09",
+        "FIN-10",
+        "FIN-11",
+        "MDM-03"
+      ],
+      "avg_source_stage_index": 55.0,
+      "avg_complexity_score": 76.9,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 20,
+      "route": "/benchmark",
+      "route_label": "External benchmark",
+      "coverage": "Direct",
+      "catalog_card_count": 9,
+      "portfolio_report_count": 68,
+      "catalog_card_ids": [
+        "MDM-08",
+        "MDM-10",
+        "NAV-07",
+        "PLT-01",
+        "PLT-02",
+        "PLT-03",
+        "PLT-04",
+        "PLT-05",
+        "PLT-06"
+      ],
+      "avg_source_stage_index": 91.7,
+      "avg_complexity_score": 66.8,
+      "mapping_kind": "independent inference"
+    },
+    {
+      "route_order": 21,
+      "route": "/catalog",
+      "route_label": "Solution catalogue",
+      "coverage": "Direct",
+      "catalog_card_count": 4,
+      "portfolio_report_count": 0,
+      "catalog_card_ids": [
+        "NAV-01",
+        "NAV-02",
+        "NAV-04",
+        "NAV-05"
+      ],
+      "avg_source_stage_index": 65.0,
+      "avg_complexity_score": 55.2,
+      "mapping_kind": "independent inference"
+    }
+  ]
+}

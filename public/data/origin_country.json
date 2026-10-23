@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "origin_country",
+    "row_count": 25
+  },
+  "data": [
+    {
+      "origin_country": "Romania",
+      "sku_count": 2789,
+      "share_pct": 36.27
+    },
+    {
+      "origin_country": "China",
+      "sku_count": 684,
+      "share_pct": 8.89
+    },
+    {
+      "origin_country": "Poland",
+      "sku_count": 645,
+      "share_pct": 8.39
+    },
+    {
+      "origin_country": "Italy",
+      "sku_count": 511,
+      "share_pct": 6.64
+    },
+    {
+      "origin_country": "Germany",
+      "sku_count": 491,
+      "share_pct": 6.38
+    },
+    {
+      "origin_country": "Hungary",
+      "sku_count": 259,
+      "share_pct": 3.37
+    },
+    {
+      "origin_country": "Bulgaria",
+      "sku_count": 204,
+      "share_pct": 2.65
+    },
+    {
+      "origin_country": "Turkey",
+      "sku_count": 199,
+      "share_pct": 2.59
+    },
+    {
+      "origin_country": "France",
+      "sku_count": 183,
+      "share_pct": 2.38
+    },
+    {
+      "origin_country": "Spain",
+      "sku_count": 164,
+      "share_pct": 2.13
+    },
+    {
+      "origin_country": "Czech Republic",
+      "sku_count": 139,
+      "share_pct": 1.81
+    },
+    {
+      "origin_country": "Austria",
+      "sku_count": 125,
+      "share_pct": 1.63
+    },
+    {
+      "origin_country": "Greece",
+      "sku_count": 125,
+      "share_pct": 1.63
+    },
+    {
+      "origin_country": "Serbia",
+      "sku_count": 105,
+      "share_pct": 1.37
+    },
+    {
+      "origin_country": "Ukraine",
+      "sku_count": 95,
+      "share_pct": 1.24
+    },
+    {
+      "origin_country": "Belgium",
+      "sku_count": 94,
+      "share_pct": 1.22
+    },
+    {
+      "origin_country": "Slovenia",
+      "sku_count": 78,
+      "share_pct": 1.01
+    },
+    {
+      "origin_country": "Moldova",
+      "sku_count": 68,
+      "share_pct": 0.88
+    },
+    {
+      "origin_country": "UE",
+      "sku_count": 67,
+      "share_pct": 0.87
+    },
+    {
+      "origin_country": "The Netherlands",
+      "sku_count": 64,
+      "share_pct": 0.83
+    },
+    {
+      "origin_country": "Slovakia",
+      "sku_count": 55,
+      "share_pct": 0.72
+    },
+    {
+      "origin_country": "United Kingdom",
+      "sku_count": 48,
+      "share_pct": 0.62
+    },
+    {
+      "origin_country": "Lithuania",
+      "sku_count": 40,
+      "share_pct": 0.52
+    },
+    {
+      "origin_country": "Switzerland",
+      "sku_count": 22,
+      "share_pct": 0.29
+    },
+    {
+      "origin_country": "Sri Lanka",
+      "sku_count": 18,
+      "share_pct": 0.23
+    }
+  ]
+}

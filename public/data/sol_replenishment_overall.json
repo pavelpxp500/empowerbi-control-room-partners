@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "policy",
+    "row_count": 3,
+    "inputs_real": [
+      "declared shelf life for 4,233 products, normalised to days",
+      "quantity thresholds → case-pack size for 5,597 products",
+      "actual promotion calendar (offerFrom / offerUntil windows)"
+    ],
+    "inputs_synthetic": [
+      "daily demand at SKU × store level — generated; no public data exists",
+      "[I] two-day lead time and a weekly demand profile typical of cash & carry",
+      "[I] 2.6× uplift during the promotion window"
+    ],
+    "seed": 42,
+    "caveat": "The backtest compares policies on the SAME generated demand paths. The ranking reflects policy mechanics; absolute figures are not a forecast for the Selgros market and must not be read as one."
+  },
+  "data": [
+    {
+      "policy": "shelf-life cap",
+      "service_pct": 98.88,
+      "waste_pct": 1.5,
+      "cover_days": 4.79
+    },
+    {
+      "policy": "naive",
+      "service_pct": 98.66,
+      "waste_pct": 2.48,
+      "cover_days": 4.85
+    },
+    {
+      "policy": "promotion-aware",
+      "service_pct": 99.0,
+      "waste_pct": 1.5,
+      "cover_days": 4.83
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "shelf_class",
+    "row_count": 5,
+    "inputs_real": [
+      "shelf life declared on the product page",
+      "quantity thresholds"
+    ]
+  },
+  "data": [
+    {
+      "shelf_class": "ultra-fresh (<7 days)",
+      "skus": 19,
+      "median_days": 4.0,
+      "share_pct": 0.12,
+      "median_price": 17.88,
+      "with_case_qty": 10
+    },
+    {
+      "shelf_class": "fresh (7–30 days)",
+      "skus": 433,
+      "median_days": 19.0,
+      "share_pct": 2.69,
+      "median_price": 6.99,
+      "with_case_qty": 333
+    },
+    {
+      "shelf_class": "short shelf life (31–120 days)",
+      "skus": 465,
+      "median_days": 90.0,
+      "share_pct": 2.89,
+      "median_price": 10.37,
+      "with_case_qty": 249
+    },
+    {
+      "shelf_class": "long shelf life (>120 days)",
+      "skus": 3316,
+      "median_days": 365.0,
+      "share_pct": 20.62,
+      "median_price": 8.7,
+      "with_case_qty": 1926
+    },
+    {
+      "shelf_class": "not declared",
+      "skus": 11847,
+      "median_days": null,
+      "share_pct": 73.68,
+      "median_price": 28.05,
+      "with_case_qty": 3079
+    }
+  ]
+}

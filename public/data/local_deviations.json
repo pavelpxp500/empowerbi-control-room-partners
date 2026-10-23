@@ -1,0 +1,180 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "store",
+    "row_count": 24
+  },
+  "data": [
+    {
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "deviations": 1910,
+      "pct_on_offer": 67.56,
+      "campaigns": 16
+    },
+    {
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "deviations": 189,
+      "pct_on_offer": 57.93,
+      "campaigns": 8
+    },
+    {
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "deviations": 184,
+      "pct_on_offer": 57.93,
+      "campaigns": 8
+    },
+    {
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "deviations": 180,
+      "pct_on_offer": 57.9,
+      "campaigns": 5
+    },
+    {
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "deviations": 41,
+      "pct_on_offer": 57.62,
+      "campaigns": 7
+    },
+    {
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "deviations": 36,
+      "pct_on_offer": 57.62,
+      "campaigns": 7
+    },
+    {
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "deviations": 31,
+      "pct_on_offer": 57.9,
+      "campaigns": 14
+    },
+    {
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "deviations": 29,
+      "pct_on_offer": 57.91,
+      "campaigns": 14
+    },
+    {
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "deviations": 28,
+      "pct_on_offer": 57.64,
+      "campaigns": 1
+    },
+    {
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "deviations": 28,
+      "pct_on_offer": 57.91,
+      "campaigns": 13
+    },
+    {
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "deviations": 24,
+      "pct_on_offer": 57.82,
+      "campaigns": 9
+    },
+    {
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "deviations": 23,
+      "pct_on_offer": 57.84,
+      "campaigns": 13
+    },
+    {
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "deviations": 22,
+      "pct_on_offer": 57.81,
+      "campaigns": 10
+    },
+    {
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "deviations": 22,
+      "pct_on_offer": 57.81,
+      "campaigns": 9
+    },
+    {
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "deviations": 21,
+      "pct_on_offer": 57.82,
+      "campaigns": 8
+    },
+    {
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "deviations": 18,
+      "pct_on_offer": 57.79,
+      "campaigns": 5
+    },
+    {
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "deviations": 18,
+      "pct_on_offer": 57.78,
+      "campaigns": 9
+    },
+    {
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "deviations": 15,
+      "pct_on_offer": 57.84,
+      "campaigns": 9
+    },
+    {
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "deviations": 14,
+      "pct_on_offer": 57.81,
+      "campaigns": 8
+    },
+    {
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "deviations": 10,
+      "pct_on_offer": 57.79,
+      "campaigns": 6
+    },
+    {
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "deviations": 9,
+      "pct_on_offer": 57.77,
+      "campaigns": 5
+    },
+    {
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "deviations": 7,
+      "pct_on_offer": 57.79,
+      "campaigns": 6
+    },
+    {
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "deviations": 7,
+      "pct_on_offer": 57.76,
+      "campaigns": 4
+    },
+    {
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "deviations": 5,
+      "pct_on_offer": 57.77,
+      "campaigns": 4
+    }
+  ]
+}

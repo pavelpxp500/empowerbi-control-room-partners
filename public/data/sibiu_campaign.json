@@ -1,0 +1,1512 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "sku_at_plant_371",
+    "row_count": 150
+  },
+  "data": [
+    {
+      "sku": "173911",
+      "name": "PERSIL EXPERT FRESH.BY SILAN DETERGENT PUDRA 72SP. 5,4KG",
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "brand": "Persil",
+      "price_net": 137.81,
+      "offer_net": 38.56,
+      "offer_catalog": "1901379",
+      "discount_pct": 72.0
+    },
+    {
+      "sku": "743876",
+      "name": "PODRAVKA SUPA DE LEGUME CU TAITEI 60G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "PODRAVKA",
+      "price_net": 2.05,
+      "offer_net": 0.58,
+      "offer_catalog": "1901346",
+      "discount_pct": 71.7
+    },
+    {
+      "sku": "1065351",
+      "name": "SCOTCH BRITE BURETE PROTECTIE UNGHII PUTERE EXTREMA 2BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 26.01,
+      "offer_net": 7.36,
+      "offer_catalog": "1901379",
+      "discount_pct": 71.7
+    },
+    {
+      "sku": "172088",
+      "name": "PODRAVKA SUPA DE PUI CU TAITEI 62G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "PODRAVKA",
+      "price_net": 2.05,
+      "offer_net": 0.58,
+      "offer_catalog": "1901346",
+      "discount_pct": 71.7
+    },
+    {
+      "sku": "1090129",
+      "name": "SCOTCH-BRITE BURETE CLASIC ULTRA TRIPLU CONFORT 2BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 22.39,
+      "offer_net": 6.64,
+      "offer_catalog": "1901379",
+      "discount_pct": 70.3
+    },
+    {
+      "sku": "1049285",
+      "name": "SCOTCH-BRITE MANUSI REZISTENTE M LATEX",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 15.44,
+      "offer_net": 4.71,
+      "offer_catalog": "1901379",
+      "discount_pct": 69.5
+    },
+    {
+      "sku": "1003549",
+      "name": "SCOTCH BRITE FRESH BURETE PROT.UNGHII CURAT.PUTERNICA2BU",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 23.64,
+      "offer_net": 7.23,
+      "offer_catalog": "1901379",
+      "discount_pct": 69.4
+    },
+    {
+      "sku": "1042563",
+      "name": "BIC MISS SOLEIL 3+1",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "BiC",
+      "price_net": 15.73,
+      "offer_net": 4.95,
+      "offer_catalog": "1918395",
+      "discount_pct": 68.5
+    },
+    {
+      "sku": "1070244",
+      "name": "BIC MISS SOLEIL 3BUC",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "BiC",
+      "price_net": 15.73,
+      "offer_net": 4.95,
+      "offer_catalog": "1918395",
+      "discount_pct": 68.5
+    },
+    {
+      "sku": "1037387",
+      "name": "BIC MISS SOLEIL COLOR 3+1BUC PROMO",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "BiC",
+      "price_net": 15.73,
+      "offer_net": 4.95,
+      "offer_catalog": "1918395",
+      "discount_pct": 68.5
+    },
+    {
+      "sku": "954592",
+      "name": "SCOTCH BRITE LAVETA MICROFIBRA 3BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 19.4,
+      "offer_net": 6.55,
+      "offer_catalog": "1901379",
+      "discount_pct": 66.2
+    },
+    {
+      "sku": "1063590",
+      "name": "SCOTCH-BRITE MANUSI MULTIUZ M LATEX",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 12.35,
+      "offer_net": 4.34,
+      "offer_catalog": "1901379",
+      "discount_pct": 64.9
+    },
+    {
+      "sku": "1001735",
+      "name": "SCOTCH-BRITE LAVETE UMEDE PRACTIC 3BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 9.99,
+      "offer_net": 3.53,
+      "offer_catalog": "1901379",
+      "discount_pct": 64.7
+    },
+    {
+      "sku": "579181",
+      "name": "AIR WICK AUTOMATIC SPR.APARAT+ REZ.LINEN&amp;WHITE ORCHID228ML",
+      "cat_l1": "Household cleaning and care",
+      "brand": "AIR WICK",
+      "price_net": 49.4,
+      "offer_net": 18.46,
+      "offer_catalog": "1901379",
+      "discount_pct": 62.6
+    },
+    {
+      "sku": "452662",
+      "name": "AIR WICK AUTOMATIC SPR.APARAT+ REZ.SANDALWOOD&amp;FOREST228ML",
+      "cat_l1": "Household cleaning and care",
+      "brand": "AIR WICK",
+      "price_net": 49.4,
+      "offer_net": 18.46,
+      "offer_catalog": "1901379",
+      "discount_pct": 62.6
+    },
+    {
+      "sku": "660270",
+      "name": "AIR WICK NATURMATIC COMPLETE BUCHET DE IASOMIE 228ML",
+      "cat_l1": "Household cleaning and care",
+      "brand": "AIR WICK",
+      "price_net": 49.4,
+      "offer_net": 18.46,
+      "offer_catalog": "1901379",
+      "discount_pct": 62.6
+    },
+    {
+      "sku": "872629",
+      "name": "7TH HEAVEN MASCA SERVETEL ACID HIALURONIC 1B",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "7TH HEAVEN",
+      "price_net": 16.57,
+      "offer_net": 6.21,
+      "offer_catalog": "1901382",
+      "discount_pct": 62.5
+    },
+    {
+      "sku": "1073190",
+      "name": "7TH HEAVEN MASCA ADOLESCENTI DIN MATERIAL TEXTIL UNICORN 1B",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "7TH HEAVEN",
+      "price_net": 16.24,
+      "offer_net": 6.09,
+      "offer_catalog": "1901382",
+      "discount_pct": 62.5
+    },
+    {
+      "sku": "1099479",
+      "name": "SCOTCH-BRITE LAVETE UMEDE COLOR 5BU",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 25.27,
+      "offer_net": 9.66,
+      "offer_catalog": "1901379",
+      "discount_pct": 61.8
+    },
+    {
+      "sku": "887941",
+      "name": "ADIDAS DEO ROLL ON WOMEN CONTROL ORIGINAL 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 14.53,
+      "offer_net": 5.62,
+      "offer_catalog": "1901382",
+      "discount_pct": 61.3
+    },
+    {
+      "sku": "653173",
+      "name": "ADIDAS MEN POWER BOOSTER ROLL-ON 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 14.53,
+      "offer_net": 5.62,
+      "offer_catalog": "1901382",
+      "discount_pct": 61.3
+    },
+    {
+      "sku": "402791",
+      "name": "ADIDAS DEO ROLL ON SPORT FRESH 50ML",
+      "cat_l1": null,
+      "brand": "Adidas",
+      "price_net": 14.53,
+      "offer_net": 5.62,
+      "offer_catalog": "1901382",
+      "discount_pct": 61.3
+    },
+    {
+      "sku": "136548",
+      "name": "ADIDAS DEODORANT ROLL ON INVISIBLE CONTROL 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 14.53,
+      "offer_net": 5.62,
+      "offer_catalog": "1901382",
+      "discount_pct": 61.3
+    },
+    {
+      "sku": "967939",
+      "name": "ADIDAS MEN PRO INVISIBLE ROLL-ON 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 14.53,
+      "offer_net": 5.62,
+      "offer_catalog": "1901382",
+      "discount_pct": 61.3
+    },
+    {
+      "sku": "93022",
+      "name": "ADIDAS MEN FRESH ENDURANCE ROLL-ON 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 14.53,
+      "offer_net": 5.62,
+      "offer_catalog": "1901382",
+      "discount_pct": 61.3
+    },
+    {
+      "sku": "1097984",
+      "name": "SCOTCH BRITE BURETE DE VASE CU PROTECTIE UNGHII 4BUC PROMO",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Scotch Brite",
+      "price_net": 18.81,
+      "offer_net": 7.31,
+      "offer_catalog": "1901379",
+      "discount_pct": 61.1
+    },
+    {
+      "sku": "235689",
+      "name": "HURRICANE HUGO READY TO DRINK ALB 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "HURICANE",
+      "price_net": 21.84,
+      "offer_net": 8.53,
+      "offer_catalog": "1901361",
+      "discount_pct": 60.9
+    },
+    {
+      "sku": "1096975",
+      "name": "VELUR CREMA MAINI 150ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "VELUR LUX",
+      "price_net": 11.88,
+      "offer_net": 4.69,
+      "offer_catalog": "1901382",
+      "discount_pct": 60.5
+    },
+    {
+      "sku": "518727",
+      "name": "PALMOLIVE MILK&amp;HONEY SAPUN LICHID 300ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Palmolive",
+      "price_net": 15.94,
+      "offer_net": 6.36,
+      "offer_catalog": "1901382",
+      "discount_pct": 60.1
+    },
+    {
+      "sku": "1047777",
+      "name": "FIORENTINI CHIPSURI ECO PORUMB SI LEGUME CROCANTE F.GLUTEN80G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "FIORENTINI",
+      "price_net": 18.8,
+      "offer_net": 7.58,
+      "offer_catalog": "1901356",
+      "discount_pct": 59.7
+    },
+    {
+      "sku": "1001526",
+      "name": "FIORENTINI SNACK PORUMB ECO FARA GLUTEN CU ROZMARIN 50G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "FIORENTINI",
+      "price_net": 11.28,
+      "offer_net": 4.56,
+      "offer_catalog": "1901352",
+      "discount_pct": 59.6
+    },
+    {
+      "sku": "1000279",
+      "name": "FIORENTINI MINI CHIA SNACK ECO FARA GLUTEN50G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "FIORENTINI",
+      "price_net": 11.28,
+      "offer_net": 4.56,
+      "offer_catalog": "1901352",
+      "discount_pct": 59.6
+    },
+    {
+      "sku": "1041462",
+      "name": "PRET A PORTER DEODORANT NATURAL WOMAN SPRAY 75ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "PRÊT à PORTER",
+      "price_net": 22.61,
+      "offer_net": 9.15,
+      "offer_catalog": "1901382",
+      "discount_pct": 59.5
+    },
+    {
+      "sku": "1082164",
+      "name": "SPA DERMOACTIVE SARE DE BAIE ALOE 600G",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "LOTUS",
+      "price_net": 29.12,
+      "offer_net": 11.96,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.9
+    },
+    {
+      "sku": "1046336",
+      "name": "SPA DERMOACTIVE SARE DE BAIE TRANDAFIRI SI FREZIE 600G",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "LOTUS",
+      "price_net": 29.12,
+      "offer_net": 11.96,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.9
+    },
+    {
+      "sku": "1051079",
+      "name": "SPA DERMOACTIVE SAPUN CU GLICERINA 500ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "LOTUS",
+      "price_net": 16.24,
+      "offer_net": 6.7,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.7
+    },
+    {
+      "sku": "1018727",
+      "name": "SPA DERMOACTIVE EXFOLIANT FATA SI CORP MAGNOLIE 250G",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "LOTUS",
+      "price_net": 18.81,
+      "offer_net": 7.76,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.7
+    },
+    {
+      "sku": "269881",
+      "name": "PERSIL 4IN1DISCS EXP.FRESHNESS LAVENDER DET.RUFE 20BUC.20SP.",
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "brand": "Persil",
+      "price_net": 52.59,
+      "offer_net": 21.84,
+      "offer_catalog": "1901379",
+      "discount_pct": 58.5
+    },
+    {
+      "sku": "363315",
+      "name": "PERSIL 4IN1 DISCS EXPERT STAIN REMOVAL DET.RUFE 20BUC.20SP.",
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "brand": "Persil",
+      "price_net": 52.59,
+      "offer_net": 21.84,
+      "offer_catalog": "1901379",
+      "discount_pct": 58.5
+    },
+    {
+      "sku": "1047034",
+      "name": "LOTUS NATURAL PLANT ACTIV LADY DEO STICK 40ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Lotus Natural Plant",
+      "price_net": 12.79,
+      "offer_net": 5.33,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.3
+    },
+    {
+      "sku": "1037183",
+      "name": "LOTUS NATURAL PLANT LADY DEO STICK 40ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Lotus Natural Plant",
+      "price_net": 12.79,
+      "offer_net": 5.33,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.3
+    },
+    {
+      "sku": "781592",
+      "name": "ADIDAS DEO SPRAY INVISIBLE CONTROL 150ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 15.53,
+      "offer_net": 6.47,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.3
+    },
+    {
+      "sku": "7699",
+      "name": "ADIDAS UEFA GOAL DEODORANT SPRAY 150ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 15.53,
+      "offer_net": 6.47,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.3
+    },
+    {
+      "sku": "893537",
+      "name": "ADIDAS WOMEN FRESH ENDURANCE DEO SPRAY 150ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 15.53,
+      "offer_net": 6.47,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.3
+    },
+    {
+      "sku": "308620",
+      "name": "ADIDAS DEO SPRAY ULTRA FRESH CONTROL 150ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 15.53,
+      "offer_net": 6.47,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.3
+    },
+    {
+      "sku": "937355",
+      "name": "ADIDAS WOMEN CONTROL DEO SPRAY 150ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 15.53,
+      "offer_net": 6.47,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.3
+    },
+    {
+      "sku": "381033",
+      "name": "SYOSS OLEO INTENSE SAMPON 440ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "SYOSS",
+      "price_net": 25.51,
+      "offer_net": 10.68,
+      "offer_catalog": "1901382",
+      "discount_pct": 58.1
+    },
+    {
+      "sku": "302904",
+      "name": "COLGATE MAX WHITE ONE OPTIC PASTA DINTI 75ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Colgate",
+      "price_net": 23.1,
+      "offer_net": 9.75,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.8
+    },
+    {
+      "sku": "227900",
+      "name": "ELMEX PERIUTA DINTI JUNIOR 6-12ANI",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "elmex",
+      "price_net": 15.08,
+      "offer_net": 6.36,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.8
+    },
+    {
+      "sku": "365302",
+      "name": "LAY'S CHIPSURI DIN CARTOFI CU GUST DE SMANTANA, MARAR 60G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "Lay's",
+      "price_net": 4.89,
+      "offer_net": 2.08,
+      "offer_catalog": "1901352",
+      "discount_pct": 57.5
+    },
+    {
+      "sku": "933554",
+      "name": "LAY'S CHIPSURI DIN CARTOFI CU GUST DE PAPRIKA 60G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "Lay's",
+      "price_net": 4.89,
+      "offer_net": 2.08,
+      "offer_catalog": "1901352",
+      "discount_pct": 57.5
+    },
+    {
+      "sku": "702376",
+      "name": "ELMEX PERIUTA DINTI EXPERT PRECISION SENSITIVE",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "elmex",
+      "price_net": 19.53,
+      "offer_net": 8.32,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.4
+    },
+    {
+      "sku": "617242",
+      "name": "ELMEX APA DE GURA JUNIOR 6-12 ANI 400ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "elmex",
+      "price_net": 29.66,
+      "offer_net": 12.63,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.4
+    },
+    {
+      "sku": "609185",
+      "name": "ELMEX PERIOUTA DINTI ELMEX PER.DIN SEN.SOFT",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "elmex",
+      "price_net": 18.65,
+      "offer_net": 7.95,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.4
+    },
+    {
+      "sku": "503836",
+      "name": "ADIDAS SPRAY DE CORP DREAM GLAZE 150ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 28.92,
+      "offer_net": 12.35,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.3
+    },
+    {
+      "sku": "145883",
+      "name": "ELMEX APA DE GURA CARIES PROTECTION 400ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "elmex",
+      "price_net": 23.3,
+      "offer_net": 10.02,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.0
+    },
+    {
+      "sku": "645453",
+      "name": "ELMEX APA DE GURA SENSITIVE 400ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "elmex",
+      "price_net": 23.3,
+      "offer_net": 10.02,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.0
+    },
+    {
+      "sku": "731184",
+      "name": "ELMEX PASTA DE DINTI SENSITIVE 75ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "elmex",
+      "price_net": 21.51,
+      "offer_net": 9.26,
+      "offer_catalog": "1901382",
+      "discount_pct": 57.0
+    },
+    {
+      "sku": "942946",
+      "name": "SPA DERMOACTIVE SPUMANT BAIE CU APA DE TRANDAFIRI 500ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "SPA DERMOACTIVE",
+      "price_net": 23.31,
+      "offer_net": 10.07,
+      "offer_catalog": "1901382",
+      "discount_pct": 56.8
+    },
+    {
+      "sku": "664935",
+      "name": "DOVE INVISIBLE DRY DEO ROLL-ON 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Dove",
+      "price_net": 23.59,
+      "offer_net": 10.32,
+      "offer_catalog": "1901382",
+      "discount_pct": 56.3
+    },
+    {
+      "sku": "25832",
+      "name": "DOVE MEN+ CARE ADVANCED DEO STICK CLEAN COMFORT 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Dove",
+      "price_net": 23.59,
+      "offer_net": 10.32,
+      "offer_catalog": "1901382",
+      "discount_pct": 56.3
+    },
+    {
+      "sku": "753912",
+      "name": "LINO LADA CREMA TARTINABILA CU ALUNE DE PADURE COAPTE 350G",
+      "cat_l1": "Cereals and breakfast",
+      "brand": "Lino Lada",
+      "price_net": 16.21,
+      "offer_net": 7.09,
+      "offer_catalog": "1901346",
+      "discount_pct": 56.3
+    },
+    {
+      "sku": "46452",
+      "name": "DAVID BECKHAM RESPECT DNS 75ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "DAVID BECKHAM",
+      "price_net": 25.85,
+      "offer_net": 11.41,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.9
+    },
+    {
+      "sku": "393788",
+      "name": "REXONA MEN DEODORANT SPRAY ADVANCED PRO QUANTUM 150ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Rexona",
+      "price_net": 22.23,
+      "offer_net": 9.9,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.5
+    },
+    {
+      "sku": "274289",
+      "name": "PALETTE DELUXE 5-68 GOLDEN CHESTNUT",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "PALETTE",
+      "price_net": 18.07,
+      "offer_net": 8.1,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.2
+    },
+    {
+      "sku": "1038722",
+      "name": "PALETTE DELUXE679 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Palette Deluxe",
+      "price_net": 18.07,
+      "offer_net": 8.1,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.2
+    },
+    {
+      "sku": "1027324",
+      "name": "PALETTE DELUXE 880 AUBERGINE",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Palette Deluxe",
+      "price_net": 18.07,
+      "offer_net": 8.1,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.2
+    },
+    {
+      "sku": "797173",
+      "name": "PALETTE DELUXE OIL CARE COLOR PERM.11-11 ULTRA TITANIUM",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Palette Deluxe",
+      "price_net": 18.07,
+      "offer_net": 8.1,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.2
+    },
+    {
+      "sku": "1038723",
+      "name": "PALETTE DELUXE750 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Palette Deluxe",
+      "price_net": 18.07,
+      "offer_net": 8.1,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.2
+    },
+    {
+      "sku": "1100237",
+      "name": "PALETTE DELUXE 800",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Palette Deluxe",
+      "price_net": 18.07,
+      "offer_net": 8.1,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.2
+    },
+    {
+      "sku": "1038720",
+      "name": "PALETTE DELUXE575 50ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Palette Deluxe",
+      "price_net": 18.07,
+      "offer_net": 8.1,
+      "offer_catalog": "1901382",
+      "discount_pct": 55.2
+    },
+    {
+      "sku": "711055",
+      "name": "LINO LADA CREMA TART.DE ALUNE DE PADURE CU LA.SI CACAO 350G",
+      "cat_l1": "Cereals and breakfast",
+      "brand": "LINO LADA",
+      "price_net": 15.71,
+      "offer_net": 7.09,
+      "offer_catalog": "1901346",
+      "discount_pct": 54.9
+    },
+    {
+      "sku": "423197",
+      "name": "ADIDAS WOMEN FRESH ENDURANCE DEO SPRAY 250ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 17.52,
+      "offer_net": 7.92,
+      "offer_catalog": "1901382",
+      "discount_pct": 54.8
+    },
+    {
+      "sku": "198992",
+      "name": "ADIDAS DEO SPRAY INVISIBLE CONTROL 250ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 17.52,
+      "offer_net": 7.92,
+      "offer_catalog": "1901382",
+      "discount_pct": 54.8
+    },
+    {
+      "sku": "856377",
+      "name": "ADIDAS DEO SPRAY ULTRA FRESH CONTROL 250ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Adidas",
+      "price_net": 17.52,
+      "offer_net": 7.92,
+      "offer_catalog": "1901382",
+      "discount_pct": 54.8
+    },
+    {
+      "sku": "1011998",
+      "name": "AIR WICK FRESMATIC SPRAY 250ML MAGNOLIE AP+REZERVA",
+      "cat_l1": "Household cleaning and care",
+      "brand": "AIR WICK",
+      "price_net": 41.56,
+      "offer_net": 19.09,
+      "offer_catalog": "1901379",
+      "discount_pct": 54.1
+    },
+    {
+      "sku": "1057776",
+      "name": "AIR WICK FRESHMATIC KIT SMOOTH SATIN&amp;MOON LILLY",
+      "cat_l1": "Household cleaning and care",
+      "brand": "AIR WICK",
+      "price_net": 41.56,
+      "offer_net": 19.09,
+      "offer_catalog": "1901379",
+      "discount_pct": 54.1
+    },
+    {
+      "sku": "1063334",
+      "name": "AIR WICK FRESHMATIC COMPLETE WHITE FLOWER 1REZERVA 250ML",
+      "cat_l1": "Household cleaning and care",
+      "brand": "AIR WICK",
+      "price_net": 41.56,
+      "offer_net": 19.09,
+      "offer_catalog": "1901379",
+      "discount_pct": 54.1
+    },
+    {
+      "sku": "226583",
+      "name": "AIRWICK FRESHMATIC ODOR.EL. CU REZ.LEMN SANTAL&amp;VANIL.250ML",
+      "cat_l1": "Household cleaning and care",
+      "brand": "AIR WICK",
+      "price_net": 41.56,
+      "offer_net": 19.09,
+      "offer_catalog": "1901379",
+      "discount_pct": 54.1
+    },
+    {
+      "sku": "1034376",
+      "name": "NIVEA CREMA MAINI REPAIR 3IN1 75ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Nivea",
+      "price_net": 15.86,
+      "offer_net": 7.34,
+      "offer_catalog": "1901382",
+      "discount_pct": 53.7
+    },
+    {
+      "sku": "1073554",
+      "name": "CIF DETERGENT DEZINFECTANT 2IN1 750ML",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Cif",
+      "price_net": 24.49,
+      "offer_net": 11.34,
+      "offer_catalog": "1901379",
+      "discount_pct": 53.7
+    },
+    {
+      "sku": "187053",
+      "name": "VIOLIFE AROMA GOUDA CALUP 200G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "VIOLIFE",
+      "price_net": 23.57,
+      "offer_net": 11.06,
+      "offer_catalog": "1901380",
+      "discount_pct": 53.1
+    },
+    {
+      "sku": "928448",
+      "name": "VIOLIFE SPECIALITATE ALBA GRECEASCA IN SARAMURA 200G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "VIOLIFE",
+      "price_net": 29.14,
+      "offer_net": 13.68,
+      "offer_catalog": "1901380",
+      "discount_pct": 53.1
+    },
+    {
+      "sku": "1079926",
+      "name": "ROMDIST SOSIERE OVALE CU CAPAC ATASAT 80ML 100BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "ROMDIST",
+      "price_net": 35.17,
+      "offer_net": 16.53,
+      "offer_catalog": "1901379",
+      "discount_pct": 53.0
+    },
+    {
+      "sku": "1039370",
+      "name": "ROSHEN LACMI TABLETA CIOCOLATA LAPTE 90G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "ROSHEN",
+      "price_net": 7.46,
+      "offer_net": 3.51,
+      "offer_catalog": "1901356",
+      "discount_pct": 52.9
+    },
+    {
+      "sku": "1069881",
+      "name": "ROSHEN LACMI TABLETA CREMA LAPTE SI NAPOLITANE 90G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "ROSHEN",
+      "price_net": 7.46,
+      "offer_net": 3.51,
+      "offer_catalog": "1901356",
+      "discount_pct": 52.9
+    },
+    {
+      "sku": "1034151",
+      "name": "ROSHEN LACMI TABLETA CREMA CACAO SI NAPOLITANE 90G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "ROSHEN",
+      "price_net": 7.46,
+      "offer_net": 3.51,
+      "offer_catalog": "1901356",
+      "discount_pct": 52.9
+    },
+    {
+      "sku": "1039380",
+      "name": "ROSHEN LACMI TABLETA CIOCOLATA LAPTE SI BISCUITI 100G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "ROSHEN",
+      "price_net": 7.46,
+      "offer_net": 3.51,
+      "offer_catalog": "1901356",
+      "discount_pct": 52.9
+    },
+    {
+      "sku": "495981",
+      "name": "PFANNER SUC MERE 100% 1,0L ECO",
+      "cat_l1": "Non-alcoholic beverages",
+      "brand": "Pfanner",
+      "price_net": 19.33,
+      "offer_net": 9.13,
+      "offer_catalog": "1901367",
+      "discount_pct": 52.8
+    },
+    {
+      "sku": "140019",
+      "name": "TROPICAL ALOE ZERO CU GUST DE STRUGURI 0,5PET SGR",
+      "cat_l1": "Non-alcoholic beverages",
+      "brand": "TROPICAL",
+      "price_net": 6.9,
+      "offer_net": 3.28,
+      "offer_catalog": "1901367",
+      "discount_pct": 52.5
+    },
+    {
+      "sku": "1017375",
+      "name": "SEPTONA ECOLIFE VATA BUMBAC 100G",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "SEPTONA",
+      "price_net": 11.17,
+      "offer_net": 5.31,
+      "offer_catalog": "1901382",
+      "discount_pct": 52.5
+    },
+    {
+      "sku": "1030355",
+      "name": "BIOALLGREEN FASOLE NEAGRA ECO 300G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "BIO ALL GREEN",
+      "price_net": 11.25,
+      "offer_net": 5.35,
+      "offer_catalog": "1901346",
+      "discount_pct": 52.4
+    },
+    {
+      "sku": "1079924",
+      "name": "ROMDIST BOLURI DIN PLASTIC ALBE PENTRU SUPE 500ML",
+      "cat_l1": "Household cleaning and care",
+      "brand": "ROMDIST",
+      "price_net": 30.82,
+      "offer_net": 14.69,
+      "offer_catalog": "1901379",
+      "discount_pct": 52.3
+    },
+    {
+      "sku": "269094",
+      "name": "ANA ARE SUC 100% DE PORTOCALE 1,0L",
+      "cat_l1": "Non-alcoholic beverages",
+      "brand": "ANA ARE",
+      "price_net": 19.13,
+      "offer_net": 9.14,
+      "offer_catalog": "1901367",
+      "discount_pct": 52.2
+    },
+    {
+      "sku": "1083883",
+      "name": "ROMDIST CASEROLE TRANSPARENTE CU CAPAC PP 1000ML 50BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "ROMDIST",
+      "price_net": 60.99,
+      "offer_net": 29.15,
+      "offer_catalog": "1901379",
+      "discount_pct": 52.2
+    },
+    {
+      "sku": "290544",
+      "name": "HARIBO STARMIX JELEURI AROMA FRUCTE 80G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "HARIBO",
+      "price_net": 5.53,
+      "offer_net": 2.65,
+      "offer_catalog": "1901352",
+      "discount_pct": 52.1
+    },
+    {
+      "sku": "963538",
+      "name": "TOPSELLER HARTIE IGIENICA 3 STRATURI 4 ROLE",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Topseller",
+      "price_net": 5.2,
+      "offer_net": 2.49,
+      "offer_catalog": "1901379",
+      "discount_pct": 52.1
+    },
+    {
+      "sku": "848585",
+      "name": "HARIBO TANGFASTIC JELEURI ACR. AROMA FRUCTE SI COLA 100G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "HARIBO",
+      "price_net": 5.53,
+      "offer_net": 2.65,
+      "offer_catalog": "1901352",
+      "discount_pct": 52.1
+    },
+    {
+      "sku": "737284",
+      "name": "SHINE VIN SPUMANT BRUT 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "BUDUREASCA SHINE",
+      "price_net": 45.45,
+      "offer_net": 21.81,
+      "offer_catalog": "1901361",
+      "discount_pct": 52.0
+    },
+    {
+      "sku": "1093996",
+      "name": "ROMDIST SOSIERE OVALE CU CAPAC ATASAT 50ML 100BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "ROMDIST",
+      "price_net": 28.52,
+      "offer_net": 13.68,
+      "offer_catalog": "1901379",
+      "discount_pct": 52.0
+    },
+    {
+      "sku": "860708",
+      "name": "ROMDIST CAPACE PP TRANSPARENTE PENTRU BOLURI SUPA 500ML.30BU",
+      "cat_l1": "Household cleaning and care",
+      "brand": "ROMDIST",
+      "price_net": 9.2,
+      "offer_net": 4.45,
+      "offer_catalog": "1901379",
+      "discount_pct": 51.6
+    },
+    {
+      "sku": "1098101",
+      "name": "BAGI SOLUTIE INDEPARTARE DEPUNERI CALCAR AVNIT 550ML",
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "brand": "BAGI",
+      "price_net": 27.35,
+      "offer_net": 13.28,
+      "offer_catalog": "1901379",
+      "discount_pct": 51.4
+    },
+    {
+      "sku": "808882",
+      "name": "BIOALBON BISCUITI CU SUSAN 150G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "Bioalbon",
+      "price_net": 21.63,
+      "offer_net": 10.55,
+      "offer_catalog": "1901352",
+      "discount_pct": 51.2
+    },
+    {
+      "sku": "673115",
+      "name": "FELIX TASTY SHREDS SELECTIE MIXTA HRANA UMEDA PISICI 4X80G",
+      "cat_l1": "Pet food and accessories",
+      "brand": "FRISKIES",
+      "price_net": 10.53,
+      "offer_net": 5.14,
+      "offer_catalog": "1901379",
+      "discount_pct": 51.2
+    },
+    {
+      "sku": "956014",
+      "name": "GERMINAL MINITARTE ECO CACAO 180G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "Germinal",
+      "price_net": 40.75,
+      "offer_net": 19.9,
+      "offer_catalog": "1901352",
+      "discount_pct": 51.2
+    },
+    {
+      "sku": "891849",
+      "name": "PUFINA DIDI HARTIE IGIENICA MUSETEL 3STR.16ROLE",
+      "cat_l1": "Household cleaning and care",
+      "brand": "PUFINA",
+      "price_net": 30.04,
+      "offer_net": 14.67,
+      "offer_catalog": "1901379",
+      "discount_pct": 51.2
+    },
+    {
+      "sku": "1077357",
+      "name": "CEGUSTO ARDEI IUTI 500G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "CEGUSTO",
+      "price_net": 11.84,
+      "offer_net": 5.83,
+      "offer_catalog": "1901337",
+      "discount_pct": 50.8
+    },
+    {
+      "sku": "530280",
+      "name": "ARDEALUL PATE PORC CU COTLET AFUMAT 100G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "Ardealul",
+      "price_net": 5.12,
+      "offer_net": 2.52,
+      "offer_catalog": "1901337",
+      "discount_pct": 50.8
+    },
+    {
+      "sku": "623979",
+      "name": "WHISKAS ADULT HRANA USCATA PT.PISICI TON 7KG",
+      "cat_l1": "Pet food and accessories",
+      "brand": "Whiskas",
+      "price_net": 149.46,
+      "offer_net": 73.6,
+      "offer_catalog": "1901379",
+      "discount_pct": 50.8
+    },
+    {
+      "sku": "553369",
+      "name": "WHISKAS ADULT HRANA USCATA PT.PISICI PUI 7KG",
+      "cat_l1": "Pet food and accessories",
+      "brand": "Whiskas",
+      "price_net": 149.46,
+      "offer_net": 73.6,
+      "offer_catalog": "1901379",
+      "discount_pct": 50.8
+    },
+    {
+      "sku": "1050646",
+      "name": "ROMDIST FARFURII CARTON 20CM ROTUNDE 50BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Romcup",
+      "price_net": 14.5,
+      "offer_net": 7.13,
+      "offer_catalog": "1901379",
+      "discount_pct": 50.8
+    },
+    {
+      "sku": "736729",
+      "name": "ARDEALUL PATE PORC CU CIOLAN DEZOSAT AFUMAT 100G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "Ardealul",
+      "price_net": 5.12,
+      "offer_net": 2.52,
+      "offer_catalog": "1901337",
+      "discount_pct": 50.8
+    },
+    {
+      "sku": "1079917",
+      "name": "ROMDIST CASEROLE TRANSPARENT CU CAPAC ATASAT 500 ML",
+      "cat_l1": "Household cleaning and care",
+      "brand": "ROMDIST",
+      "price_net": 52.6,
+      "offer_net": 25.97,
+      "offer_catalog": "1901379",
+      "discount_pct": 50.6
+    },
+    {
+      "sku": "1043095",
+      "name": "ROMDIST PAHAR CARTON PENTRU INGHETATA 130ML 50BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Romcup",
+      "price_net": 17.98,
+      "offer_net": 8.89,
+      "offer_catalog": "1901379",
+      "discount_pct": 50.6
+    },
+    {
+      "sku": "1043094",
+      "name": "ROMDIST PAHAR CARTON PENTRU INGHETATA 200ML 50BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Romcup",
+      "price_net": 19.79,
+      "offer_net": 9.79,
+      "offer_catalog": "1901379",
+      "discount_pct": 50.5
+    },
+    {
+      "sku": "1100504",
+      "name": "RO STAR BISCUITI PETIT BEURRE 140G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "ROSTAR",
+      "price_net": 3.72,
+      "offer_net": 1.84,
+      "offer_catalog": "1901356",
+      "discount_pct": 50.5
+    },
+    {
+      "sku": "299631",
+      "name": "CRICOVA PRESTIGE PINOT GRIGIO ALB SEC 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "CRICOVA",
+      "price_net": 47.1,
+      "offer_net": 23.32,
+      "offer_catalog": "1901361",
+      "discount_pct": 50.5
+    },
+    {
+      "sku": "167856",
+      "name": "BUCIUM SPUMANT ROSE DULCE 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "BUCIUM",
+      "price_net": 17.76,
+      "offer_net": 8.79,
+      "offer_catalog": "1901361",
+      "discount_pct": 50.5
+    },
+    {
+      "sku": "1022349",
+      "name": "LACALUT FIX NEUTRAL CREMA ADEZIVA PROTEZA DENTARA 40G",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "LACALUT",
+      "price_net": 26.25,
+      "offer_net": 13.02,
+      "offer_catalog": "1901382",
+      "discount_pct": 50.4
+    },
+    {
+      "sku": "1022401",
+      "name": "LACALUT FIX MINT CREMA ADEZIVA PROTEZA DENTARA 40G",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "LACALUT",
+      "price_net": 26.25,
+      "offer_net": 13.02,
+      "offer_catalog": "1901382",
+      "discount_pct": 50.4
+    },
+    {
+      "sku": "416664",
+      "name": "SCHAR NOCCIOLI NAPOLITANA CU CREMA ALUNE PADURE FARA GL.63G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "SCHAR",
+      "price_net": 15.91,
+      "offer_net": 7.93,
+      "offer_catalog": "1901352",
+      "discount_pct": 50.2
+    },
+    {
+      "sku": "202768",
+      "name": "IL FRIZZANTE SPUMANT ALB BIO SEC 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "LECHBURG",
+      "price_net": 38.0,
+      "offer_net": 18.94,
+      "offer_catalog": "1901361",
+      "discount_pct": 50.2
+    },
+    {
+      "sku": "1065505",
+      "name": "MR.PROPER OCEAN 1,5L",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Mr Proper",
+      "price_net": 22.68,
+      "offer_net": 11.29,
+      "offer_catalog": "1901379",
+      "discount_pct": 50.2
+    },
+    {
+      "sku": "1011439",
+      "name": "SCHAR MINI SORRISI BISCUITI 100G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "SCHÄR",
+      "price_net": 15.91,
+      "offer_net": 7.93,
+      "offer_catalog": "1901352",
+      "discount_pct": 50.2
+    },
+    {
+      "sku": "96043",
+      "name": "IL FRIZZANTE SPUMANT ROSE BIO SEC 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "LECHBURG",
+      "price_net": 38.0,
+      "offer_net": 18.94,
+      "offer_catalog": "1901361",
+      "discount_pct": 50.2
+    },
+    {
+      "sku": "1030984",
+      "name": "TULIP PATE DE PORC CU CIUPERCI 125G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "TULIP",
+      "price_net": 9.68,
+      "offer_net": 4.82,
+      "offer_catalog": "1901337",
+      "discount_pct": 50.2
+    },
+    {
+      "sku": "416538",
+      "name": "SCHAR NAPOLITANE FARA GLUTEN 105G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "SCHAR",
+      "price_net": 17.53,
+      "offer_net": 8.74,
+      "offer_catalog": "1901352",
+      "discount_pct": 50.1
+    },
+    {
+      "sku": "792567",
+      "name": "SCHAR NAPOLITANE CU CACAO FARA GLUTEN 125G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "SCHAR",
+      "price_net": 17.53,
+      "offer_net": 8.74,
+      "offer_catalog": "1901352",
+      "discount_pct": 50.1
+    },
+    {
+      "sku": "371671",
+      "name": "SCHAR GRISSINI GRISINE 150G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "SCHAR",
+      "price_net": 29.7,
+      "offer_net": 14.81,
+      "offer_catalog": "1901352",
+      "discount_pct": 50.1
+    },
+    {
+      "sku": "418269",
+      "name": "SCHAR NAPOLITANE FARA GLUTEN TWIN BAR 64,5G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "SCHAR",
+      "price_net": 23.85,
+      "offer_net": 11.89,
+      "offer_catalog": "1901352",
+      "discount_pct": 50.1
+    },
+    {
+      "sku": "1087734",
+      "name": "SCHAR BAGHETA FARA GLUTEN 175G",
+      "cat_l1": "Bakery",
+      "brand": "SCHAR",
+      "price_net": 22.1,
+      "offer_net": 11.02,
+      "offer_catalog": "1901356",
+      "discount_pct": 50.1
+    },
+    {
+      "sku": "207358",
+      "name": "LACALUT PERIUTE INTERDENTARE M 3MM 5BUC",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "Lacalut",
+      "price_net": 19.88,
+      "offer_net": 9.94,
+      "offer_catalog": "1901382",
+      "discount_pct": 50.0
+    },
+    {
+      "sku": "48805",
+      "name": "CLEAR MEN COOL SPORT MENTHOL SAMPON BARBATI 610ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "CLEAR",
+      "price_net": 39.9,
+      "offer_net": 19.95,
+      "offer_catalog": "1901382",
+      "discount_pct": 50.0
+    },
+    {
+      "sku": "1074010",
+      "name": "ROMDIST CAPACE BOMBATE INGHETATA 90MM 50BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "ROMDIST",
+      "price_net": 9.14,
+      "offer_net": 4.59,
+      "offer_catalog": "1901379",
+      "discount_pct": 49.8
+    },
+    {
+      "sku": "322290",
+      "name": "BARON DE LESTAC BORDEAUX ROSU SEC 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "BARON DE LESTAC",
+      "price_net": 45.37,
+      "offer_net": 22.79,
+      "offer_catalog": "1901361",
+      "discount_pct": 49.8
+    },
+    {
+      "sku": "1092758",
+      "name": "ROMDIST PAHARE CARTON 200ML 20BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Romcup",
+      "price_net": 8.43,
+      "offer_net": 4.23,
+      "offer_catalog": "1901379",
+      "discount_pct": 49.8
+    },
+    {
+      "sku": "59166",
+      "name": "LES ORMES DE CAMBRAS SAUVIGNON BLANC ALB SEC 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "les ormes de cambras",
+      "price_net": 35.28,
+      "offer_net": 17.76,
+      "offer_catalog": "1901361",
+      "discount_pct": 49.7
+    },
+    {
+      "sku": "255244",
+      "name": "LES ORMES DE CAMBRAS CABERNET SAUVIGNON ROSU SEC 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "LES ORMES DE CAMBRAS",
+      "price_net": 35.28,
+      "offer_net": 17.76,
+      "offer_catalog": "1901361",
+      "discount_pct": 49.7
+    },
+    {
+      "sku": "1047953",
+      "name": "ROMDIST BOL SALATA CARTON KRAFT 550ML 50BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "ROMDIST",
+      "price_net": 34.82,
+      "offer_net": 17.55,
+      "offer_catalog": "1901379",
+      "discount_pct": 49.6
+    },
+    {
+      "sku": "316208",
+      "name": "TROPICAL ALOE VERA CU GUST DE STRUGURI 1,5PET SGR",
+      "cat_l1": "Non-alcoholic beverages",
+      "brand": "TROPICAL",
+      "price_net": 16.58,
+      "offer_net": 8.37,
+      "offer_catalog": "1901367",
+      "discount_pct": 49.5
+    },
+    {
+      "sku": "1001597",
+      "name": "ALASKA TUB PORUMB FARA GLUTEN CU CACAO 18G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "ALASKA",
+      "price_net": 1.7,
+      "offer_net": 0.86,
+      "offer_catalog": "1901352",
+      "discount_pct": 49.4
+    },
+    {
+      "sku": "976778",
+      "name": "CALGON POWER GEL 4IN1 SOLUTIE ANTICALCAR REZERVA 1.2L",
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "brand": "Calgon",
+      "price_net": 43.18,
+      "offer_net": 21.86,
+      "offer_catalog": "1901379",
+      "discount_pct": 49.4
+    },
+    {
+      "sku": "1100610",
+      "name": "COSMIN VANDA CACAO 75G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "Cosmin",
+      "price_net": 7.66,
+      "offer_net": 3.88,
+      "offer_catalog": "1901356",
+      "discount_pct": 49.3
+    },
+    {
+      "sku": "1069938",
+      "name": "RO STAR PICNIC BISCUITI CACAO 75G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "ROSTAR",
+      "price_net": 2.01,
+      "offer_net": 1.02,
+      "offer_catalog": "1901356",
+      "discount_pct": 49.3
+    },
+    {
+      "sku": "692302",
+      "name": "GOT2B SAMPON USCAT VOLUME 200ML",
+      "cat_l1": "Personal care and cosmetics",
+      "brand": "GOT2B",
+      "price_net": 26.02,
+      "offer_net": 13.19,
+      "offer_catalog": "1901382",
+      "discount_pct": 49.3
+    },
+    {
+      "sku": "988954",
+      "name": "PANZANI FUSILLI BIO 500G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "PANZANI",
+      "price_net": 10.91,
+      "offer_net": 5.54,
+      "offer_catalog": "1901346",
+      "discount_pct": 49.2
+    },
+    {
+      "sku": "58547",
+      "name": "PANZANI PENNE RIGATE BIO 500G",
+      "cat_l1": "Staples and canned goods",
+      "brand": "PANZANI",
+      "price_net": 10.91,
+      "offer_net": 5.54,
+      "offer_catalog": "1901346",
+      "discount_pct": 49.2
+    },
+    {
+      "sku": "1100549",
+      "name": "RO STAR COCONITOS BISCUITI CU COCOS 100G",
+      "cat_l1": "Confectionery and snacks",
+      "brand": "RO STAR",
+      "price_net": 2.94,
+      "offer_net": 1.5,
+      "offer_catalog": "1901356",
+      "discount_pct": 49.0
+    },
+    {
+      "sku": "1050863",
+      "name": "ROMDIST TAVITE CARTON 11X15CM 100BUC",
+      "cat_l1": "Household cleaning and care",
+      "brand": "Romcup",
+      "price_net": 8.0,
+      "offer_net": 4.08,
+      "offer_catalog": "1901379",
+      "discount_pct": 49.0
+    },
+    {
+      "sku": "732140",
+      "name": "SABRIZE SAUVIGNON BLANC VIN ALB SEC 0,75 SGR",
+      "cat_l1": "Wine and sparkling wine",
+      "brand": "BUDUREASCA SABRIZE",
+      "price_net": 35.53,
+      "offer_net": 18.15,
+      "offer_catalog": "1901361",
+      "discount_pct": 48.9
+    }
+  ]
+}

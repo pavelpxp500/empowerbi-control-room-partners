@@ -1,0 +1,310 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "data_label": "EXTERNAL BENCHMARK — SANITISED ROADMAP",
+    "publisher": "Independent analysis — sanitised analytical derivative",
+    "source": "External report and dashboard register, Sheet2, sanitised derivative",
+    "generated_at": "2026-08-30T00:00:00+03:00",
+    "snapshot_id": "external-solutions-2026-08-30",
+    "source_sha256": "a3114edd050ba89d2bba1fe725d06d051921f871447aa8698e6f81183c0dfd5b",
+    "etl_version": "benchmark-sanitize-2.0",
+    "grain": "P1 priority item × source sprint",
+    "row_count": 36,
+    "method": "Allow-listed fields, removal of internal links, names and comments, and deterministic aggregation; stages remain as declared in the source.",
+    "caveat": "Sanitised portfolio and planning register; it is not a Selgros plan, does not confirm the current state of any system, and retains no internal names, comments or links.",
+    "assumptions": [
+      "The benchmark describes requirements and deliverables from the supplied external material; it does not measure Selgros performance.",
+      "Mapping to Selgros routes is an independent inference and does not confirm adoption or operational equivalence."
+    ]
+  },
+  "data": [
+    {
+      "id": "MS-01",
+      "sprint": "Sprint 1",
+      "name": "Customer Assortment and Price",
+      "required_by": "Flow",
+      "priority": "P1",
+      "selgros_route": "/customer"
+    },
+    {
+      "id": "MS-02",
+      "sprint": "Sprint 1",
+      "name": "Edgars Master Data",
+      "required_by": "All streams",
+      "priority": "P1",
+      "selgros_route": "/benchmark"
+    },
+    {
+      "id": "MS-03",
+      "sprint": "Sprint 1",
+      "name": "On time In Full Inbound",
+      "required_by": "Logistics, Transport, SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/transport"
+    },
+    {
+      "id": "MS-04",
+      "sprint": "Sprint 1",
+      "name": "On time In Full Outbound",
+      "required_by": "Logistics, Transport, SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/transport"
+    },
+    {
+      "id": "MS-05",
+      "sprint": "Sprint 1",
+      "name": "Order Fulfillment",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/benchmark"
+    },
+    {
+      "id": "MS-06",
+      "sprint": "Sprint 1",
+      "name": "Order planning (LIN, FER, DS)",
+      "required_by": "Transports",
+      "priority": "P1",
+      "selgros_route": "/transport"
+    },
+    {
+      "id": "MS-07",
+      "sprint": "Sprint 1",
+      "name": "Stock Analysis",
+      "required_by": "All streams",
+      "priority": "P1",
+      "selgros_route": "/benchmark"
+    },
+    {
+      "id": "MS-08",
+      "sprint": "Sprint 1",
+      "name": "Stock views (blocked stock, no allocated stock, stock list w/ pallets)",
+      "required_by": "SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/benchmark"
+    },
+    {
+      "id": "MS-09",
+      "sprint": "Sprint 1",
+      "name": "Sales in boxes/ Sales per week/month",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/"
+    },
+    {
+      "id": "MS-10",
+      "sprint": "Sprint 2",
+      "name": "FC accuracy and sales trend",
+      "required_by": "Purchase",
+      "priority": "P1",
+      "selgros_route": "/"
+    },
+    {
+      "id": "MS-11",
+      "sprint": "Sprint 2",
+      "name": "Forecast Development",
+      "required_by": "SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/forecast"
+    },
+    {
+      "id": "MS-12",
+      "sprint": "Sprint 2",
+      "name": "Inbound Actual",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/order-delivery"
+    },
+    {
+      "id": "MS-13",
+      "sprint": "Sprint 2",
+      "name": "Inbound hisroty",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/order-delivery"
+    },
+    {
+      "id": "MS-14",
+      "sprint": "Sprint 2",
+      "name": "Inbound planning",
+      "required_by": "Purchase",
+      "priority": "P1",
+      "selgros_route": "/order-delivery"
+    },
+    {
+      "id": "MS-15",
+      "sprint": "Sprint 2",
+      "name": "Analytics Stock and FC",
+      "required_by": "SCM CRM, Purchase",
+      "priority": "P1",
+      "selgros_route": "/benchmark"
+    },
+    {
+      "id": "MS-16",
+      "sprint": "Sprint 2",
+      "name": "Outbound Actual",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/order-delivery"
+    },
+    {
+      "id": "MS-17",
+      "sprint": "Sprint 2",
+      "name": "Outbound Forecast",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/forecast"
+    },
+    {
+      "id": "MS-18",
+      "sprint": "Sprint 2",
+      "name": "Outbound history",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/order-delivery"
+    },
+    {
+      "id": "MS-19",
+      "sprint": "Sprint 2",
+      "name": "Post Inventory Costs to GL",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/finance"
+    },
+    {
+      "id": "MS-20",
+      "sprint": "Sprint 2",
+      "name": "Uncovered Forecast",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/forecast"
+    },
+    {
+      "id": "MS-21",
+      "sprint": "Sprint 3",
+      "name": "Allocated Stock",
+      "required_by": "SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/benchmark"
+    },
+    {
+      "id": "MS-22",
+      "sprint": "Sprint 3",
+      "name": "Cost price on item level (combination 1 for Finance)",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/finance"
+    },
+    {
+      "id": "MS-23",
+      "sprint": "Sprint 3",
+      "name": "Customer Dashboard",
+      "required_by": "SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/customer"
+    },
+    {
+      "id": "MS-24",
+      "sprint": "Sprint 3",
+      "name": "Deforestation report Purchase",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/finance"
+    },
+    {
+      "id": "MS-25",
+      "sprint": "Sprint 3",
+      "name": "Deforestation report Sales",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/finance"
+    },
+    {
+      "id": "MS-26",
+      "sprint": "Sprint 3",
+      "name": "Deviations between invoiced and received items (combination 1 for Finance)",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/finance"
+    },
+    {
+      "id": "MS-27",
+      "sprint": "Sprint 3",
+      "name": "Forecast accurancy (allocated stock, orders, sales, forecast)",
+      "required_by": "SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/forecast"
+    },
+    {
+      "id": "MS-28",
+      "sprint": "Sprint 3",
+      "name": "Forecast execution (forecast, orders, sales)",
+      "required_by": "SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/forecast"
+    },
+    {
+      "id": "MS-29",
+      "sprint": "Sprint 3",
+      "name": "Forecast fulfillment (allocated stock, orders, sales, forecast)",
+      "required_by": "SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/forecast"
+    },
+    {
+      "id": "MS-30",
+      "sprint": "Sprint 3",
+      "name": "Goods in transit",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/finance"
+    },
+    {
+      "id": "MS-31",
+      "sprint": "Sprint 3",
+      "name": "Item Ledger Entries",
+      "required_by": "Logistics",
+      "priority": "P1",
+      "selgros_route": "/benchmark"
+    },
+    {
+      "id": "MS-32",
+      "sprint": "Sprint 3",
+      "name": "Analytics Sales",
+      "required_by": "All streams",
+      "priority": "P1",
+      "selgros_route": "/"
+    },
+    {
+      "id": "MS-33",
+      "sprint": "Sprint 3",
+      "name": "Open Purchase orders (combination 1 for Finance)",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/replenishment"
+    },
+    {
+      "id": "MS-34",
+      "sprint": "Sprint 3",
+      "name": "Outstanding Stock",
+      "required_by": "SCM CRM",
+      "priority": "P1",
+      "selgros_route": "/benchmark"
+    },
+    {
+      "id": "MS-35",
+      "sprint": "Sprint 3",
+      "name": "Plafond report (combination 1 for Finance)",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/finance"
+    },
+    {
+      "id": "MS-36",
+      "sprint": "Sprint 3",
+      "name": "Purchase Orders Invoiced (POI) (combination 1 for Finance)",
+      "required_by": "Finance",
+      "priority": "P1",
+      "selgros_route": "/replenishment"
+    }
+  ]
+}

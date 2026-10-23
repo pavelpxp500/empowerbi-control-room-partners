@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "network",
+    "row_count": 1,
+    "inputs_real": [
+      "actual coordinates of the 24 stores (JSON-LD LocalBusiness)",
+      "actual dimensions for 16,064 products → volume per unit",
+      "declared weight for 8,216 products"
+    ],
+    "inputs_synthetic": [
+      "sales volume by store and category mix — from the synthetic layer",
+      "[I] road-circuity factor of 1.28 versus straight-line distance",
+      "[I] Euro pallet 1.2 × 0.8 × 1.8 m, 33 pallets per semi-trailer, 68% stacking efficiency",
+      "[I] minimum delivery frequency of six days per week (required by fresh products)"
+    ],
+    "seed": 42,
+    "caveat": "Results describe a scenario based on modelled volume and capacity assumptions. They are not observed Selgros routes, loads, costs or operational savings."
+  },
+  "data": [
+    {
+      "weekly_m3": 9583.0,
+      "weekly_pallets": 8156.0,
+      "avg_fill_pct": 90.6,
+      "freq_constrained": 3,
+      "km_today": 87628.0,
+      "km_milkrun": 84810.0,
+      "km_hub_today": 244.7,
+      "km_hub_2": 157.0,
+      "hub_2_delta_pct": -35.8
+    }
+  ]
+}

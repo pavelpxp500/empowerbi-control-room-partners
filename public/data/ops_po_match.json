@@ -1,0 +1,239 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1",
+    "row_count": 24,
+    "seed": 43,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "The absolute variance shows mismatches; the net variance shows how they offset."
+  },
+  "data": [
+    {
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "lines": 2176,
+      "mismatch_lines": 323,
+      "received_ron": 20292354.83,
+      "invoiced_ron": 20252903.67,
+      "net_diff_ron": -39451.16,
+      "abs_diff_ron": 183001.16
+    },
+    {
+      "cat_l1": "Personal care and cosmetics",
+      "lines": 1313,
+      "mismatch_lines": 232,
+      "received_ron": 16225293.59,
+      "invoiced_ron": 16228582.68,
+      "net_diff_ron": 3289.09,
+      "abs_diff_ron": 126295.41
+    },
+    {
+      "cat_l1": "Children's clothing, footwear and accessories",
+      "lines": 1371,
+      "mismatch_lines": 182,
+      "received_ron": 8493688.82,
+      "invoiced_ron": 8499951.89,
+      "net_diff_ron": 6263.07,
+      "abs_diff_ron": 62633.67
+    },
+    {
+      "cat_l1": "Office supplies and stationery",
+      "lines": 506,
+      "mismatch_lines": 100,
+      "received_ron": 5204321.9,
+      "invoiced_ron": 5203849.86,
+      "net_diff_ron": -472.04,
+      "abs_diff_ron": 54205.08
+    },
+    {
+      "cat_l1": "Staples and canned goods",
+      "lines": 967,
+      "mismatch_lines": 164,
+      "received_ron": 4041858.86,
+      "invoiced_ron": 4035641.04,
+      "net_diff_ron": -6217.82,
+      "abs_diff_ron": 37258.04
+    },
+    {
+      "cat_l1": "Kitchen and tableware",
+      "lines": 189,
+      "mismatch_lines": 32,
+      "received_ron": 5165711.69,
+      "invoiced_ron": 5148347.89,
+      "net_diff_ron": -17363.8,
+      "abs_diff_ron": 36509.42
+    },
+    {
+      "cat_l1": "Electronics, appliances and IT",
+      "lines": 279,
+      "mismatch_lines": 42,
+      "received_ron": 5110669.8,
+      "invoiced_ron": 5115392.47,
+      "net_diff_ron": 4722.67,
+      "abs_diff_ron": 33876.13
+    },
+    {
+      "cat_l1": "Toys",
+      "lines": 305,
+      "mismatch_lines": 48,
+      "received_ron": 3291171.26,
+      "invoiced_ron": 3296086.15,
+      "net_diff_ron": 4914.89,
+      "abs_diff_ron": 27616.15
+    },
+    {
+      "cat_l1": "Confectionery and snacks",
+      "lines": 674,
+      "mismatch_lines": 127,
+      "received_ron": 2364963.68,
+      "invoiced_ron": 2371469.42,
+      "net_diff_ron": 6505.74,
+      "abs_diff_ron": 23977.72
+    },
+    {
+      "cat_l1": "Cheese, dairy and eggs",
+      "lines": 697,
+      "mismatch_lines": 120,
+      "received_ron": 2513504.33,
+      "invoiced_ron": 2517719.75,
+      "net_diff_ron": 4215.42,
+      "abs_diff_ron": 21496.26
+    },
+    {
+      "cat_l1": "Household cleaning and care",
+      "lines": 643,
+      "mismatch_lines": 103,
+      "received_ron": 3427595.85,
+      "invoiced_ron": 3428767.93,
+      "net_diff_ron": 1172.08,
+      "abs_diff_ron": 19841.52
+    },
+    {
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "lines": 526,
+      "mismatch_lines": 87,
+      "received_ron": 1778983.54,
+      "invoiced_ron": 1778868.76,
+      "net_diff_ron": -114.78,
+      "abs_diff_ron": 15200.36
+    },
+    {
+      "cat_l1": "Sports and outdoors",
+      "lines": 222,
+      "mismatch_lines": 27,
+      "received_ron": 1687735.32,
+      "invoiced_ron": 1685080.99,
+      "net_diff_ron": -2654.33,
+      "abs_diff_ron": 14837.99
+    },
+    {
+      "cat_l1": "Coffee and tea",
+      "lines": 228,
+      "mismatch_lines": 33,
+      "received_ron": 2213025.19,
+      "invoiced_ron": 2210873.67,
+      "net_diff_ron": -2151.52,
+      "abs_diff_ron": 13260.02
+    },
+    {
+      "cat_l1": "Fish and seafood",
+      "lines": 70,
+      "mismatch_lines": 10,
+      "received_ron": 612357.42,
+      "invoiced_ron": 621492.61,
+      "net_diff_ron": 9135.19,
+      "abs_diff_ron": 11617.61
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "lines": 321,
+      "mismatch_lines": 50,
+      "received_ron": 1280701.23,
+      "invoiced_ron": 1282881.51,
+      "net_diff_ron": 2180.28,
+      "abs_diff_ron": 11168.38
+    },
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "lines": 202,
+      "mismatch_lines": 35,
+      "received_ron": 1050572.24,
+      "invoiced_ron": 1052219.55,
+      "net_diff_ron": 1647.31,
+      "abs_diff_ron": 8251.69
+    },
+    {
+      "cat_l1": "Textiles",
+      "lines": 54,
+      "mismatch_lines": 11,
+      "received_ron": 568200.66,
+      "invoiced_ron": 568092.19,
+      "net_diff_ron": -108.47,
+      "abs_diff_ron": 6910.69
+    },
+    {
+      "cat_l1": "Pet food and accessories",
+      "lines": 197,
+      "mismatch_lines": 37,
+      "received_ron": 644568.59,
+      "invoiced_ron": 643191.72,
+      "net_diff_ron": -1376.87,
+      "abs_diff_ron": 4851.63
+    },
+    {
+      "cat_l1": "Cereals and breakfast",
+      "lines": 108,
+      "mismatch_lines": 21,
+      "received_ron": 486086.94,
+      "invoiced_ron": 488792.28,
+      "net_diff_ron": 2705.34,
+      "abs_diff_ron": 4501.74
+    },
+    {
+      "cat_l1": "Spirits",
+      "lines": 67,
+      "mismatch_lines": 6,
+      "received_ron": 828395.62,
+      "invoiced_ron": 830257.28,
+      "net_diff_ron": 1861.66,
+      "abs_diff_ron": 4234.18
+    },
+    {
+      "cat_l1": "Foodservice",
+      "lines": 46,
+      "mismatch_lines": 7,
+      "received_ron": 376901.63,
+      "invoiced_ron": 375876.43,
+      "net_diff_ron": -1025.2,
+      "abs_diff_ron": 3067.3
+    },
+    {
+      "cat_l1": "Baby products",
+      "lines": 110,
+      "mismatch_lines": 16,
+      "received_ron": 471178.45,
+      "invoiced_ron": 472033.36,
+      "net_diff_ron": 854.91,
+      "abs_diff_ron": 2900.67
+    },
+    {
+      "cat_l1": "Fruit and vegetables",
+      "lines": 139,
+      "mismatch_lines": 27,
+      "received_ron": 208045.95,
+      "invoiced_ron": 206899.92,
+      "net_diff_ron": -1146.03,
+      "abs_diff_ron": 1988.99
+    }
+  ]
+}

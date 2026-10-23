@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "segment_trailing_12",
+    "row_count": 4,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[A] the four segments exist as published on the website",
+      "[I] sales weights, margins and average baskets — assumed, not observed"
+    ]
+  },
+  "data": [
+    {
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 1377338179.07,
+      "share_pct": 31.0,
+      "gm_pct": 11.3,
+      "gm_ron": 155639214.24,
+      "promo_share_pct": 28.0,
+      "yoy_pct": -13.3,
+      "customers": 18153,
+      "basket_ron": 1216.3
+    },
+    {
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 1155186859.87,
+      "share_pct": 26.0,
+      "gm_pct": 8.9,
+      "gm_ron": 102811630.53,
+      "promo_share_pct": 34.0,
+      "yoy_pct": -6.6,
+      "customers": 6549,
+      "basket_ron": 2333.39
+    },
+    {
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 1066326332.18,
+      "share_pct": 24.0,
+      "gm_pct": 12.6,
+      "gm_ron": 134357117.86,
+      "promo_share_pct": 22.0,
+      "yoy_pct": 2.6,
+      "customers": 21737,
+      "basket_ron": 706.24
+    },
+    {
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 844175012.98,
+      "share_pct": 19.0,
+      "gm_pct": 14.8,
+      "gm_ron": 124937901.92,
+      "promo_share_pct": 11.0,
+      "yoy_pct": -8.4,
+      "customers": 141599,
+      "basket_ron": 202.83
+    }
+  ]
+}

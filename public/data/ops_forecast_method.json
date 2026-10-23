@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "forecast_method",
+    "row_count": 3,
+    "seed": 45,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "method": "statistical",
+      "rows": 15793,
+      "skus": 1200,
+      "wape_pct": 11.17,
+      "bias_pct": -0.02
+    },
+    {
+      "method": "manual",
+      "rows": 3223,
+      "skus": 1111,
+      "wape_pct": 11.19,
+      "bias_pct": -0.07
+    },
+    {
+      "method": "statistical + manual correction",
+      "rows": 9784,
+      "skus": 1200,
+      "wape_pct": 11.49,
+      "bias_pct": -0.36
+    }
+  ]
+}

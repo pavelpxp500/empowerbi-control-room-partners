@@ -1,0 +1,356 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1_snapshot",
+    "row_count": 37,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[I] OTIF, inventory cover, NPS and customer count are entirely generated"
+    ],
+    "thresholds": {
+      "red_below": 7,
+      "yellow_below": 14,
+      "yellow_above": 110,
+      "red_above": 150
+    }
+  },
+  "data": [
+    {
+      "cat_l1": "Textiles",
+      "sku_count": 71,
+      "avg_cover_days": 112.8,
+      "is_food": 0,
+      "skus_below_7": 0,
+      "skus_above_120": 16,
+      "status": "yellow"
+    },
+    {
+      "cat_l1": "Automotive",
+      "sku_count": 91,
+      "avg_cover_days": 91.4,
+      "is_food": 0,
+      "skus_below_7": 2,
+      "skus_above_120": 24,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Pet food and accessories",
+      "sku_count": 157,
+      "avg_cover_days": 87.6,
+      "is_food": 0,
+      "skus_below_7": 7,
+      "skus_above_120": 37,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Children's clothing, footwear and accessories",
+      "sku_count": 1103,
+      "avg_cover_days": 85.6,
+      "is_food": 0,
+      "skus_below_7": 64,
+      "skus_above_120": 230,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Cleaning, organisation and storage",
+      "sku_count": 90,
+      "avg_cover_days": 82.6,
+      "is_food": 0,
+      "skus_below_7": 5,
+      "skus_above_120": 17,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Garden and patio",
+      "sku_count": 336,
+      "avg_cover_days": 79.0,
+      "is_food": 0,
+      "skus_below_7": 21,
+      "skus_above_120": 77,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Baby products",
+      "sku_count": 99,
+      "avg_cover_days": 77.4,
+      "is_food": 0,
+      "skus_below_7": 7,
+      "skus_above_120": 20,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Toys",
+      "sku_count": 719,
+      "avg_cover_days": 75.1,
+      "is_food": 0,
+      "skus_below_7": 41,
+      "skus_above_120": 145,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Electronics, appliances and IT",
+      "sku_count": 423,
+      "avg_cover_days": 73.1,
+      "is_food": 0,
+      "skus_below_7": 18,
+      "skus_above_120": 95,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "sku_count": 409,
+      "avg_cover_days": 71.8,
+      "is_food": 0,
+      "skus_below_7": 27,
+      "skus_above_120": 82,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Personal care and cosmetics",
+      "sku_count": 1243,
+      "avg_cover_days": 66.4,
+      "is_food": 0,
+      "skus_below_7": 69,
+      "skus_above_120": 270,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Power tools and hand tools",
+      "sku_count": 40,
+      "avg_cover_days": 65.7,
+      "is_food": 0,
+      "skus_below_7": 5,
+      "skus_above_120": 10,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Kitchen and tableware",
+      "sku_count": 279,
+      "avg_cover_days": 62.9,
+      "is_food": 0,
+      "skus_below_7": 12,
+      "skus_above_120": 62,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Household cleaning and care",
+      "sku_count": 783,
+      "avg_cover_days": 59.2,
+      "is_food": 0,
+      "skus_below_7": 42,
+      "skus_above_120": 165,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "sku_count": 1579,
+      "avg_cover_days": 55.8,
+      "is_food": 0,
+      "skus_below_7": 101,
+      "skus_above_120": 335,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Office supplies and stationery",
+      "sku_count": 672,
+      "avg_cover_days": 53.7,
+      "is_food": 0,
+      "skus_below_7": 40,
+      "skus_above_120": 138,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Sports and outdoors",
+      "sku_count": 157,
+      "avg_cover_days": 51.6,
+      "is_food": 0,
+      "skus_below_7": 5,
+      "skus_above_120": 34,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "sku_count": 562,
+      "avg_cover_days": 46.3,
+      "is_food": 1,
+      "skus_below_7": 31,
+      "skus_above_120": 12,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Frozen foods",
+      "sku_count": 281,
+      "avg_cover_days": 44.5,
+      "is_food": 1,
+      "skus_below_7": 19,
+      "skus_above_120": 0,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "sku_count": 917,
+      "avg_cover_days": 35.8,
+      "is_food": 1,
+      "skus_below_7": 48,
+      "skus_above_120": 26,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Beer and cider",
+      "sku_count": 183,
+      "avg_cover_days": 34.5,
+      "is_food": 1,
+      "skus_below_7": 12,
+      "skus_above_120": 13,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Foodservice",
+      "sku_count": 102,
+      "avg_cover_days": 32.5,
+      "is_food": 1,
+      "skus_below_7": 8,
+      "skus_above_120": 14,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Confectionery and snacks",
+      "sku_count": 1157,
+      "avg_cover_days": 31.0,
+      "is_food": 1,
+      "skus_below_7": 71,
+      "skus_above_120": 19,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Frozen meat",
+      "sku_count": 29,
+      "avg_cover_days": 29.5,
+      "is_food": 1,
+      "skus_below_7": 1,
+      "skus_above_120": 2,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Cheese, dairy and eggs",
+      "sku_count": 848,
+      "avg_cover_days": 28.9,
+      "is_food": 1,
+      "skus_below_7": 56,
+      "skus_above_120": 11,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Cereals and breakfast",
+      "sku_count": 222,
+      "avg_cover_days": 28.7,
+      "is_food": 1,
+      "skus_below_7": 7,
+      "skus_above_120": 3,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Fish and seafood",
+      "sku_count": 124,
+      "avg_cover_days": 27.6,
+      "is_food": 1,
+      "skus_below_7": 3,
+      "skus_above_120": 4,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Deli meats",
+      "sku_count": 113,
+      "avg_cover_days": 26.3,
+      "is_food": 1,
+      "skus_below_7": 12,
+      "skus_above_120": 2,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Coffee and tea",
+      "sku_count": 373,
+      "avg_cover_days": 23.4,
+      "is_food": 1,
+      "skus_below_7": 18,
+      "skus_above_120": 13,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Bakery",
+      "sku_count": 101,
+      "avg_cover_days": 16.1,
+      "is_food": 1,
+      "skus_below_7": 4,
+      "skus_above_120": 0,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Fresh meat",
+      "sku_count": 60,
+      "avg_cover_days": 15.1,
+      "is_food": 1,
+      "skus_below_7": 5,
+      "skus_above_120": 2,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Spirits",
+      "sku_count": 587,
+      "avg_cover_days": 15.0,
+      "is_food": 1,
+      "skus_below_7": 41,
+      "skus_above_120": 11,
+      "status": "green"
+    },
+    {
+      "cat_l1": "Ice cream",
+      "sku_count": 67,
+      "avg_cover_days": 14.0,
+      "is_food": 1,
+      "skus_below_7": 11,
+      "skus_above_120": 5,
+      "status": "yellow"
+    },
+    {
+      "cat_l1": "Ready-to-eat",
+      "sku_count": 110,
+      "avg_cover_days": 13.7,
+      "is_food": 1,
+      "skus_below_7": 5,
+      "skus_above_120": 0,
+      "status": "yellow"
+    },
+    {
+      "cat_l1": "Fruit and vegetables",
+      "sku_count": 195,
+      "avg_cover_days": 3.0,
+      "is_food": 1,
+      "skus_below_7": 11,
+      "skus_above_120": 0,
+      "status": "red"
+    },
+    {
+      "cat_l1": "Water",
+      "sku_count": 125,
+      "avg_cover_days": 3.0,
+      "is_food": 1,
+      "skus_below_7": 7,
+      "skus_above_120": 0,
+      "status": "red"
+    },
+    {
+      "cat_l1": "Staples and canned goods",
+      "sku_count": 1460,
+      "avg_cover_days": 3.0,
+      "is_food": 1,
+      "skus_below_7": 81,
+      "skus_above_120": 28,
+      "status": "red"
+    }
+  ]
+}

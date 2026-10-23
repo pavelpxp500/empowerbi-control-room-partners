@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "segment_x_quarter",
+    "row_count": 16,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[I] OTIF, inventory cover, NPS and customer count are entirely generated"
+    ]
+  },
+  "data": [
+    {
+      "quarter": "2025-Q3",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "nps": 30,
+      "responses": 519
+    },
+    {
+      "quarter": "2025-Q3",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "nps": 29,
+      "responses": 475
+    },
+    {
+      "quarter": "2025-Q3",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "nps": 31,
+      "responses": 429
+    },
+    {
+      "quarter": "2025-Q3",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "nps": 13,
+      "responses": 379
+    },
+    {
+      "quarter": "2025-Q4",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "nps": 28,
+      "responses": 384
+    },
+    {
+      "quarter": "2025-Q4",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "nps": 26,
+      "responses": 255
+    },
+    {
+      "quarter": "2025-Q4",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "nps": 36,
+      "responses": 603
+    },
+    {
+      "quarter": "2025-Q4",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "nps": 13,
+      "responses": 391
+    },
+    {
+      "quarter": "2026-Q1",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "nps": 39,
+      "responses": 430
+    },
+    {
+      "quarter": "2026-Q1",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "nps": 19,
+      "responses": 456
+    },
+    {
+      "quarter": "2026-Q1",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "nps": 46,
+      "responses": 497
+    },
+    {
+      "quarter": "2026-Q1",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "nps": 25,
+      "responses": 380
+    },
+    {
+      "quarter": "2026-Q2",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "nps": 34,
+      "responses": 428
+    },
+    {
+      "quarter": "2026-Q2",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "nps": 22,
+      "responses": 424
+    },
+    {
+      "quarter": "2026-Q2",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "nps": 34,
+      "responses": 407
+    },
+    {
+      "quarter": "2026-Q2",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "nps": 10,
+      "responses": 436
+    }
+  ]
+}

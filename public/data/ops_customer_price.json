@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "agreement_type",
+    "row_count": 2,
+    "seed": 45,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "generated price agreements (seed 45)"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "agreement_type": "price list",
+      "agreements": 4669,
+      "customers": 187,
+      "avg_discount_pct": 3.45,
+      "median_discount_pct": 2.54,
+      "avg_gm_pct_at_effective": 14.98
+    },
+    {
+      "agreement_type": "individual agreement",
+      "agreements": 2853,
+      "customers": 187,
+      "avg_discount_pct": 3.48,
+      "median_discount_pct": 2.6,
+      "avg_gm_pct_at_effective": 14.95
+    }
+  ]
+}

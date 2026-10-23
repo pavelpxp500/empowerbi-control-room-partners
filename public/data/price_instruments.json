@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "instrument",
+    "row_count": 8,
+    "total_skus": 16080
+  },
+  "data": [
+    {
+      "instrument": "Active offer",
+      "skus": 9288
+    },
+    {
+      "instrument": "Quantity threshold",
+      "skus": 5598
+    },
+    {
+      "instrument": "30-day reference price (Omnibus)",
+      "skus": 7800
+    },
+    {
+      "instrument": "App-exclusive price",
+      "skus": 186
+    },
+    {
+      "instrument": "Displayed unit price",
+      "skus": 9273
+    },
+    {
+      "instrument": "Deposit-return guarantee",
+      "skus": 1106
+    },
+    {
+      "instrument": "Offer varies by store",
+      "skus": 2118
+    },
+    {
+      "instrument": "Base price varies by store",
+      "skus": 40
+    }
+  ]
+}

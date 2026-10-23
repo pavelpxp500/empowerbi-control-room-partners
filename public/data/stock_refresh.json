@@ -1,0 +1,157 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "drupalSettings.sfProductStockStatus, product page 522632",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "plant",
+    "row_count": 24,
+    "note": "Read from a single product page. Twenty-four stores report timestamps within a 20-minute window."
+  },
+  "data": [
+    {
+      "plant": "350",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:01",
+      "minutes_from_first": 0
+    },
+    {
+      "plant": "351",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:02",
+      "minutes_from_first": 1
+    },
+    {
+      "plant": "352",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:03",
+      "minutes_from_first": 2
+    },
+    {
+      "plant": "354",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:04",
+      "minutes_from_first": 3
+    },
+    {
+      "plant": "355",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:04",
+      "minutes_from_first": 3
+    },
+    {
+      "plant": "356",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:05",
+      "minutes_from_first": 4
+    },
+    {
+      "plant": "357",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:06",
+      "minutes_from_first": 5
+    },
+    {
+      "plant": "358",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:07",
+      "minutes_from_first": 6
+    },
+    {
+      "plant": "359",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:08",
+      "minutes_from_first": 7
+    },
+    {
+      "plant": "360",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:08",
+      "minutes_from_first": 7
+    },
+    {
+      "plant": "361",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:09",
+      "minutes_from_first": 8
+    },
+    {
+      "plant": "362",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:10",
+      "minutes_from_first": 9
+    },
+    {
+      "plant": "363",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:11",
+      "minutes_from_first": 10
+    },
+    {
+      "plant": "364",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:12",
+      "minutes_from_first": 11
+    },
+    {
+      "plant": "365",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:13",
+      "minutes_from_first": 12
+    },
+    {
+      "plant": "366",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:14",
+      "minutes_from_first": 13
+    },
+    {
+      "plant": "367",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:15",
+      "minutes_from_first": 14
+    },
+    {
+      "plant": "368",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:15",
+      "minutes_from_first": 14
+    },
+    {
+      "plant": "369",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:16",
+      "minutes_from_first": 15
+    },
+    {
+      "plant": "370",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:17",
+      "minutes_from_first": 16
+    },
+    {
+      "plant": "371",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:18",
+      "minutes_from_first": 17
+    },
+    {
+      "plant": "372",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:19",
+      "minutes_from_first": 18
+    },
+    {
+      "plant": "373",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:19",
+      "minutes_from_first": 18
+    },
+    {
+      "plant": "375",
+      "stock_updated_date": "2026-08-28",
+      "stock_updated_time": "08:20",
+      "minutes_from_first": 19
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "warehouse",
+    "row_count": 25,
+    "seed": 45,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "warehouse_id": "W359",
+      "slots": 35,
+      "avg_utilisation_pct": 59.7,
+      "peak_utilisation_pct": 111.1,
+      "overloaded_slots": 1,
+      "booked_pallets": 376.0,
+      "capacity_pallets": 630.0
+    },
+    {
+      "warehouse_id": "W373",
+      "slots": 35,
+      "avg_utilisation_pct": 55.4,
+      "peak_utilisation_pct": 111.1,
+      "overloaded_slots": 2,
+      "booked_pallets": 349.0,
+      "capacity_pallets": 630.0
+    },
+    {
+      "warehouse_id": "W355",
+      "slots": 35,
+      "avg_utilisation_pct": 57.7,
+      "peak_utilisation_pct": 108.3,
+      "overloaded_slots": 1,
+      "booked_pallets": 485.0,
+      "capacity_pallets": 840.0
+    },
+    {
+      "warehouse_id": "W364",
+      "slots": 35,
+      "avg_utilisation_pct": 57.6,
+      "peak_utilisation_pct": 108.3,
+      "overloaded_slots": 1,
+      "booked_pallets": 726.0,
+      "capacity_pallets": 1260.0
+    },
+    {
+      "warehouse_id": "W370",
+      "slots": 35,
+      "avg_utilisation_pct": 58.7,
+      "peak_utilisation_pct": 108.3,
+      "overloaded_slots": 1,
+      "booked_pallets": 493.0,
+      "capacity_pallets": 840.0
+    },
+    {
+      "warehouse_id": "W350",
+      "slots": 35,
+      "avg_utilisation_pct": 58.1,
+      "peak_utilisation_pct": 105.6,
+      "overloaded_slots": 1,
+      "booked_pallets": 366.0,
+      "capacity_pallets": 630.0
+    },
+    {
+      "warehouse_id": "W367",
+      "slots": 35,
+      "avg_utilisation_pct": 59.4,
+      "peak_utilisation_pct": 103.3,
+      "overloaded_slots": 1,
+      "booked_pallets": 624.0,
+      "capacity_pallets": 1050.0
+    },
+    {
+      "warehouse_id": "W366",
+      "slots": 35,
+      "avg_utilisation_pct": 59.4,
+      "peak_utilisation_pct": 102.8,
+      "overloaded_slots": 1,
+      "booked_pallets": 749.0,
+      "capacity_pallets": 1260.0
+    },
+    {
+      "warehouse_id": "W358",
+      "slots": 35,
+      "avg_utilisation_pct": 59.4,
+      "peak_utilisation_pct": 100.0,
+      "overloaded_slots": 0,
+      "booked_pallets": 624.0,
+      "capacity_pallets": 1050.0
+    },
+    {
+      "warehouse_id": "W352",
+      "slots": 35,
+      "avg_utilisation_pct": 58.7,
+      "peak_utilisation_pct": 100.0,
+      "overloaded_slots": 0,
+      "booked_pallets": 616.0,
+      "capacity_pallets": 1050.0
+    },
+    {
+      "warehouse_id": "W351",
+      "slots": 35,
+      "avg_utilisation_pct": 61.7,
+      "peak_utilisation_pct": 97.2,
+      "overloaded_slots": 0,
+      "booked_pallets": 778.0,
+      "capacity_pallets": 1260.0
+    },
+    {
+      "warehouse_id": "W369",
+      "slots": 35,
+      "avg_utilisation_pct": 57.4,
+      "peak_utilisation_pct": 97.2,
+      "overloaded_slots": 0,
+      "booked_pallets": 723.0,
+      "capacity_pallets": 1260.0
+    },
+    {
+      "warehouse_id": "W362",
+      "slots": 35,
+      "avg_utilisation_pct": 57.4,
+      "peak_utilisation_pct": 97.2,
+      "overloaded_slots": 0,
+      "booked_pallets": 723.0,
+      "capacity_pallets": 1260.0
+    },
+    {
+      "warehouse_id": "W361",
+      "slots": 35,
+      "avg_utilisation_pct": 54.7,
+      "peak_utilisation_pct": 96.7,
+      "overloaded_slots": 0,
+      "booked_pallets": 574.0,
+      "capacity_pallets": 1050.0
+    },
+    {
+      "warehouse_id": "W357",
+      "slots": 35,
+      "avg_utilisation_pct": 54.1,
+      "peak_utilisation_pct": 94.4,
+      "overloaded_slots": 0,
+      "booked_pallets": 341.0,
+      "capacity_pallets": 630.0
+    },
+    {
+      "warehouse_id": "W900",
+      "slots": 35,
+      "avg_utilisation_pct": 54.8,
+      "peak_utilisation_pct": 93.4,
+      "overloaded_slots": 0,
+      "booked_pallets": 3757.0,
+      "capacity_pallets": 6860.0
+    },
+    {
+      "warehouse_id": "W371",
+      "slots": 35,
+      "avg_utilisation_pct": 56.4,
+      "peak_utilisation_pct": 93.3,
+      "overloaded_slots": 0,
+      "booked_pallets": 592.0,
+      "capacity_pallets": 1050.0
+    },
+    {
+      "warehouse_id": "W365",
+      "slots": 35,
+      "avg_utilisation_pct": 57.6,
+      "peak_utilisation_pct": 93.3,
+      "overloaded_slots": 0,
+      "booked_pallets": 605.0,
+      "capacity_pallets": 1050.0
+    },
+    {
+      "warehouse_id": "W372",
+      "slots": 35,
+      "avg_utilisation_pct": 54.3,
+      "peak_utilisation_pct": 91.7,
+      "overloaded_slots": 0,
+      "booked_pallets": 456.0,
+      "capacity_pallets": 840.0
+    },
+    {
+      "warehouse_id": "W368",
+      "slots": 35,
+      "avg_utilisation_pct": 56.0,
+      "peak_utilisation_pct": 88.9,
+      "overloaded_slots": 0,
+      "booked_pallets": 353.0,
+      "capacity_pallets": 630.0
+    },
+    {
+      "warehouse_id": "W360",
+      "slots": 35,
+      "avg_utilisation_pct": 54.6,
+      "peak_utilisation_pct": 88.9,
+      "overloaded_slots": 0,
+      "booked_pallets": 344.0,
+      "capacity_pallets": 630.0
+    },
+    {
+      "warehouse_id": "W356",
+      "slots": 35,
+      "avg_utilisation_pct": 59.3,
+      "peak_utilisation_pct": 88.9,
+      "overloaded_slots": 0,
+      "booked_pallets": 747.0,
+      "capacity_pallets": 1260.0
+    },
+    {
+      "warehouse_id": "W354",
+      "slots": 35,
+      "avg_utilisation_pct": 53.3,
+      "peak_utilisation_pct": 87.5,
+      "overloaded_slots": 0,
+      "booked_pallets": 448.0,
+      "capacity_pallets": 840.0
+    },
+    {
+      "warehouse_id": "W375",
+      "slots": 35,
+      "avg_utilisation_pct": 53.0,
+      "peak_utilisation_pct": 83.3,
+      "overloaded_slots": 0,
+      "booked_pallets": 668.0,
+      "capacity_pallets": 1260.0
+    },
+    {
+      "warehouse_id": "W363",
+      "slots": 35,
+      "avg_utilisation_pct": 55.1,
+      "peak_utilisation_pct": 80.0,
+      "overloaded_slots": 0,
+      "booked_pallets": 578.0,
+      "capacity_pallets": 1050.0
+    }
+  ]
+}

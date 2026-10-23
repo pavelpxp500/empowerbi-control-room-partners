@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "DQ gate run on full extraction",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "rule",
+    "row_count": 14
+  },
+  "data": [
+    {
+      "rule": "DQ-01 sitemap coverage",
+      "verdict": "PASS",
+      "detail": "16,080 extracted + 142 failed out of 16,222"
+    },
+    {
+      "rule": "DQ-02 unique SKU",
+      "verdict": "PASS",
+      "detail": "duplicates: 0"
+    },
+    {
+      "rule": "DQ-03 VAT rates in {11, 21}",
+      "verdict": "PASS",
+      "detail": "variances: 0"
+    },
+    {
+      "rule": "DQ-04 gross = net × (1 + VAT) ± 0.02",
+      "verdict": "FAIL",
+      "detail": "mismatches: 4"
+    },
+    {
+      "rule": "DQ-05 net price > 0",
+      "verdict": "PASS",
+      "detail": "prices ≤ 0: 0"
+    },
+    {
+      "rule": "DQ-06 offer price ≤ base price",
+      "verdict": "FAIL",
+      "detail": "offers above base price: 39"
+    },
+    {
+      "rule": "DQ-07 product has an L1 category",
+      "verdict": "FAIL",
+      "detail": "orphan records: 213"
+    },
+    {
+      "rule": "DQ-08 product has a brand",
+      "verdict": "FAIL",
+      "detail": "unbranded: 1,696"
+    },
+    {
+      "rule": "DQ-09 priceDataInvalid = 0",
+      "verdict": "FAIL",
+      "detail": "marked invalid by source: 333"
+    },
+    {
+      "rule": "DQ-10 24 stores with a price per product",
+      "verdict": "PASS",
+      "detail": "variances: 0"
+    },
+    {
+      "rule": "DQ-11 FK fact_price_plant → dim_market",
+      "verdict": "PASS",
+      "detail": "orphan records: 0"
+    },
+    {
+      "rule": "DQ-12 FK fact_price_plant → dim_product",
+      "verdict": "PASS",
+      "detail": "orphan records: 0"
+    },
+    {
+      "rule": "DQ-13 unique grain (date, plant, SKU)",
+      "verdict": "PASS",
+      "detail": "duplicate grain rows: 0"
+    },
+    {
+      "rule": "DQ-14 deposit-return product has a declared deposit",
+      "verdict": "PASS",
+      "detail": "missing deposits: 0"
+    }
+  ]
+}

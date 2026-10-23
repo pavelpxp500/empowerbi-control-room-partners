@@ -1,0 +1,302 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "direction_x_category_l1",
+    "row_count": 40,
+    "seed": 43,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "direction": "inbound",
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "lines": 2176,
+      "otif_pct": 89.11,
+      "missed_value_ron": 394992.46
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Personal care and cosmetics",
+      "lines": 1313,
+      "otif_pct": 90.63,
+      "missed_value_ron": 269101.51
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Children's clothing, footwear and accessories",
+      "lines": 1371,
+      "otif_pct": 88.69,
+      "missed_value_ron": 151778.07
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Office supplies and stationery",
+      "lines": 506,
+      "otif_pct": 89.33,
+      "missed_value_ron": 130447.09
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Household cleaning and care",
+      "lines": 643,
+      "otif_pct": 87.87,
+      "missed_value_ron": 103019.92
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Kitchen and tableware",
+      "lines": 189,
+      "otif_pct": 86.24,
+      "missed_value_ron": 94790.69
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Electronics, appliances and IT",
+      "lines": 279,
+      "otif_pct": 90.32,
+      "missed_value_ron": 84698.58
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Staples and canned goods",
+      "lines": 967,
+      "otif_pct": 89.87,
+      "missed_value_ron": 78059.37
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Toys",
+      "lines": 305,
+      "otif_pct": 88.2,
+      "missed_value_ron": 61733.33
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Coffee and tea",
+      "lines": 228,
+      "otif_pct": 87.72,
+      "missed_value_ron": 49479.38
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Confectionery and snacks",
+      "lines": 674,
+      "otif_pct": 88.43,
+      "missed_value_ron": 48131.99
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Cheese, dairy and eggs",
+      "lines": 697,
+      "otif_pct": 89.81,
+      "missed_value_ron": 38667.2
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Non-alcoholic beverages",
+      "lines": 321,
+      "otif_pct": 92.21,
+      "missed_value_ron": 25650.02
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "lines": 526,
+      "otif_pct": 89.16,
+      "missed_value_ron": 18121.41
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "lines": 7048,
+      "otif_pct": 93.62,
+      "missed_value_ron": 15319.81
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Fresh meat",
+      "lines": 25,
+      "otif_pct": 96.0,
+      "missed_value_ron": 13164.3
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": null,
+      "lines": 28,
+      "otif_pct": 82.14,
+      "missed_value_ron": 12956.47
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Textiles",
+      "lines": 54,
+      "otif_pct": 87.04,
+      "missed_value_ron": 12691.77
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Sports and outdoors",
+      "lines": 222,
+      "otif_pct": 88.74,
+      "missed_value_ron": 11546.85
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Cereals and breakfast",
+      "lines": 108,
+      "otif_pct": 90.74,
+      "missed_value_ron": 11005.68
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Personal care and cosmetics",
+      "lines": 19968,
+      "otif_pct": 93.38,
+      "missed_value_ron": 9455.83
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Staples and canned goods",
+      "lines": 36591,
+      "otif_pct": 93.13,
+      "missed_value_ron": 8802.05
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Confectionery and snacks",
+      "lines": 31455,
+      "otif_pct": 93.19,
+      "missed_value_ron": 8743.04
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Toys",
+      "lines": 5838,
+      "otif_pct": 93.83,
+      "missed_value_ron": 8699.84
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Wine and sparkling wine",
+      "lines": 202,
+      "otif_pct": 92.08,
+      "missed_value_ron": 8285.69
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Pet food and accessories",
+      "lines": 197,
+      "otif_pct": 88.32,
+      "missed_value_ron": 7302.57
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Spirits",
+      "lines": 6541,
+      "otif_pct": 93.7,
+      "missed_value_ron": 6037.22
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Wine and sparkling wine",
+      "lines": 12004,
+      "otif_pct": 93.24,
+      "missed_value_ron": 5953.58
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Household cleaning and care",
+      "lines": 13490,
+      "otif_pct": 93.45,
+      "missed_value_ron": 4949.56
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Office supplies and stationery",
+      "lines": 16976,
+      "otif_pct": 93.47,
+      "missed_value_ron": 4841.71
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Cheese, dairy and eggs",
+      "lines": 20876,
+      "otif_pct": 93.38,
+      "missed_value_ron": 4511.93
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Fruit and vegetables",
+      "lines": 139,
+      "otif_pct": 89.21,
+      "missed_value_ron": 4507.96
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Baby products",
+      "lines": 110,
+      "otif_pct": 93.64,
+      "missed_value_ron": 4464.54
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Spirits",
+      "lines": 67,
+      "otif_pct": 91.04,
+      "missed_value_ron": 4440.44
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Deli meats",
+      "lines": 58,
+      "otif_pct": 87.93,
+      "missed_value_ron": 4336.53
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Non-alcoholic beverages",
+      "lines": 15826,
+      "otif_pct": 93.66,
+      "missed_value_ron": 4336.31
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Electronics, appliances and IT",
+      "lines": 2478,
+      "otif_pct": 93.06,
+      "missed_value_ron": 3949.55
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Coffee and tea",
+      "lines": 8168,
+      "otif_pct": 93.56,
+      "missed_value_ron": 3694.47
+    },
+    {
+      "direction": "outbound",
+      "cat_l1": "Garden and patio",
+      "lines": 3049,
+      "otif_pct": 93.44,
+      "missed_value_ron": 3305.9
+    },
+    {
+      "direction": "inbound",
+      "cat_l1": "Foodservice",
+      "lines": 46,
+      "otif_pct": 93.48,
+      "missed_value_ron": 3184.13
+    }
+  ]
+}

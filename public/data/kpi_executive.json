@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "trailing_12_complete_months",
+    "row_count": 1,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[I] cash & carry seasonality: December peak, February trough, summer supported by HoReCa",
+      "[I] 8.2% growth from 2023 to 2024; 2026 trend of −1.2% versus 2025",
+      "[A] monthly totals reconcile exactly to the published annual figures: FY2024 RON 4.550bn, FY2025 RON 4.460bn",
+      "[I] aggregate gross margin of 11.55%, typical of cash & carry wholesale",
+      "[I] 0.35 pp erosion after the VAT cutover from 19% to 21% on 1 August 2025",
+      "[I] OTIF, inventory cover, NPS and customer count are entirely generated"
+    ],
+    "real_fields": [
+      "active_skus",
+      "stores",
+      "avg_oos_pct",
+      "pct_catalog_on_offer"
+    ]
+  },
+  "data": [
+    {
+      "period_start": "2025-08",
+      "period_end": "2026-07",
+      "net_sales_ron": 4443026384.1,
+      "net_sales_yoy_pct": -1.4,
+      "gross_margin_ron": 495549494.89,
+      "gross_margin_pct": 11.15,
+      "otif_pct": 93.4,
+      "avg_stock_cover_days": 47.0,
+      "nps_avg": 25.0,
+      "active_customers": 188038.0,
+      "active_skus": 16080,
+      "stores": 24,
+      "avg_oos_pct": 35.7,
+      "pct_catalog_on_offer": 57.8,
+      "net_sales_status": "red",
+      "gross_margin_status": "yellow",
+      "otif_status": "yellow",
+      "stock_status": "yellow",
+      "nps_status": "yellow"
+    }
+  ]
+}

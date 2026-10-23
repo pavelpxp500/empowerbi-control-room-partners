@@ -1,0 +1,1222 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "segment_x_month",
+    "row_count": 172,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[A] the four segments exist as published on the website",
+      "[I] sales weights, margins and average baskets — assumed, not observed"
+    ]
+  },
+  "data": [
+    {
+      "month": "2023-01",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 86454824.41,
+      "gm_pct": 10.57
+    },
+    {
+      "month": "2023-01",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 75596070.23,
+      "gm_pct": 9.49
+    },
+    {
+      "month": "2023-01",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 73336967.68,
+      "gm_pct": 12.2
+    },
+    {
+      "month": "2023-01",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 54572182.08,
+      "gm_pct": 14.74
+    },
+    {
+      "month": "2023-02",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 79510934.58,
+      "gm_pct": 11.81
+    },
+    {
+      "month": "2023-02",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 74078424.5,
+      "gm_pct": 8.27
+    },
+    {
+      "month": "2023-02",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 64283542.06,
+      "gm_pct": 13.37
+    },
+    {
+      "month": "2023-02",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 50569276.16,
+      "gm_pct": 15.81
+    },
+    {
+      "month": "2023-03",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 94441221.99,
+      "gm_pct": 11.86
+    },
+    {
+      "month": "2023-03",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 92449543.01,
+      "gm_pct": 9.23
+    },
+    {
+      "month": "2023-03",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 82232072.81,
+      "gm_pct": 11.74
+    },
+    {
+      "month": "2023-03",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 62950193.41,
+      "gm_pct": 15.16
+    },
+    {
+      "month": "2023-04",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 108687822.34,
+      "gm_pct": 10.7
+    },
+    {
+      "month": "2023-04",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 97085114.41,
+      "gm_pct": 9.7
+    },
+    {
+      "month": "2023-04",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 88040210.83,
+      "gm_pct": 12.99
+    },
+    {
+      "month": "2023-04",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 66540542.43,
+      "gm_pct": 14.3
+    },
+    {
+      "month": "2023-05",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 98009941.61,
+      "gm_pct": 10.79
+    },
+    {
+      "month": "2023-05",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 89095904.62,
+      "gm_pct": 8.89
+    },
+    {
+      "month": "2023-05",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 81343395.77,
+      "gm_pct": 12.34
+    },
+    {
+      "month": "2023-05",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 62313556.03,
+      "gm_pct": 14.89
+    },
+    {
+      "month": "2023-06",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 135054021.67,
+      "gm_pct": 11.67
+    },
+    {
+      "month": "2023-06",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 89377018.52,
+      "gm_pct": 9.19
+    },
+    {
+      "month": "2023-06",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 86824503.08,
+      "gm_pct": 12.08
+    },
+    {
+      "month": "2023-06",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 60795158.22,
+      "gm_pct": 14.71
+    },
+    {
+      "month": "2023-07",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 134177831.11,
+      "gm_pct": 11.1
+    },
+    {
+      "month": "2023-07",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 97533812.73,
+      "gm_pct": 8.91
+    },
+    {
+      "month": "2023-07",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 87195799.49,
+      "gm_pct": 12.71
+    },
+    {
+      "month": "2023-07",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 67641835.06,
+      "gm_pct": 14.69
+    },
+    {
+      "month": "2023-08",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 134632126.32,
+      "gm_pct": 11.95
+    },
+    {
+      "month": "2023-08",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 92728247.03,
+      "gm_pct": 8.96
+    },
+    {
+      "month": "2023-08",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 88172203.62,
+      "gm_pct": 12.85
+    },
+    {
+      "month": "2023-08",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 65013602.63,
+      "gm_pct": 14.53
+    },
+    {
+      "month": "2023-09",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 96282979.98,
+      "gm_pct": 12.1
+    },
+    {
+      "month": "2023-09",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 88753694.05,
+      "gm_pct": 8.23
+    },
+    {
+      "month": "2023-09",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 83939321.67,
+      "gm_pct": 12.7
+    },
+    {
+      "month": "2023-09",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 62097188.09,
+      "gm_pct": 14.85
+    },
+    {
+      "month": "2023-10",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 98802311.02,
+      "gm_pct": 10.72
+    },
+    {
+      "month": "2023-10",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 84982819.6,
+      "gm_pct": 9.18
+    },
+    {
+      "month": "2023-10",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 82438791.83,
+      "gm_pct": 12.47
+    },
+    {
+      "month": "2023-10",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 62832064.17,
+      "gm_pct": 15.34
+    },
+    {
+      "month": "2023-11",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 102827695.29,
+      "gm_pct": 10.9
+    },
+    {
+      "month": "2023-11",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 87256936.56,
+      "gm_pct": 9.0
+    },
+    {
+      "month": "2023-11",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 86283624.0,
+      "gm_pct": 12.65
+    },
+    {
+      "month": "2023-11",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 64991133.02,
+      "gm_pct": 14.57
+    },
+    {
+      "month": "2023-12",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 125821519.16,
+      "gm_pct": 11.35
+    },
+    {
+      "month": "2023-12",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 114572666.37,
+      "gm_pct": 9.55
+    },
+    {
+      "month": "2023-12",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 111365993.13,
+      "gm_pct": 15.11
+    },
+    {
+      "month": "2023-12",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 107614315.02,
+      "gm_pct": 12.99
+    },
+    {
+      "month": "2024-01",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 90564919.58,
+      "gm_pct": 10.21
+    },
+    {
+      "month": "2024-01",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 82336719.9,
+      "gm_pct": 9.23
+    },
+    {
+      "month": "2024-01",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 78020461.68,
+      "gm_pct": 12.62
+    },
+    {
+      "month": "2024-01",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 57849031.04,
+      "gm_pct": 15.2
+    },
+    {
+      "month": "2024-02",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 91305632.99,
+      "gm_pct": 10.4
+    },
+    {
+      "month": "2024-02",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 81431490.72,
+      "gm_pct": 8.96
+    },
+    {
+      "month": "2024-02",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 74385142.17,
+      "gm_pct": 12.63
+    },
+    {
+      "month": "2024-02",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 59112918.3,
+      "gm_pct": 15.45
+    },
+    {
+      "month": "2024-03",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 104272808.66,
+      "gm_pct": 10.85
+    },
+    {
+      "month": "2024-03",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 96566484.62,
+      "gm_pct": 8.67
+    },
+    {
+      "month": "2024-03",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 87464677.81,
+      "gm_pct": 12.7
+    },
+    {
+      "month": "2024-03",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 69477085.03,
+      "gm_pct": 14.37
+    },
+    {
+      "month": "2024-04",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 110467455.05,
+      "gm_pct": 12.3
+    },
+    {
+      "month": "2024-04",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 103268807.31,
+      "gm_pct": 8.4
+    },
+    {
+      "month": "2024-04",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 98138472.1,
+      "gm_pct": 12.34
+    },
+    {
+      "month": "2024-04",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 70710538.98,
+      "gm_pct": 14.81
+    },
+    {
+      "month": "2024-05",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 112771665.74,
+      "gm_pct": 11.42
+    },
+    {
+      "month": "2024-05",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 101218180.72,
+      "gm_pct": 9.36
+    },
+    {
+      "month": "2024-05",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 93728259.41,
+      "gm_pct": 13.13
+    },
+    {
+      "month": "2024-05",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 70316477.21,
+      "gm_pct": 14.48
+    },
+    {
+      "month": "2024-06",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 137120724.13,
+      "gm_pct": 10.97
+    },
+    {
+      "month": "2024-06",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 100274634.88,
+      "gm_pct": 9.86
+    },
+    {
+      "month": "2024-06",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 91281746.43,
+      "gm_pct": 13.77
+    },
+    {
+      "month": "2024-06",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 66634380.68,
+      "gm_pct": 14.85
+    },
+    {
+      "month": "2024-07",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 154271724.2,
+      "gm_pct": 10.79
+    },
+    {
+      "month": "2024-07",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 103475550.97,
+      "gm_pct": 8.21
+    },
+    {
+      "month": "2024-07",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 96454095.4,
+      "gm_pct": 12.76
+    },
+    {
+      "month": "2024-07",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 72582983.04,
+      "gm_pct": 14.84
+    },
+    {
+      "month": "2024-08",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 152486639.67,
+      "gm_pct": 10.7
+    },
+    {
+      "month": "2024-08",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 99954508.58,
+      "gm_pct": 9.23
+    },
+    {
+      "month": "2024-08",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 92728213.91,
+      "gm_pct": 12.42
+    },
+    {
+      "month": "2024-08",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 70482003.76,
+      "gm_pct": 14.25
+    },
+    {
+      "month": "2024-09",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 106224861.1,
+      "gm_pct": 11.01
+    },
+    {
+      "month": "2024-09",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 96650275.09,
+      "gm_pct": 8.95
+    },
+    {
+      "month": "2024-09",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 88667123.63,
+      "gm_pct": 13.02
+    },
+    {
+      "month": "2024-09",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 67362510.3,
+      "gm_pct": 14.88
+    },
+    {
+      "month": "2024-10",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 107380643.72,
+      "gm_pct": 10.98
+    },
+    {
+      "month": "2024-10",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 92739041.37,
+      "gm_pct": 9.28
+    },
+    {
+      "month": "2024-10",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 88780593.78,
+      "gm_pct": 13.23
+    },
+    {
+      "month": "2024-10",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 67908669.58,
+      "gm_pct": 15.89
+    },
+    {
+      "month": "2024-11",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 112734970.89,
+      "gm_pct": 11.18
+    },
+    {
+      "month": "2024-11",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 98172256.64,
+      "gm_pct": 9.48
+    },
+    {
+      "month": "2024-11",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 93260823.8,
+      "gm_pct": 12.43
+    },
+    {
+      "month": "2024-11",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 71539414.91,
+      "gm_pct": 15.04
+    },
+    {
+      "month": "2024-12",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 134817129.2,
+      "gm_pct": 11.54
+    },
+    {
+      "month": "2024-12",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 131293344.63,
+      "gm_pct": 9.08
+    },
+    {
+      "month": "2024-12",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 120759915.59,
+      "gm_pct": 12.8
+    },
+    {
+      "month": "2024-12",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 113276585.7,
+      "gm_pct": 14.16
+    },
+    {
+      "month": "2025-01",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 90750451.92,
+      "gm_pct": 11.26
+    },
+    {
+      "month": "2025-01",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 81665255.31,
+      "gm_pct": 8.65
+    },
+    {
+      "month": "2025-01",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 72963746.19,
+      "gm_pct": 12.25
+    },
+    {
+      "month": "2025-01",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 58702627.69,
+      "gm_pct": 14.34
+    },
+    {
+      "month": "2025-02",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 86267959.75,
+      "gm_pct": 11.7
+    },
+    {
+      "month": "2025-02",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 74288149.48,
+      "gm_pct": 8.6
+    },
+    {
+      "month": "2025-02",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 70131421.59,
+      "gm_pct": 13.07
+    },
+    {
+      "month": "2025-02",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 53161689.48,
+      "gm_pct": 14.78
+    },
+    {
+      "month": "2025-03",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 103210838.03,
+      "gm_pct": 11.15
+    },
+    {
+      "month": "2025-03",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 90104430.02,
+      "gm_pct": 8.18
+    },
+    {
+      "month": "2025-03",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 84730702.83,
+      "gm_pct": 12.66
+    },
+    {
+      "month": "2025-03",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 64840797.75,
+      "gm_pct": 14.35
+    },
+    {
+      "month": "2025-04",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 113358761.73,
+      "gm_pct": 12.15
+    },
+    {
+      "month": "2025-04",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 105223464.1,
+      "gm_pct": 9.04
+    },
+    {
+      "month": "2025-04",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 92971862.28,
+      "gm_pct": 12.97
+    },
+    {
+      "month": "2025-04",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 70231398.28,
+      "gm_pct": 15.41
+    },
+    {
+      "month": "2025-05",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 106286210.17,
+      "gm_pct": 11.68
+    },
+    {
+      "month": "2025-05",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 99052588.36,
+      "gm_pct": 8.75
+    },
+    {
+      "month": "2025-05",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 88656105.75,
+      "gm_pct": 12.06
+    },
+    {
+      "month": "2025-05",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 67448767.68,
+      "gm_pct": 14.1
+    },
+    {
+      "month": "2025-06",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 137345203.04,
+      "gm_pct": 11.41
+    },
+    {
+      "month": "2025-06",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 98682810.49,
+      "gm_pct": 9.38
+    },
+    {
+      "month": "2025-06",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 92000220.79,
+      "gm_pct": 12.9
+    },
+    {
+      "month": "2025-06",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 71168751.42,
+      "gm_pct": 15.05
+    },
+    {
+      "month": "2025-07",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 159657190.51,
+      "gm_pct": 11.54
+    },
+    {
+      "month": "2025-07",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 105515421.12,
+      "gm_pct": 9.17
+    },
+    {
+      "month": "2025-07",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 98288015.67,
+      "gm_pct": 12.2
+    },
+    {
+      "month": "2025-07",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 72933769.7,
+      "gm_pct": 14.01
+    },
+    {
+      "month": "2025-08",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 144996598.81,
+      "gm_pct": 11.02
+    },
+    {
+      "month": "2025-08",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 98770606.27,
+      "gm_pct": 8.73
+    },
+    {
+      "month": "2025-08",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 93173634.04,
+      "gm_pct": 12.23
+    },
+    {
+      "month": "2025-08",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 68336335.07,
+      "gm_pct": 14.77
+    },
+    {
+      "month": "2025-09",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 103745426.33,
+      "gm_pct": 11.17
+    },
+    {
+      "month": "2025-09",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 89241182.1,
+      "gm_pct": 7.91
+    },
+    {
+      "month": "2025-09",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 84266299.14,
+      "gm_pct": 12.13
+    },
+    {
+      "month": "2025-09",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 66779398.86,
+      "gm_pct": 14.28
+    },
+    {
+      "month": "2025-10",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 101997462.92,
+      "gm_pct": 11.16
+    },
+    {
+      "month": "2025-10",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 92223703.72,
+      "gm_pct": 8.93
+    },
+    {
+      "month": "2025-10",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 88477306.33,
+      "gm_pct": 12.92
+    },
+    {
+      "month": "2025-10",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 64986718.78,
+      "gm_pct": 15.14
+    },
+    {
+      "month": "2025-11",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 109906765.61,
+      "gm_pct": 10.92
+    },
+    {
+      "month": "2025-11",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 94442233.88,
+      "gm_pct": 8.88
+    },
+    {
+      "month": "2025-11",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 91435954.28,
+      "gm_pct": 13.22
+    },
+    {
+      "month": "2025-11",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 64380643.11,
+      "gm_pct": 15.32
+    },
+    {
+      "month": "2025-12",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 134843597.88,
+      "gm_pct": 10.62
+    },
+    {
+      "month": "2025-12",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 122953494.76,
+      "gm_pct": 7.82
+    },
+    {
+      "month": "2025-12",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 121313089.57,
+      "gm_pct": 11.75
+    },
+    {
+      "month": "2025-12",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 113200771.52,
+      "gm_pct": 14.97
+    },
+    {
+      "month": "2026-01",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 90314312.51,
+      "gm_pct": 11.57
+    },
+    {
+      "month": "2026-01",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 77977168.85,
+      "gm_pct": 9.1
+    },
+    {
+      "month": "2026-01",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 72304425.35,
+      "gm_pct": 12.29
+    },
+    {
+      "month": "2026-01",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 56330072.81,
+      "gm_pct": 15.34
+    },
+    {
+      "month": "2026-02",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 86810625.3,
+      "gm_pct": 11.78
+    },
+    {
+      "month": "2026-02",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 77755470.52,
+      "gm_pct": 8.32
+    },
+    {
+      "month": "2026-02",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 69574372.13,
+      "gm_pct": 12.06
+    },
+    {
+      "month": "2026-02",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 54769776.98,
+      "gm_pct": 13.61
+    },
+    {
+      "month": "2026-03",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 103139643.63,
+      "gm_pct": 11.5
+    },
+    {
+      "month": "2026-03",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 92187787.51,
+      "gm_pct": 9.41
+    },
+    {
+      "month": "2026-03",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 84125695.36,
+      "gm_pct": 11.99
+    },
+    {
+      "month": "2026-03",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 63154255.73,
+      "gm_pct": 14.87
+    },
+    {
+      "month": "2026-04",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 114025855.88,
+      "gm_pct": 11.25
+    },
+    {
+      "month": "2026-04",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 102933512.09,
+      "gm_pct": 8.85
+    },
+    {
+      "month": "2026-04",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 93985564.48,
+      "gm_pct": 12.63
+    },
+    {
+      "month": "2026-04",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 70490416.5,
+      "gm_pct": 15.04
+    },
+    {
+      "month": "2026-05",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 107569279.39,
+      "gm_pct": 12.41
+    },
+    {
+      "month": "2026-05",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 96130903.29,
+      "gm_pct": 8.59
+    },
+    {
+      "month": "2026-05",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 90866418.32,
+      "gm_pct": 12.85
+    },
+    {
+      "month": "2026-05",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 69584485.94,
+      "gm_pct": 15.1
+    },
+    {
+      "month": "2026-06",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 142263357.1,
+      "gm_pct": 10.97
+    },
+    {
+      "month": "2026-06",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 100075926.57,
+      "gm_pct": 9.0
+    },
+    {
+      "month": "2026-06",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 92686376.2,
+      "gm_pct": 12.41
+    },
+    {
+      "month": "2026-06",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 69023754.0,
+      "gm_pct": 13.88
+    },
+    {
+      "month": "2026-07",
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "net_ron": 153567435.46,
+      "gm_pct": 11.43
+    },
+    {
+      "month": "2026-07",
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "net_ron": 106082707.28,
+      "gm_pct": 8.97
+    },
+    {
+      "month": "2026-07",
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "net_ron": 101517797.88,
+      "gm_pct": 12.72
+    },
+    {
+      "month": "2026-07",
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "net_ron": 72433909.07,
+      "gm_pct": 15.01
+    }
+  ]
+}

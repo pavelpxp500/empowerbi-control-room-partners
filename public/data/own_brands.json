@@ -1,0 +1,202 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "brand_spelling",
+    "row_count": 27,
+    "note": "Each row is a distinct spelling in the brand master, not a distinct brand."
+  },
+  "data": [
+    {
+      "brand": "TOPSELLER",
+      "sku_count": 205,
+      "median_net": 5.86,
+      "pct_on_offer": 12.7,
+      "categories": 20
+    },
+    {
+      "brand": "Transgourmet Quality",
+      "sku_count": 177,
+      "median_net": 26.87,
+      "pct_on_offer": 4.5,
+      "categories": 12
+    },
+    {
+      "brand": "Selgros productie proprie",
+      "sku_count": 66,
+      "median_net": 11.09,
+      "pct_on_offer": 16.7,
+      "categories": 3
+    },
+    {
+      "brand": "TRANSGOURMET QUALITY",
+      "sku_count": 55,
+      "median_net": 23.59,
+      "pct_on_offer": 7.3,
+      "categories": 6
+    },
+    {
+      "brand": "TRANSGOURMET ECONOMY",
+      "sku_count": 49,
+      "median_net": 14.14,
+      "pct_on_offer": 4.1,
+      "categories": 6
+    },
+    {
+      "brand": "Transgourmet Economy",
+      "sku_count": 38,
+      "median_net": 12.96,
+      "pct_on_offer": 18.4,
+      "categories": 9
+    },
+    {
+      "brand": "Topseller",
+      "sku_count": 29,
+      "median_net": 7.77,
+      "pct_on_offer": 6.9,
+      "categories": 5
+    },
+    {
+      "brand": "Transgourmet Natura",
+      "sku_count": 22,
+      "median_net": 9.45,
+      "pct_on_offer": 4.5,
+      "categories": 2
+    },
+    {
+      "brand": "TRANSGOURMET",
+      "sku_count": 18,
+      "median_net": 5.57,
+      "pct_on_offer": 61.1,
+      "categories": 4
+    },
+    {
+      "brand": "SELGROS",
+      "sku_count": 17,
+      "median_net": 10.08,
+      "pct_on_offer": 11.8,
+      "categories": 6
+    },
+    {
+      "brand": "Transgourmet",
+      "sku_count": 13,
+      "median_net": 11.26,
+      "pct_on_offer": 15.4,
+      "categories": 3
+    },
+    {
+      "brand": "Trans Gourmet Quality",
+      "sku_count": 12,
+      "median_net": 25.85,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TRANS GOURMET ECONOMY",
+      "sku_count": 11,
+      "median_net": 22.73,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TransGourmet economy",
+      "sku_count": 7,
+      "median_net": 5.92,
+      "pct_on_offer": 85.7,
+      "categories": 2
+    },
+    {
+      "brand": "TOPSELLER XXL",
+      "sku_count": 6,
+      "median_net": 28.15,
+      "pct_on_offer": 50.0,
+      "categories": 2
+    },
+    {
+      "brand": "TRANSCOURMET ECONOMY",
+      "sku_count": 3,
+      "median_net": 39.41,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "Trans Gourme Quality",
+      "sku_count": 2,
+      "median_net": 34.17,
+      "pct_on_offer": 50.0,
+      "categories": 1
+    },
+    {
+      "brand": "TSQ-Transgourmet Quallity",
+      "sku_count": 1,
+      "median_net": 31.08,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TRANSGOURMET QUALITY CREVETI IN CUIB DE CARTOFI, PRODUS CONGELAT RAPID 1000G",
+      "sku_count": 1,
+      "median_net": 79.83,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TransGourmet Economy",
+      "sku_count": 1,
+      "median_net": 2.93,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "SELGROS CASH&CARRY",
+      "sku_count": 1,
+      "median_net": 19.78,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TRANSGOURMET NATURA",
+      "sku_count": 1,
+      "median_net": 17.1,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TransGourmet",
+      "sku_count": 1,
+      "median_net": 2.76,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "Selgros",
+      "sku_count": 1,
+      "median_net": 1.6,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TRSNSGOURMET ECONOMY",
+      "sku_count": 1,
+      "median_net": 7.67,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TRANSGOURMET QUALITY LO",
+      "sku_count": 1,
+      "median_net": 45.41,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    },
+    {
+      "brand": "TRANSGOURMET ECONOMY (TGE)",
+      "sku_count": 1,
+      "median_net": 7.93,
+      "pct_on_offer": 0.0,
+      "categories": 1
+    }
+  ]
+}

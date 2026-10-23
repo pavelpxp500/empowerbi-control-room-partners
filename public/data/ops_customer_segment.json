@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "customer_segment",
+    "row_count": 4,
+    "seed": 42,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "generated customer master, risk classes and credit limits (seed 42)"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "segment_code": "REVANZATOR",
+      "segment_name": "Resellers",
+      "customers": 47,
+      "net_ron_12m": 402048566.55,
+      "avg_credit_limit_ron": 276548.94,
+      "completeness_pct": 87.3,
+      "high_risk_customers": 11
+    },
+    {
+      "segment_code": "HORECA",
+      "segment_name": "HoReCa",
+      "customers": 81,
+      "net_ron_12m": 287900089.52,
+      "avg_credit_limit_ron": 75940.74,
+      "completeness_pct": 85.9,
+      "high_risk_customers": 20
+    },
+    {
+      "segment_code": "COMPANII",
+      "segment_name": "Other businesses",
+      "customers": 59,
+      "net_ron_12m": 149923316.38,
+      "avg_credit_limit_ron": 45971.19,
+      "completeness_pct": 85.3,
+      "high_risk_customers": 14
+    },
+    {
+      "segment_code": "PF",
+      "segment_name": "Individuals",
+      "customers": 33,
+      "net_ron_12m": 10664971.11,
+      "avg_credit_limit_ron": 16360.61,
+      "completeness_pct": 84.1,
+      "high_risk_customers": 8
+    }
+  ]
+}

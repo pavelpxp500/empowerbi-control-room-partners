@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "planner",
+    "row_count": 7,
+    "seed": 45,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "WAPE weighted by observed volume, by planning owner."
+  },
+  "data": [
+    {
+      "planner_id": "PL-03",
+      "planner_name": "Grocery planning",
+      "priority_level": 1,
+      "rows": 4182,
+      "skus": 1174,
+      "wape_pct": 11.57,
+      "bias_pct": -0.36
+    },
+    {
+      "planner_id": "PL-06",
+      "planner_name": "Seasonal planning",
+      "priority_level": 3,
+      "rows": 4115,
+      "skus": 1165,
+      "wape_pct": 11.56,
+      "bias_pct": -0.68
+    },
+    {
+      "planner_id": "PL-01",
+      "planner_name": "Fresh planning",
+      "priority_level": 1,
+      "rows": 4055,
+      "skus": 1175,
+      "wape_pct": 11.42,
+      "bias_pct": 0.14
+    },
+    {
+      "planner_id": "PL-07",
+      "planner_name": "Planning his own brands",
+      "priority_level": 2,
+      "rows": 4075,
+      "skus": 1166,
+      "wape_pct": 11.26,
+      "bias_pct": -0.14
+    },
+    {
+      "planner_id": "PL-04",
+      "planner_name": "Drinks planning",
+      "priority_level": 2,
+      "rows": 4055,
+      "skus": 1169,
+      "wape_pct": 11.17,
+      "bias_pct": 0.07
+    },
+    {
+      "planner_id": "PL-02",
+      "planner_name": "Frozen planning",
+      "priority_level": 2,
+      "rows": 4055,
+      "skus": 1177,
+      "wape_pct": 11.09,
+      "bias_pct": 0.29
+    },
+    {
+      "planner_id": "PL-05",
+      "planner_name": "Non-food planning",
+      "priority_level": 3,
+      "rows": 4263,
+      "skus": 1182,
+      "wape_pct": 10.94,
+      "bias_pct": -0.29
+    }
+  ]
+}

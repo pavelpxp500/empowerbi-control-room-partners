@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "vat_rate",
+    "row_count": 2,
+    "note": "Standard-rate cutover from 19% to 21% on 1 August 2025; reduced 11% rate for staple foods."
+  },
+  "data": [
+    {
+      "vat_rate": 11,
+      "sku_count": 4010,
+      "share_pct": 24.94,
+      "median_net": 10.41,
+      "pct_on_offer": 25.8
+    },
+    {
+      "vat_rate": 21,
+      "sku_count": 12070,
+      "share_pct": 75.06,
+      "median_net": 25.2,
+      "pct_on_offer": 68.4
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "month",
+    "row_count": 18,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[I] packaging volumes placed on the market and the return rate are generated",
+      "[A] the RON 0.50 deposit per package is taken from the catalogue"
+    ]
+  },
+  "data": [
+    {
+      "month": "2025-02",
+      "containers_sold": 4621488,
+      "containers_returned": 4079540,
+      "deposit_out_ron": 2310744.48,
+      "return_rate_pct": 88.3,
+      "deposit_in_ron": 2039770.0
+    },
+    {
+      "month": "2025-03",
+      "containers_sold": 4570527,
+      "containers_returned": 3694074,
+      "deposit_out_ron": 2285263.58,
+      "return_rate_pct": 80.8,
+      "deposit_in_ron": 1847037.0
+    },
+    {
+      "month": "2025-04",
+      "containers_sold": 5082410,
+      "containers_returned": 3935409,
+      "deposit_out_ron": 2541205.47,
+      "return_rate_pct": 77.4,
+      "deposit_in_ron": 1967704.5
+    },
+    {
+      "month": "2025-05",
+      "containers_sold": 5307869,
+      "containers_returned": 4504925,
+      "deposit_out_ron": 2653934.51,
+      "return_rate_pct": 84.9,
+      "deposit_in_ron": 2252462.5
+    },
+    {
+      "month": "2025-06",
+      "containers_sold": 6121549,
+      "containers_returned": 5183382,
+      "deposit_out_ron": 3060774.83,
+      "return_rate_pct": 84.7,
+      "deposit_in_ron": 2591691.0
+    },
+    {
+      "month": "2025-07",
+      "containers_sold": 5721159,
+      "containers_returned": 4566089,
+      "deposit_out_ron": 2860579.88,
+      "return_rate_pct": 79.8,
+      "deposit_in_ron": 2283044.5
+    },
+    {
+      "month": "2025-08",
+      "containers_sold": 5729107,
+      "containers_returned": 4587542,
+      "deposit_out_ron": 2864553.76,
+      "return_rate_pct": 80.1,
+      "deposit_in_ron": 2293771.0
+    },
+    {
+      "month": "2025-09",
+      "containers_sold": 5055569,
+      "containers_returned": 4318484,
+      "deposit_out_ron": 2527784.85,
+      "return_rate_pct": 85.4,
+      "deposit_in_ron": 2159242.0
+    },
+    {
+      "month": "2025-10",
+      "containers_sold": 5372578,
+      "containers_returned": 4519160,
+      "deposit_out_ron": 2686289.38,
+      "return_rate_pct": 84.1,
+      "deposit_in_ron": 2259580.0
+    },
+    {
+      "month": "2025-11",
+      "containers_sold": 5195864,
+      "containers_returned": 4266249,
+      "deposit_out_ron": 2597932.06,
+      "return_rate_pct": 82.1,
+      "deposit_in_ron": 2133124.5
+    },
+    {
+      "month": "2025-12",
+      "containers_sold": 4746951,
+      "containers_returned": 4007424,
+      "deposit_out_ron": 2373475.66,
+      "return_rate_pct": 84.4,
+      "deposit_in_ron": 2003712.0
+    },
+    {
+      "month": "2026-01",
+      "containers_sold": 4776328,
+      "containers_returned": 4002924,
+      "deposit_out_ron": 2388164.34,
+      "return_rate_pct": 83.8,
+      "deposit_in_ron": 2001462.0
+    },
+    {
+      "month": "2026-02",
+      "containers_sold": 4560418,
+      "containers_returned": 3664529,
+      "deposit_out_ron": 2280209.25,
+      "return_rate_pct": 80.4,
+      "deposit_in_ron": 1832264.5
+    },
+    {
+      "month": "2026-03",
+      "containers_sold": 5103330,
+      "containers_returned": 4371516,
+      "deposit_out_ron": 2551665.49,
+      "return_rate_pct": 85.7,
+      "deposit_in_ron": 2185758.0
+    },
+    {
+      "month": "2026-04",
+      "containers_sold": 4584590,
+      "containers_returned": 3897444,
+      "deposit_out_ron": 2292295.01,
+      "return_rate_pct": 85.0,
+      "deposit_in_ron": 1948722.0
+    },
+    {
+      "month": "2026-05",
+      "containers_sold": 4729524,
+      "containers_returned": 3927847,
+      "deposit_out_ron": 2364762.29,
+      "return_rate_pct": 83.0,
+      "deposit_in_ron": 1963923.5
+    },
+    {
+      "month": "2026-06",
+      "containers_sold": 6317038,
+      "containers_returned": 5396169,
+      "deposit_out_ron": 3158519.11,
+      "return_rate_pct": 85.4,
+      "deposit_in_ron": 2698084.5
+    },
+    {
+      "month": "2026-07",
+      "containers_sold": 6082521,
+      "containers_returned": 5396800,
+      "deposit_out_ron": 3041260.63,
+      "return_rate_pct": 88.7,
+      "deposit_in_ron": 2698400.0
+    }
+  ]
+}

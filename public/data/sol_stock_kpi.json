@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "network",
+    "row_count": 1,
+    "inputs_real": [
+      "inventory status for 16,080 products × 24 stores (385,920 pairs)",
+      "network assortment membership (present in at least 18 of 24 stores)",
+      "category, brand and net price for each product"
+    ],
+    "inputs_synthetic": [
+      "category sales velocity and each store's share — from the synthetic layer",
+      "[I] 70% substitution rate: this share of blocked demand moves to another product on the shelf"
+    ],
+    "seed": 42,
+    "caveat": "Gap value combines public availability with modelled velocity. It does not demonstrate lost demand, causality or a realisable financial opportunity."
+  },
+  "data": [
+    {
+      "core_range": 8879,
+      "gaps": 9749.0,
+      "value_week_ron": 740136.0,
+      "value_year_ron": 38487072.0,
+      "avg_fill_rate_pct": 95.42,
+      "worst_fill_rate_pct": 85.21,
+      "tail_skus": 2956.0,
+      "zero_stock_skus": 85
+    }
+  ]
+}

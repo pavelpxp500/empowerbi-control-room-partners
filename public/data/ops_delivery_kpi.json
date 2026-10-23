@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "open_order_snapshot",
+    "row_count": 1,
+    "seed": 43,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Backlog is assessed as of 12 July 2026; allocatable inventory is consumed once per item × location.",
+    "seeds": [
+      43,
+      44,
+      45
+    ]
+  },
+  "data": [
+    {
+      "open_lines": 73114,
+      "overdue_lines": 7166,
+      "qty_open": 9086.24,
+      "open_value_ron": 118824.73,
+      "allocation_cover_pct": 10.37,
+      "slots": 875,
+      "overloaded_slots": 9,
+      "peak_utilisation_pct": 111.1,
+      "avg_utilisation_pct": 57.0
+    }
+  ]
+}

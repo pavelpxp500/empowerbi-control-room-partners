@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "policy_x_shelf_class",
+    "row_count": 12,
+    "inputs_real": [
+      "declared shelf life for 4,233 products, normalised to days",
+      "quantity thresholds → case-pack size for 5,597 products",
+      "actual promotion calendar (offerFrom / offerUntil windows)"
+    ],
+    "inputs_synthetic": [
+      "daily demand at SKU × store level — generated; no public data exists",
+      "[I] two-day lead time and a weekly demand profile typical of cash & carry",
+      "[I] 2.6× uplift during the promotion window"
+    ],
+    "seed": 42,
+    "caveat": "The backtest compares policies on the SAME generated demand paths. The ranking reflects policy mechanics; absolute figures are not a forecast for the Selgros market and must not be read as one."
+  },
+  "data": [
+    {
+      "policy": "shelf-life cap",
+      "shelf_class": "fresh (7–30 days)",
+      "service_pct": 99.61,
+      "waste_pct": 0.07,
+      "cover_days": 4.5,
+      "series": 240
+    },
+    {
+      "policy": "naive",
+      "shelf_class": "fresh (7–30 days)",
+      "service_pct": 99.53,
+      "waste_pct": 0.74,
+      "cover_days": 4.59,
+      "series": 240
+    },
+    {
+      "policy": "promotion-aware",
+      "shelf_class": "fresh (7–30 days)",
+      "service_pct": 99.7,
+      "waste_pct": 0.07,
+      "cover_days": 4.53,
+      "series": 240
+    },
+    {
+      "policy": "shelf-life cap",
+      "shelf_class": "long shelf life (>120 days)",
+      "service_pct": 99.76,
+      "waste_pct": 0.0,
+      "cover_days": 5.91,
+      "series": 240
+    },
+    {
+      "policy": "naive",
+      "shelf_class": "long shelf life (>120 days)",
+      "service_pct": 99.76,
+      "waste_pct": 0.0,
+      "cover_days": 5.91,
+      "series": 240
+    },
+    {
+      "policy": "promotion-aware",
+      "shelf_class": "long shelf life (>120 days)",
+      "service_pct": 99.83,
+      "waste_pct": 0.0,
+      "cover_days": 5.94,
+      "series": 240
+    },
+    {
+      "policy": "shelf-life cap",
+      "shelf_class": "short shelf life (31–120 days)",
+      "service_pct": 99.39,
+      "waste_pct": 0.0,
+      "cover_days": 4.9,
+      "series": 240
+    },
+    {
+      "policy": "naive",
+      "shelf_class": "short shelf life (31–120 days)",
+      "service_pct": 99.39,
+      "waste_pct": 0.0,
+      "cover_days": 4.9,
+      "series": 240
+    },
+    {
+      "policy": "promotion-aware",
+      "shelf_class": "short shelf life (31–120 days)",
+      "service_pct": 99.61,
+      "waste_pct": 0.0,
+      "cover_days": 4.98,
+      "series": 240
+    },
+    {
+      "policy": "shelf-life cap",
+      "shelf_class": "ultra-fresh (<7 days)",
+      "service_pct": 91.78,
+      "waste_pct": 16.3,
+      "cover_days": 1.61,
+      "series": 72
+    },
+    {
+      "policy": "naive",
+      "shelf_class": "ultra-fresh (<7 days)",
+      "service_pct": 89.68,
+      "waste_pct": 24.82,
+      "cover_days": 1.99,
+      "series": 72
+    },
+    {
+      "policy": "promotion-aware",
+      "shelf_class": "ultra-fresh (<7 days)",
+      "service_pct": 91.86,
+      "waste_pct": 16.29,
+      "cover_days": 1.61,
+      "series": 72
+    }
+  ]
+}

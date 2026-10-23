@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "age_bucket",
+    "row_count": 4,
+    "seed": 44,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "age_bucket": "0-30",
+      "skus": 4855,
+      "qty_base": 7854568.01,
+      "pallets": 14164.9,
+      "value_ron": 59394772.99,
+      "value_share_pct": 54.94
+    },
+    {
+      "age_bucket": "31-60",
+      "skus": 2958,
+      "qty_base": 4802756.01,
+      "pallets": 6781.2,
+      "value_ron": 35213573.25,
+      "value_share_pct": 32.57
+    },
+    {
+      "age_bucket": "6190",
+      "skus": 803,
+      "qty_base": 1412774.81,
+      "pallets": 1923.7,
+      "value_ron": 10061967.02,
+      "value_share_pct": 9.31
+    },
+    {
+      "age_bucket": "91- 180",
+      "skus": 263,
+      "qty_base": 438000.61,
+      "pallets": 601.2,
+      "value_ron": 3442895.69,
+      "value_share_pct": 3.18
+    }
+  ]
+}

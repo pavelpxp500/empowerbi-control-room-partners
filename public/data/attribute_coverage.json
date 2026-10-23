@@ -1,0 +1,737 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "attribute",
+    "row_count": 120,
+    "totals": {
+      "distinct_names": 926,
+      "group_attr_pairs": 929,
+      "eav_pairs": 336059
+    }
+  },
+  "data": [
+    {
+      "attr_group": "General information",
+      "attr_name": "Dimensions",
+      "product_count": 16078,
+      "coverage_pct": 99.988
+    },
+    {
+      "attr_group": "General information",
+      "attr_name": "Brand",
+      "product_count": 14384,
+      "coverage_pct": 89.453
+    },
+    {
+      "attr_group": "General information",
+      "attr_name": "Weight",
+      "product_count": 8219,
+      "coverage_pct": 51.113
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Country of origin / Made in",
+      "product_count": 7690,
+      "coverage_pct": 47.823
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Ingredients",
+      "product_count": 6217,
+      "coverage_pct": 38.663
+    },
+    {
+      "attr_group": "General information",
+      "attr_name": "Ingredients",
+      "product_count": 5971,
+      "coverage_pct": 37.133
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Fish and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "General information",
+      "attr_name": "Storage",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Milk and derived products (including lactose)",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Soya and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains GMOs (genetically modified organisms)",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Mustard and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Celery and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Eggs and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Lupins and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Declaration on data correctness",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Sulphur dioxide and sulphites",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Cereals containing gluten",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Crustaceans and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Tree nuts (walnuts, almonds, cashews, etc.)",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Unit of measurement",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Portion size",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Sesame seed and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Molluscs and derived products",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "I've introduced nutritional values",
+      "product_count": 4903,
+      "coverage_pct": 30.491
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Groundnuts and derived products",
+      "product_count": 4610,
+      "coverage_pct": 28.669
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Barley and derived products",
+      "product_count": 4602,
+      "coverage_pct": 28.619
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Macadamia nuts and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Pistachios and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Rye and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Oats and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Cashew nuts and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Walnuts and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Almonds and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Hazelnuts and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Wheat and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Brazil nuts and derived products",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Pine nuts and derivatives",
+      "product_count": 4601,
+      "coverage_pct": 28.613
+    },
+    {
+      "attr_group": "Allergens",
+      "attr_name": "Pecans and derived products",
+      "product_count": 4600,
+      "coverage_pct": 28.607
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Energy value kcal",
+      "product_count": 4267,
+      "coverage_pct": 26.536
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Energy value kJ (energy)",
+      "product_count": 4262,
+      "coverage_pct": 26.505
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Carbohydrates (sugars)",
+      "product_count": 4246,
+      "coverage_pct": 26.405
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Protein (generally)",
+      "product_count": 4242,
+      "coverage_pct": 26.381
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Fat (saturated fatty acids) in the declared unit (g)",
+      "product_count": 4238,
+      "coverage_pct": 26.356
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Fat (in general)",
+      "product_count": 4234,
+      "coverage_pct": 26.331
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Salt content (generally) in the declared unit (g or ml)",
+      "product_count": 4230,
+      "coverage_pct": 26.306
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Carbohydrates (generally)",
+      "product_count": 4224,
+      "coverage_pct": 26.269
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Term of validity",
+      "product_count": 3623,
+      "coverage_pct": 22.531
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Net content",
+      "product_count": 3611,
+      "coverage_pct": 22.456
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Type",
+      "product_count": 3120,
+      "coverage_pct": 19.403
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Aroma",
+      "product_count": 2522,
+      "coverage_pct": 15.684
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Product with variable weight",
+      "product_count": 2184,
+      "coverage_pct": 13.582
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Packaging information",
+      "product_count": 1984,
+      "coverage_pct": 12.338
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Temperature storage min. - max.",
+      "product_count": 1961,
+      "coverage_pct": 12.195
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "For diabetics",
+      "product_count": 1563,
+      "coverage_pct": 9.72
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Product type",
+      "product_count": 1537,
+      "coverage_pct": 9.558
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Net content / piece",
+      "product_count": 1536,
+      "coverage_pct": 9.552
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Composition type",
+      "product_count": 1408,
+      "coverage_pct": 8.756
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Fibres (generally)",
+      "product_count": 1353,
+      "coverage_pct": 8.414
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "SGR Guarantee",
+      "product_count": 1251,
+      "coverage_pct": 7.78
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "SGR product",
+      "product_count": 1251,
+      "coverage_pct": 7.78
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Color",
+      "product_count": 1196,
+      "coverage_pct": 7.438
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Country of origin of the main ingredient",
+      "product_count": 1146,
+      "coverage_pct": 7.127
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Use",
+      "product_count": 1060,
+      "coverage_pct": 6.592
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Edible membrane",
+      "product_count": 912,
+      "coverage_pct": 5.672
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains licorice",
+      "product_count": 854,
+      "coverage_pct": 5.311
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Details of sweeteners",
+      "product_count": 843,
+      "coverage_pct": 5.243
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Shelf life",
+      "product_count": 831,
+      "coverage_pct": 5.168
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Product type",
+      "product_count": 804,
+      "coverage_pct": 5.0
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains dyes",
+      "product_count": 801,
+      "coverage_pct": 4.981
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains taurine",
+      "product_count": 797,
+      "coverage_pct": 4.956
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Alcohol content",
+      "product_count": 795,
+      "coverage_pct": 4.944
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains antioxidants",
+      "product_count": 791,
+      "coverage_pct": 4.919
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains quinine",
+      "product_count": 783,
+      "coverage_pct": 4.869
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains flavor enhancers",
+      "product_count": 776,
+      "coverage_pct": 4.826
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains phosphates",
+      "product_count": 774,
+      "coverage_pct": 4.813
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Smell",
+      "product_count": 766,
+      "coverage_pct": 4.764
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Containing sulphites",
+      "product_count": 738,
+      "coverage_pct": 4.59
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains preservatives",
+      "product_count": 709,
+      "coverage_pct": 4.409
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Number of portions of the package",
+      "product_count": 693,
+      "coverage_pct": 4.31
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Contains",
+      "product_count": 685,
+      "coverage_pct": 4.26
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Serving",
+      "product_count": 681,
+      "coverage_pct": 4.235
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Products containing phytosterols, phytosterol esters, phytostanols or phytostanol esters",
+      "product_count": 670,
+      "coverage_pct": 4.167
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Dermatologic testing",
+      "product_count": 652,
+      "coverage_pct": 4.055
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Sustainability from opening",
+      "product_count": 624,
+      "coverage_pct": 3.881
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Shelf life",
+      "product_count": 622,
+      "coverage_pct": 3.868
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Energy value kcal in a portion (energy)",
+      "product_count": 573,
+      "coverage_pct": 3.563
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Net volume / piece",
+      "product_count": 572,
+      "coverage_pct": 3.557
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Net content",
+      "product_count": 567,
+      "coverage_pct": 3.526
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Actuation",
+      "product_count": 561,
+      "coverage_pct": 3.489
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Energy value kJ in a portion (energy)",
+      "product_count": 558,
+      "coverage_pct": 3.47
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Carbohydrate in a portion (sugars)",
+      "product_count": 548,
+      "coverage_pct": 3.408
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Salt in a portion (generally)",
+      "product_count": 542,
+      "coverage_pct": 3.371
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Usage",
+      "product_count": 542,
+      "coverage_pct": 3.371
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Carbohydrate in a portion (generally)",
+      "product_count": 541,
+      "coverage_pct": 3.364
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains caffeine",
+      "product_count": 533,
+      "coverage_pct": 3.315
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Proteins in a portion (in general)",
+      "product_count": 517,
+      "coverage_pct": 3.215
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Fat in a portion (in general)",
+      "product_count": 500,
+      "coverage_pct": 3.109
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Fat in a portion (saturated fatty acids)",
+      "product_count": 496,
+      "coverage_pct": 3.085
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "The product contains several packages",
+      "product_count": 492,
+      "coverage_pct": 3.06
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Milk type",
+      "product_count": 472,
+      "coverage_pct": 2.935
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Validity from opening",
+      "product_count": 463,
+      "coverage_pct": 2.879
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Treatment of the product",
+      "product_count": 451,
+      "coverage_pct": 2.805
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Entry into the CPNP database (Cosmetic Products Notification Portal)",
+      "product_count": 439,
+      "coverage_pct": 2.73
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Label marking",
+      "product_count": 431,
+      "coverage_pct": 2.68
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Wine comes from the European Union",
+      "product_count": 431,
+      "coverage_pct": 2.68
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains palm oil",
+      "product_count": 428,
+      "coverage_pct": 2.662
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Region of origin",
+      "product_count": 424,
+      "coverage_pct": 2.637
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains natural or synthetic flavourings",
+      "product_count": 417,
+      "coverage_pct": 2.593
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains antibiotics",
+      "product_count": 413,
+      "coverage_pct": 2.568
+    },
+    {
+      "attr_group": "Other information about content",
+      "attr_name": "Contains hydrogenated fats (trans).",
+      "product_count": 401,
+      "coverage_pct": 2.494
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Servicing temperature",
+      "product_count": 400,
+      "coverage_pct": 2.488
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Dimensions (Lat.xAlde.xAdan.)",
+      "product_count": 383,
+      "coverage_pct": 2.382
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Fat (mononesatted fatty acids) in the declared unit (g)",
+      "product_count": 377,
+      "coverage_pct": 2.345
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Product based on milk with added fats and / or proteins other than dairy",
+      "product_count": 371,
+      "coverage_pct": 2.307
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Vine variety",
+      "product_count": 361,
+      "coverage_pct": 2.245
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Net weight drained / dry / piece",
+      "product_count": 358,
+      "coverage_pct": 2.226
+    },
+    {
+      "attr_group": "Nutritional information",
+      "attr_name": "Fat (polyunsaturated fatty acids)",
+      "product_count": 348,
+      "coverage_pct": 2.164
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "Minimum durability (from receipt)",
+      "product_count": 338,
+      "coverage_pct": 2.102
+    },
+    {
+      "attr_group": "Product Parameters",
+      "attr_name": "For children from the age of",
+      "product_count": 334,
+      "coverage_pct": 2.077
+    }
+  ]
+}

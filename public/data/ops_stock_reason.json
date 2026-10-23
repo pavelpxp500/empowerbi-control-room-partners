@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "reason_code",
+    "row_count": 8,
+    "seed": 44,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "reason_code": "100",
+      "reason_label": "available for picking",
+      "reason_group": "Free",
+      "blocks_sale": 0,
+      "snapshot_rows": 4646,
+      "skus": 4646,
+      "pallets": 12664.6,
+      "value_ron": 56205283.65
+    },
+    {
+      "reason_code": "110",
+      "reason_label": "available in reserve",
+      "reason_group": "Free",
+      "blocks_sale": 0,
+      "snapshot_rows": 2333,
+      "skus": 2333,
+      "pallets": 5306.8,
+      "value_ron": 28848344.7
+    },
+    {
+      "reason_code": "200",
+      "reason_label": "allocated to orders",
+      "reason_group": "allocated",
+      "blocks_sale": 1,
+      "snapshot_rows": 999,
+      "skus": 999,
+      "pallets": 2741.7,
+      "value_ron": 12082736.09
+    },
+    {
+      "reason_code": "300",
+      "reason_label": "quality hold",
+      "reason_group": "locked",
+      "blocks_sale": 1,
+      "snapshot_rows": 245,
+      "skus": 245,
+      "pallets": 1257.2,
+      "value_ron": 2782252.86
+    },
+    {
+      "reason_code": "310",
+      "reason_label": "short-shelf-life hold",
+      "reason_group": "locked",
+      "blocks_sale": 1,
+      "snapshot_rows": 210,
+      "skus": 210,
+      "pallets": 479.0,
+      "value_ron": 2575461.28
+    },
+    {
+      "reason_code": "400",
+      "reason_label": "customer return",
+      "reason_group": "return",
+      "blocks_sale": 1,
+      "snapshot_rows": 168,
+      "skus": 168,
+      "pallets": 306.5,
+      "value_ron": 1900469.99
+    },
+    {
+      "reason_code": "500",
+      "reason_label": "in internal transit",
+      "reason_group": "transit",
+      "blocks_sale": 1,
+      "snapshot_rows": 133,
+      "skus": 133,
+      "pallets": 352.1,
+      "value_ron": 1865092.56
+    },
+    {
+      "reason_code": "410",
+      "reason_label": "damaged",
+      "reason_group": "locked",
+      "blocks_sale": 1,
+      "snapshot_rows": 145,
+      "skus": 145,
+      "pallets": 363.1,
+      "value_ron": 1853567.82
+    }
+  ]
+}

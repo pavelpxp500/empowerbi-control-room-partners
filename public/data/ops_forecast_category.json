@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1",
+    "row_count": 24,
+    "seed": 45,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "WAPE aggregated by category; low-volume categories do not receive the same weight as high-volume categories."
+  },
+  "data": [
+    {
+      "cat_l1": "Personal care and cosmetics",
+      "skus": 2,
+      "wape_pct": 15.8,
+      "bias_pct": -3.17
+    },
+    {
+      "cat_l1": "Electronics, appliances and IT",
+      "skus": 2,
+      "wape_pct": 12.65,
+      "bias_pct": 0.27
+    },
+    {
+      "cat_l1": "Household cleaning and care",
+      "skus": 5,
+      "wape_pct": 12.49,
+      "bias_pct": 1.29
+    },
+    {
+      "cat_l1": "Ready-to-eat",
+      "skus": 6,
+      "wape_pct": 12.3,
+      "bias_pct": 1.9
+    },
+    {
+      "cat_l1": "Children's clothing, footwear and accessories",
+      "skus": 5,
+      "wape_pct": 12.25,
+      "bias_pct": 3.13
+    },
+    {
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "skus": 6,
+      "wape_pct": 12.22,
+      "bias_pct": -1.15
+    },
+    {
+      "cat_l1": "Bakery",
+      "skus": 40,
+      "wape_pct": 12.08,
+      "bias_pct": 0.9
+    },
+    {
+      "cat_l1": "Fresh meat",
+      "skus": 5,
+      "wape_pct": 11.95,
+      "bias_pct": -0.48
+    },
+    {
+      "cat_l1": "Garden and patio",
+      "skus": 4,
+      "wape_pct": 11.87,
+      "bias_pct": -2.6
+    },
+    {
+      "cat_l1": "Kitchen and tableware",
+      "skus": 3,
+      "wape_pct": 11.82,
+      "bias_pct": -4.74
+    },
+    {
+      "cat_l1": "Frozen foods",
+      "skus": 13,
+      "wape_pct": 11.72,
+      "bias_pct": 1.87
+    },
+    {
+      "cat_l1": "Ice cream",
+      "skus": 6,
+      "wape_pct": 11.68,
+      "bias_pct": -4.56
+    },
+    {
+      "cat_l1": "Pet food and accessories",
+      "skus": 2,
+      "wape_pct": 11.66,
+      "bias_pct": 0.39
+    },
+    {
+      "cat_l1": "Automotive",
+      "skus": 3,
+      "wape_pct": 11.58,
+      "bias_pct": -0.79
+    },
+    {
+      "cat_l1": "Beer and cider",
+      "skus": 62,
+      "wape_pct": 11.55,
+      "bias_pct": 0.27
+    },
+    {
+      "cat_l1": "Office supplies and stationery",
+      "skus": 4,
+      "wape_pct": 11.54,
+      "bias_pct": -0.31
+    },
+    {
+      "cat_l1": "Fruit and vegetables",
+      "skus": 122,
+      "wape_pct": 11.46,
+      "bias_pct": -0.35
+    },
+    {
+      "cat_l1": "Staples and canned goods",
+      "skus": 218,
+      "wape_pct": 11.41,
+      "bias_pct": -0.22
+    },
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "skus": 1,
+      "wape_pct": 11.4,
+      "bias_pct": -2.26
+    },
+    {
+      "cat_l1": "Fish and seafood",
+      "skus": 7,
+      "wape_pct": 11.35,
+      "bias_pct": 2.62
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "skus": 176,
+      "wape_pct": 11.23,
+      "bias_pct": 0.21
+    },
+    {
+      "cat_l1": "Confectionery and snacks",
+      "skus": 145,
+      "wape_pct": 11.13,
+      "bias_pct": 0.04
+    },
+    {
+      "cat_l1": "Water",
+      "skus": 72,
+      "wape_pct": 11.1,
+      "bias_pct": -0.06
+    },
+    {
+      "cat_l1": "Cheese, dairy and eggs",
+      "skus": 195,
+      "wape_pct": 11.02,
+      "bias_pct": -0.22
+    }
+  ]
+}

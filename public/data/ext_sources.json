@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "data_label": "THIRD-PARTY SOURCE — published figure with named citation",
+    "source": "third-party publications",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "external_figure",
+    "row_count": 10
+  },
+  "data": [
+    {
+      "key": "selgros_2024_net_result_ron",
+      "value": "67200000",
+      "source": "Financial newspaper, 02.06.2026",
+      "url": "https://www.zf.ro/companii/retail-agrobusiness/lantul-de-magazine-de-tip-cash-carry-selgros-a-trecut-pe-pierdere-in-23163918"
+    },
+    {
+      "key": "selgros_2024_turnover_ron",
+      "value": "4550000000",
+      "source": "Financial newspaper, 02.06.2026",
+      "url": "https://www.zf.ro/companii/retail-agrobusiness/lantul-de-magazine-de-tip-cash-carry-selgros-a-trecut-pe-pierdere-in-23163918"
+    },
+    {
+      "key": "selgros_2025_employees",
+      "value": "4822",
+      "source": "Financial newspaper, 02.06.2026",
+      "url": "https://www.zf.ro/companii/retail-agrobusiness/lantul-de-magazine-de-tip-cash-carry-selgros-a-trecut-pe-pierdere-in-23163918"
+    },
+    {
+      "key": "selgros_2025_net_result_ron",
+      "value": "-47300000",
+      "source": "Financial newspaper, 02.06.2026",
+      "url": "https://www.zf.ro/companii/retail-agrobusiness/lantul-de-magazine-de-tip-cash-carry-selgros-a-trecut-pe-pierdere-in-23163918"
+    },
+    {
+      "key": "selgros_2025_turnover_ron",
+      "value": "4460000000",
+      "source": "Financial newspaper, 02.06.2026",
+      "url": "https://www.zf.ro/companii/retail-agrobusiness/lantul-de-magazine-de-tip-cash-carry-selgros-a-trecut-pe-pierdere-in-23163918"
+    },
+    {
+      "key": "selgros_stores_ro",
+      "value": "24",
+      "source": "Coop Group Annual Report 2025",
+      "url": "https://report.coop.ch/en/wholesale-production/"
+    },
+    {
+      "key": "selgros_stores_ro_zf",
+      "value": "24",
+      "source": "Financial newspaper, 02.06.2026",
+      "url": "https://www.zf.ro/companii/retail-agrobusiness/lantul-de-magazine-de-tip-cash-carry-selgros-a-trecut-pe-pierdere-in-23163918"
+    },
+    {
+      "key": "transgourmet_2025_sales_chf",
+      "value": "11900000000",
+      "source": "Coop Group Annual Report 2025",
+      "url": "https://report.coop.ch/en/wholesale-production/"
+    },
+    {
+      "key": "transgourmet_countries",
+      "value": "7",
+      "source": "Coop Group Annual Report 2025",
+      "url": "https://report.coop.ch/en/wholesale-production/"
+    },
+    {
+      "key": "transgourmet_employees",
+      "value": "31212",
+      "source": "Coop Group Annual Report 2025",
+      "url": "https://report.coop.ch/en/wholesale-production/"
+    }
+  ]
+}

@@ -1,0 +1,3473 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "store_x_month",
+    "row_count": 432,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[I] OTIF, inventory cover, NPS and customer count are entirely generated"
+    ]
+  },
+  "data": [
+    {
+      "month": "2025-02",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 91.9,
+      "lines": 48354,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 89.9,
+      "lines": 41662,
+      "status": "red"
+    },
+    {
+      "month": "2025-02",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 96.3,
+      "lines": 50158,
+      "status": "green"
+    },
+    {
+      "month": "2025-02",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 95.5,
+      "lines": 49440,
+      "status": "green"
+    },
+    {
+      "month": "2025-02",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 95.7,
+      "lines": 43810,
+      "status": "green"
+    },
+    {
+      "month": "2025-02",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 93.4,
+      "lines": 63124,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 91.0,
+      "lines": 52757,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 95.8,
+      "lines": 43313,
+      "status": "green"
+    },
+    {
+      "month": "2025-02",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 91.3,
+      "lines": 45956,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 87.5,
+      "lines": 44589,
+      "status": "red"
+    },
+    {
+      "month": "2025-02",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 91.5,
+      "lines": 47740,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 87.6,
+      "lines": 44752,
+      "status": "red"
+    },
+    {
+      "month": "2025-02",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 96.9,
+      "lines": 37625,
+      "status": "green"
+    },
+    {
+      "month": "2025-02",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 97.8,
+      "lines": 47535,
+      "status": "green"
+    },
+    {
+      "month": "2025-02",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 95.6,
+      "lines": 45032,
+      "status": "green"
+    },
+    {
+      "month": "2025-02",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 90.9,
+      "lines": 45442,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 94.6,
+      "lines": 41709,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 92.5,
+      "lines": 54454,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 90.9,
+      "lines": 48078,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 91.0,
+      "lines": 54097,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 90.8,
+      "lines": 38092,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 93.9,
+      "lines": 53093,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-02",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 87.4,
+      "lines": 48739,
+      "status": "red"
+    },
+    {
+      "month": "2025-02",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 92.2,
+      "lines": 50951,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 90.3,
+      "lines": 58162,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.8,
+      "lines": 47172,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 94.1,
+      "lines": 52748,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 92.0,
+      "lines": 52542,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 92.2,
+      "lines": 37440,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 96.4,
+      "lines": 55825,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 90.1,
+      "lines": 37124,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 97.5,
+      "lines": 52879,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 97.5,
+      "lines": 46577,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 88.5,
+      "lines": 48403,
+      "status": "red"
+    },
+    {
+      "month": "2025-03",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 95.3,
+      "lines": 53414,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 90.2,
+      "lines": 44230,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 96.6,
+      "lines": 49687,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 95.9,
+      "lines": 54738,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 96.7,
+      "lines": 38637,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 87.9,
+      "lines": 47275,
+      "status": "red"
+    },
+    {
+      "month": "2025-03",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 96.0,
+      "lines": 42141,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 97.4,
+      "lines": 42317,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 88.3,
+      "lines": 44762,
+      "status": "red"
+    },
+    {
+      "month": "2025-03",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 97.3,
+      "lines": 52358,
+      "status": "green"
+    },
+    {
+      "month": "2025-03",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 92.7,
+      "lines": 39182,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 93.0,
+      "lines": 52731,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 90.0,
+      "lines": 45359,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-03",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 93.9,
+      "lines": 47841,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 89.5,
+      "lines": 50565,
+      "status": "red"
+    },
+    {
+      "month": "2025-04",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.3,
+      "lines": 54235,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 90.8,
+      "lines": 51864,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 94.3,
+      "lines": 45842,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 91.2,
+      "lines": 42621,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 96.2,
+      "lines": 59117,
+      "status": "green"
+    },
+    {
+      "month": "2025-04",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 91.5,
+      "lines": 52351,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 95.7,
+      "lines": 46375,
+      "status": "green"
+    },
+    {
+      "month": "2025-04",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 97.7,
+      "lines": 42899,
+      "status": "green"
+    },
+    {
+      "month": "2025-04",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 87.9,
+      "lines": 47895,
+      "status": "red"
+    },
+    {
+      "month": "2025-04",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 94.9,
+      "lines": 43574,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 89.2,
+      "lines": 50648,
+      "status": "red"
+    },
+    {
+      "month": "2025-04",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 98.5,
+      "lines": 45975,
+      "status": "green"
+    },
+    {
+      "month": "2025-04",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 99.7,
+      "lines": 48480,
+      "status": "green"
+    },
+    {
+      "month": "2025-04",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 95.0,
+      "lines": 44616,
+      "status": "green"
+    },
+    {
+      "month": "2025-04",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 92.6,
+      "lines": 52948,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 94.1,
+      "lines": 46228,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 91.1,
+      "lines": 42733,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 90.3,
+      "lines": 50480,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 92.9,
+      "lines": 45408,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 91.2,
+      "lines": 45636,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 95.9,
+      "lines": 54329,
+      "status": "green"
+    },
+    {
+      "month": "2025-04",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 94.7,
+      "lines": 38844,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-04",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 96.2,
+      "lines": 52554,
+      "status": "green"
+    },
+    {
+      "month": "2025-05",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 90.9,
+      "lines": 58557,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 90.9,
+      "lines": 46582,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 91.8,
+      "lines": 49910,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 93.2,
+      "lines": 55083,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 92.0,
+      "lines": 49879,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 93.2,
+      "lines": 32635,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 92.1,
+      "lines": 50533,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 95.6,
+      "lines": 47371,
+      "status": "green"
+    },
+    {
+      "month": "2025-05",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 93.8,
+      "lines": 47571,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 88.5,
+      "lines": 49048,
+      "status": "red"
+    },
+    {
+      "month": "2025-05",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 93.7,
+      "lines": 46071,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 89.0,
+      "lines": 49356,
+      "status": "red"
+    },
+    {
+      "month": "2025-05",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 98.3,
+      "lines": 49122,
+      "status": "green"
+    },
+    {
+      "month": "2025-05",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 95.4,
+      "lines": 51653,
+      "status": "green"
+    },
+    {
+      "month": "2025-05",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 93.8,
+      "lines": 50572,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 89.3,
+      "lines": 54971,
+      "status": "red"
+    },
+    {
+      "month": "2025-05",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 95.2,
+      "lines": 35285,
+      "status": "green"
+    },
+    {
+      "month": "2025-05",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 96.1,
+      "lines": 54254,
+      "status": "green"
+    },
+    {
+      "month": "2025-05",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 91.8,
+      "lines": 44512,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 91.3,
+      "lines": 60358,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 90.6,
+      "lines": 50278,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 94.6,
+      "lines": 67447,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 91.6,
+      "lines": 42031,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-05",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 96.7,
+      "lines": 36410,
+      "status": "green"
+    },
+    {
+      "month": "2025-06",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 89.8,
+      "lines": 43588,
+      "status": "red"
+    },
+    {
+      "month": "2025-06",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.6,
+      "lines": 43775,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 92.8,
+      "lines": 51007,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 96.2,
+      "lines": 52455,
+      "status": "green"
+    },
+    {
+      "month": "2025-06",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 91.9,
+      "lines": 29138,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 93.9,
+      "lines": 51349,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 90.3,
+      "lines": 43159,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 95.7,
+      "lines": 46872,
+      "status": "green"
+    },
+    {
+      "month": "2025-06",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 96.4,
+      "lines": 45909,
+      "status": "green"
+    },
+    {
+      "month": "2025-06",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 84.1,
+      "lines": 59285,
+      "status": "red"
+    },
+    {
+      "month": "2025-06",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 93.3,
+      "lines": 60222,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 92.7,
+      "lines": 46968,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 94.2,
+      "lines": 39508,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 97.7,
+      "lines": 44019,
+      "status": "green"
+    },
+    {
+      "month": "2025-06",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 97.1,
+      "lines": 45940,
+      "status": "green"
+    },
+    {
+      "month": "2025-06",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 94.5,
+      "lines": 55512,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 96.2,
+      "lines": 43938,
+      "status": "green"
+    },
+    {
+      "month": "2025-06",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 92.7,
+      "lines": 48219,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 91.8,
+      "lines": 46907,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 92.7,
+      "lines": 60693,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 94.5,
+      "lines": 44703,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 96.3,
+      "lines": 49949,
+      "status": "green"
+    },
+    {
+      "month": "2025-06",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 92.6,
+      "lines": 49790,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-06",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 94.7,
+      "lines": 52168,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 89.7,
+      "lines": 49940,
+      "status": "red"
+    },
+    {
+      "month": "2025-07",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 95.9,
+      "lines": 53451,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 93.4,
+      "lines": 29561,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 92.7,
+      "lines": 47675,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 92.2,
+      "lines": 45168,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 95.0,
+      "lines": 49652,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 92.0,
+      "lines": 50558,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 96.3,
+      "lines": 52519,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 98.6,
+      "lines": 42898,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 88.3,
+      "lines": 51483,
+      "status": "red"
+    },
+    {
+      "month": "2025-07",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 90.4,
+      "lines": 46591,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 91.9,
+      "lines": 51356,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 98.8,
+      "lines": 55175,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 99.7,
+      "lines": 49527,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 96.6,
+      "lines": 48298,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 92.8,
+      "lines": 54083,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 96.8,
+      "lines": 45131,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 91.4,
+      "lines": 53340,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 85.4,
+      "lines": 45091,
+      "status": "red"
+    },
+    {
+      "month": "2025-07",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 95.7,
+      "lines": 37555,
+      "status": "green"
+    },
+    {
+      "month": "2025-07",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 92.3,
+      "lines": 51224,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 92.6,
+      "lines": 47417,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 91.6,
+      "lines": 42330,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-07",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 91.3,
+      "lines": 44070,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 88.9,
+      "lines": 45128,
+      "status": "red"
+    },
+    {
+      "month": "2025-08",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.8,
+      "lines": 58765,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 93.5,
+      "lines": 51852,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 93.7,
+      "lines": 47305,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 93.0,
+      "lines": 57117,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 97.2,
+      "lines": 50292,
+      "status": "green"
+    },
+    {
+      "month": "2025-08",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 89.9,
+      "lines": 54656,
+      "status": "red"
+    },
+    {
+      "month": "2025-08",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 93.5,
+      "lines": 41696,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 96.9,
+      "lines": 48407,
+      "status": "green"
+    },
+    {
+      "month": "2025-08",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 86.0,
+      "lines": 45173,
+      "status": "red"
+    },
+    {
+      "month": "2025-08",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 96.0,
+      "lines": 39204,
+      "status": "green"
+    },
+    {
+      "month": "2025-08",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 86.9,
+      "lines": 41387,
+      "status": "red"
+    },
+    {
+      "month": "2025-08",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 97.3,
+      "lines": 56974,
+      "status": "green"
+    },
+    {
+      "month": "2025-08",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 98.5,
+      "lines": 44102,
+      "status": "green"
+    },
+    {
+      "month": "2025-08",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 93.4,
+      "lines": 46452,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 90.1,
+      "lines": 52278,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 94.4,
+      "lines": 59482,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 92.3,
+      "lines": 46439,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 93.0,
+      "lines": 37909,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 91.8,
+      "lines": 43985,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 91.7,
+      "lines": 43303,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-08",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 97.0,
+      "lines": 58257,
+      "status": "green"
+    },
+    {
+      "month": "2025-08",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 89.4,
+      "lines": 53563,
+      "status": "red"
+    },
+    {
+      "month": "2025-08",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 92.6,
+      "lines": 48130,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 87.4,
+      "lines": 49442,
+      "status": "red"
+    },
+    {
+      "month": "2025-09",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 90.4,
+      "lines": 47953,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 94.0,
+      "lines": 47384,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 93.0,
+      "lines": 41652,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 93.0,
+      "lines": 53285,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 96.2,
+      "lines": 42362,
+      "status": "green"
+    },
+    {
+      "month": "2025-09",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 89.3,
+      "lines": 44498,
+      "status": "red"
+    },
+    {
+      "month": "2025-09",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 92.5,
+      "lines": 53198,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 93.3,
+      "lines": 40085,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 87.3,
+      "lines": 56818,
+      "status": "red"
+    },
+    {
+      "month": "2025-09",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 92.5,
+      "lines": 44825,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 88.1,
+      "lines": 42870,
+      "status": "red"
+    },
+    {
+      "month": "2025-09",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 98.7,
+      "lines": 52101,
+      "status": "green"
+    },
+    {
+      "month": "2025-09",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 99.6,
+      "lines": 45543,
+      "status": "green"
+    },
+    {
+      "month": "2025-09",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 94.5,
+      "lines": 43820,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 91.4,
+      "lines": 38091,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 94.0,
+      "lines": 55433,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 94.2,
+      "lines": 46872,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 91.1,
+      "lines": 57511,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 92.9,
+      "lines": 47638,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 95.4,
+      "lines": 53305,
+      "status": "green"
+    },
+    {
+      "month": "2025-09",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 97.1,
+      "lines": 52711,
+      "status": "green"
+    },
+    {
+      "month": "2025-09",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 94.3,
+      "lines": 50881,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-09",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 97.3,
+      "lines": 60135,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 90.5,
+      "lines": 39071,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.9,
+      "lines": 42512,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 96.3,
+      "lines": 49868,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 95.1,
+      "lines": 41158,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 94.2,
+      "lines": 47746,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 92.6,
+      "lines": 57684,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 94.1,
+      "lines": 53211,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 96.3,
+      "lines": 51031,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 96.3,
+      "lines": 59887,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 87.5,
+      "lines": 52548,
+      "status": "red"
+    },
+    {
+      "month": "2025-10",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 93.3,
+      "lines": 38424,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 89.5,
+      "lines": 51687,
+      "status": "red"
+    },
+    {
+      "month": "2025-10",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 95.0,
+      "lines": 58388,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 97.3,
+      "lines": 46004,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 95.9,
+      "lines": 49407,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 90.8,
+      "lines": 48033,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 94.6,
+      "lines": 50492,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 92.6,
+      "lines": 48063,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 89.5,
+      "lines": 48012,
+      "status": "red"
+    },
+    {
+      "month": "2025-10",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 98.8,
+      "lines": 41536,
+      "status": "green"
+    },
+    {
+      "month": "2025-10",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 94.2,
+      "lines": 53553,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 91.9,
+      "lines": 50922,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-10",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 89.2,
+      "lines": 50033,
+      "status": "red"
+    },
+    {
+      "month": "2025-10",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 92.7,
+      "lines": 51159,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 93.6,
+      "lines": 40153,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.8,
+      "lines": 41360,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 94.0,
+      "lines": 54266,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 91.8,
+      "lines": 48585,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 92.6,
+      "lines": 47647,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 94.9,
+      "lines": 44260,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 90.3,
+      "lines": 49724,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 93.1,
+      "lines": 58709,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 97.4,
+      "lines": 37646,
+      "status": "green"
+    },
+    {
+      "month": "2025-11",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 87.4,
+      "lines": 45284,
+      "status": "red"
+    },
+    {
+      "month": "2025-11",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 94.8,
+      "lines": 51997,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 92.1,
+      "lines": 49849,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 97.7,
+      "lines": 45684,
+      "status": "green"
+    },
+    {
+      "month": "2025-11",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 99.7,
+      "lines": 46931,
+      "status": "green"
+    },
+    {
+      "month": "2025-11",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 92.1,
+      "lines": 38090,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 91.3,
+      "lines": 50256,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 94.6,
+      "lines": 53087,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 94.5,
+      "lines": 57878,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 88.4,
+      "lines": 57763,
+      "status": "red"
+    },
+    {
+      "month": "2025-11",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 93.5,
+      "lines": 51699,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 89.3,
+      "lines": 56123,
+      "status": "red"
+    },
+    {
+      "month": "2025-11",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 91.9,
+      "lines": 39075,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-11",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 95.5,
+      "lines": 48614,
+      "status": "green"
+    },
+    {
+      "month": "2025-11",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 95.3,
+      "lines": 50325,
+      "status": "green"
+    },
+    {
+      "month": "2025-12",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 93.0,
+      "lines": 43793,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 94.5,
+      "lines": 54347,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 93.9,
+      "lines": 42611,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 96.4,
+      "lines": 45463,
+      "status": "green"
+    },
+    {
+      "month": "2025-12",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 92.7,
+      "lines": 49020,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 93.5,
+      "lines": 44105,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 91.3,
+      "lines": 31526,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 94.6,
+      "lines": 49009,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 90.4,
+      "lines": 52398,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 88.1,
+      "lines": 55703,
+      "status": "red"
+    },
+    {
+      "month": "2025-12",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 94.7,
+      "lines": 42777,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 88.9,
+      "lines": 35506,
+      "status": "red"
+    },
+    {
+      "month": "2025-12",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 95.4,
+      "lines": 49540,
+      "status": "green"
+    },
+    {
+      "month": "2025-12",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 96.7,
+      "lines": 53934,
+      "status": "green"
+    },
+    {
+      "month": "2025-12",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 95.9,
+      "lines": 43108,
+      "status": "green"
+    },
+    {
+      "month": "2025-12",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 89.5,
+      "lines": 35237,
+      "status": "red"
+    },
+    {
+      "month": "2025-12",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 93.2,
+      "lines": 42095,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 94.1,
+      "lines": 52819,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 90.7,
+      "lines": 48279,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 93.1,
+      "lines": 48661,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 93.8,
+      "lines": 54064,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 94.8,
+      "lines": 51139,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 93.7,
+      "lines": 43558,
+      "status": "yellow"
+    },
+    {
+      "month": "2025-12",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 95.0,
+      "lines": 49822,
+      "status": "green"
+    },
+    {
+      "month": "2026-01",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 94.5,
+      "lines": 52497,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.7,
+      "lines": 36883,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 88.6,
+      "lines": 45137,
+      "status": "red"
+    },
+    {
+      "month": "2026-01",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 91.3,
+      "lines": 44695,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 93.8,
+      "lines": 42332,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 93.4,
+      "lines": 40301,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 89.3,
+      "lines": 47694,
+      "status": "red"
+    },
+    {
+      "month": "2026-01",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 97.4,
+      "lines": 42078,
+      "status": "green"
+    },
+    {
+      "month": "2026-01",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 96.1,
+      "lines": 54847,
+      "status": "green"
+    },
+    {
+      "month": "2026-01",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 85.0,
+      "lines": 40106,
+      "status": "red"
+    },
+    {
+      "month": "2026-01",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 93.9,
+      "lines": 42603,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 89.8,
+      "lines": 48154,
+      "status": "red"
+    },
+    {
+      "month": "2026-01",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 93.5,
+      "lines": 52198,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 94.2,
+      "lines": 45321,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 95.7,
+      "lines": 52685,
+      "status": "green"
+    },
+    {
+      "month": "2026-01",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 95.5,
+      "lines": 53422,
+      "status": "green"
+    },
+    {
+      "month": "2026-01",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 93.3,
+      "lines": 48598,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 92.6,
+      "lines": 43753,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 93.5,
+      "lines": 51968,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 91.1,
+      "lines": 48638,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 93.8,
+      "lines": 48293,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 96.0,
+      "lines": 50982,
+      "status": "green"
+    },
+    {
+      "month": "2026-01",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 90.8,
+      "lines": 51717,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-01",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 97.4,
+      "lines": 54614,
+      "status": "green"
+    },
+    {
+      "month": "2026-02",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 89.6,
+      "lines": 42497,
+      "status": "red"
+    },
+    {
+      "month": "2026-02",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 91.4,
+      "lines": 51388,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 94.6,
+      "lines": 45881,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 95.8,
+      "lines": 31125,
+      "status": "green"
+    },
+    {
+      "month": "2026-02",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 96.1,
+      "lines": 50561,
+      "status": "green"
+    },
+    {
+      "month": "2026-02",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 91.8,
+      "lines": 46829,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 90.3,
+      "lines": 49482,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 94.8,
+      "lines": 49075,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 94.6,
+      "lines": 50101,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 84.9,
+      "lines": 41474,
+      "status": "red"
+    },
+    {
+      "month": "2026-02",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 93.1,
+      "lines": 60920,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 90.0,
+      "lines": 60637,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 94.9,
+      "lines": 50223,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 98.2,
+      "lines": 48889,
+      "status": "green"
+    },
+    {
+      "month": "2026-02",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 92.7,
+      "lines": 39530,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 90.9,
+      "lines": 47982,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 94.1,
+      "lines": 52261,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 94.2,
+      "lines": 49027,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 89.2,
+      "lines": 44116,
+      "status": "red"
+    },
+    {
+      "month": "2026-02",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 94.1,
+      "lines": 49965,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 92.6,
+      "lines": 50202,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 95.3,
+      "lines": 42092,
+      "status": "green"
+    },
+    {
+      "month": "2026-02",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 91.7,
+      "lines": 43401,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-02",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 92.2,
+      "lines": 52774,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 92.7,
+      "lines": 46425,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.2,
+      "lines": 31835,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 94.7,
+      "lines": 48892,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 90.7,
+      "lines": 64387,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 93.3,
+      "lines": 48872,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 93.6,
+      "lines": 54642,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 93.1,
+      "lines": 46070,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 99.7,
+      "lines": 49806,
+      "status": "green"
+    },
+    {
+      "month": "2026-03",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 97.9,
+      "lines": 45315,
+      "status": "green"
+    },
+    {
+      "month": "2026-03",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 87.1,
+      "lines": 38313,
+      "status": "red"
+    },
+    {
+      "month": "2026-03",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 93.9,
+      "lines": 40874,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 92.1,
+      "lines": 52710,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 95.7,
+      "lines": 46413,
+      "status": "green"
+    },
+    {
+      "month": "2026-03",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 99.7,
+      "lines": 54760,
+      "status": "green"
+    },
+    {
+      "month": "2026-03",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 98.3,
+      "lines": 50109,
+      "status": "green"
+    },
+    {
+      "month": "2026-03",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 94.8,
+      "lines": 50515,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 97.0,
+      "lines": 42144,
+      "status": "green"
+    },
+    {
+      "month": "2026-03",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 90.3,
+      "lines": 46031,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 91.8,
+      "lines": 44255,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 94.2,
+      "lines": 56475,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 92.5,
+      "lines": 53207,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 94.1,
+      "lines": 38957,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-03",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 89.4,
+      "lines": 53929,
+      "status": "red"
+    },
+    {
+      "month": "2026-03",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 95.9,
+      "lines": 49889,
+      "status": "green"
+    },
+    {
+      "month": "2026-04",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 91.2,
+      "lines": 55633,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 95.6,
+      "lines": 48819,
+      "status": "green"
+    },
+    {
+      "month": "2026-04",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 95.6,
+      "lines": 46228,
+      "status": "green"
+    },
+    {
+      "month": "2026-04",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 93.7,
+      "lines": 41364,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 94.0,
+      "lines": 42794,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 95.3,
+      "lines": 49591,
+      "status": "green"
+    },
+    {
+      "month": "2026-04",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 89.0,
+      "lines": 49949,
+      "status": "red"
+    },
+    {
+      "month": "2026-04",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 98.9,
+      "lines": 55234,
+      "status": "green"
+    },
+    {
+      "month": "2026-04",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 95.5,
+      "lines": 48151,
+      "status": "green"
+    },
+    {
+      "month": "2026-04",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 87.2,
+      "lines": 35911,
+      "status": "red"
+    },
+    {
+      "month": "2026-04",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 94.0,
+      "lines": 39889,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 87.9,
+      "lines": 44922,
+      "status": "red"
+    },
+    {
+      "month": "2026-04",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 95.3,
+      "lines": 47032,
+      "status": "green"
+    },
+    {
+      "month": "2026-04",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 98.0,
+      "lines": 51519,
+      "status": "green"
+    },
+    {
+      "month": "2026-04",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 94.3,
+      "lines": 42396,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 93.2,
+      "lines": 54570,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 93.1,
+      "lines": 39382,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 92.8,
+      "lines": 44937,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 86.9,
+      "lines": 47680,
+      "status": "red"
+    },
+    {
+      "month": "2026-04",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 94.9,
+      "lines": 48427,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 90.1,
+      "lines": 44750,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 90.5,
+      "lines": 52443,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 93.2,
+      "lines": 57072,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-04",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 96.3,
+      "lines": 49128,
+      "status": "green"
+    },
+    {
+      "month": "2026-05",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 90.1,
+      "lines": 48547,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 91.6,
+      "lines": 53969,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 94.1,
+      "lines": 51035,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 92.5,
+      "lines": 48404,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 94.3,
+      "lines": 44273,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 93.3,
+      "lines": 47273,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 90.4,
+      "lines": 47063,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 96.5,
+      "lines": 42064,
+      "status": "green"
+    },
+    {
+      "month": "2026-05",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 97.3,
+      "lines": 47913,
+      "status": "green"
+    },
+    {
+      "month": "2026-05",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 86.7,
+      "lines": 55202,
+      "status": "red"
+    },
+    {
+      "month": "2026-05",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 91.4,
+      "lines": 41753,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 89.5,
+      "lines": 43347,
+      "status": "red"
+    },
+    {
+      "month": "2026-05",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 99.7,
+      "lines": 56310,
+      "status": "green"
+    },
+    {
+      "month": "2026-05",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 99.7,
+      "lines": 37730,
+      "status": "green"
+    },
+    {
+      "month": "2026-05",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 94.1,
+      "lines": 40856,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 91.5,
+      "lines": 48187,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 98.4,
+      "lines": 49828,
+      "status": "green"
+    },
+    {
+      "month": "2026-05",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 95.8,
+      "lines": 50879,
+      "status": "green"
+    },
+    {
+      "month": "2026-05",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 88.1,
+      "lines": 57697,
+      "status": "red"
+    },
+    {
+      "month": "2026-05",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 90.9,
+      "lines": 44399,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 97.0,
+      "lines": 44243,
+      "status": "green"
+    },
+    {
+      "month": "2026-05",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 92.9,
+      "lines": 53234,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 94.3,
+      "lines": 48807,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-05",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 94.6,
+      "lines": 48727,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 93.3,
+      "lines": 52854,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 91.9,
+      "lines": 43869,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 96.1,
+      "lines": 37760,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 94.2,
+      "lines": 59037,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 92.4,
+      "lines": 38263,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 95.4,
+      "lines": 52297,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 90.4,
+      "lines": 61451,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 97.8,
+      "lines": 39011,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 98.2,
+      "lines": 45228,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 89.4,
+      "lines": 49124,
+      "status": "red"
+    },
+    {
+      "month": "2026-06",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 92.9,
+      "lines": 53621,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 90.7,
+      "lines": 50141,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 97.4,
+      "lines": 47848,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 99.7,
+      "lines": 39367,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 96.8,
+      "lines": 43339,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 92.9,
+      "lines": 46363,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 95.4,
+      "lines": 39958,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 95.6,
+      "lines": 49580,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 91.2,
+      "lines": 42568,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 92.7,
+      "lines": 49514,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 92.6,
+      "lines": 42704,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 96.4,
+      "lines": 44284,
+      "status": "green"
+    },
+    {
+      "month": "2026-06",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 90.3,
+      "lines": 56105,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-06",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 90.4,
+      "lines": 47517,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "350",
+      "store_name": "Selgros Brașov",
+      "otif_pct": 91.2,
+      "lines": 46266,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "351",
+      "store_name": "Selgros București Băneasa",
+      "otif_pct": 93.9,
+      "lines": 58686,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "352",
+      "store_name": "Selgros București Pantelimon",
+      "otif_pct": 92.3,
+      "lines": 53091,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "354",
+      "store_name": "Selgros București Berceni",
+      "otif_pct": 93.3,
+      "lines": 44761,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "355",
+      "store_name": "Selgros Constanța Sud",
+      "otif_pct": 93.5,
+      "lines": 51401,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "356",
+      "store_name": "Selgros Craiova",
+      "otif_pct": 94.5,
+      "lines": 54474,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "357",
+      "store_name": "Selgros Timișoara",
+      "otif_pct": 86.7,
+      "lines": 45669,
+      "status": "red"
+    },
+    {
+      "month": "2026-07",
+      "plant": "358",
+      "store_name": "Selgros Oradea",
+      "otif_pct": 98.8,
+      "lines": 49200,
+      "status": "green"
+    },
+    {
+      "month": "2026-07",
+      "plant": "359",
+      "store_name": "Selgros Cluj-Napoca",
+      "otif_pct": 93.8,
+      "lines": 59861,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "360",
+      "store_name": "Selgros Arad",
+      "otif_pct": 86.7,
+      "lines": 38783,
+      "status": "red"
+    },
+    {
+      "month": "2026-07",
+      "plant": "361",
+      "store_name": "Selgros Ploiești",
+      "otif_pct": 94.8,
+      "lines": 51137,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "362",
+      "store_name": "Selgros Bacău",
+      "otif_pct": 87.6,
+      "lines": 55180,
+      "status": "red"
+    },
+    {
+      "month": "2026-07",
+      "plant": "363",
+      "store_name": "Selgros Suceava",
+      "otif_pct": 98.3,
+      "lines": 54779,
+      "status": "green"
+    },
+    {
+      "month": "2026-07",
+      "plant": "364",
+      "store_name": "Selgros Iași",
+      "otif_pct": 99.7,
+      "lines": 50339,
+      "status": "green"
+    },
+    {
+      "month": "2026-07",
+      "plant": "365",
+      "store_name": "Selgros Galați",
+      "otif_pct": 97.2,
+      "lines": 45596,
+      "status": "green"
+    },
+    {
+      "month": "2026-07",
+      "plant": "366",
+      "store_name": "Selgros Brăila",
+      "otif_pct": 92.2,
+      "lines": 48437,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "367",
+      "store_name": "Selgros București Drumul Taberei",
+      "otif_pct": 94.5,
+      "lines": 51055,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "368",
+      "store_name": "Selgros Constanța Nord",
+      "otif_pct": 93.2,
+      "lines": 42380,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "369",
+      "store_name": "Selgros Târgu Mureș",
+      "otif_pct": 89.6,
+      "lines": 36663,
+      "status": "red"
+    },
+    {
+      "month": "2026-07",
+      "plant": "370",
+      "store_name": "Selgros Alba Iulia",
+      "otif_pct": 92.2,
+      "lines": 42385,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "371",
+      "store_name": "Selgros Sibiu",
+      "otif_pct": 93.7,
+      "lines": 43582,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "372",
+      "store_name": "Selgros Baia Mare",
+      "otif_pct": 95.4,
+      "lines": 44033,
+      "status": "green"
+    },
+    {
+      "month": "2026-07",
+      "plant": "373",
+      "store_name": "Selgros Bistrița",
+      "otif_pct": 92.3,
+      "lines": 42105,
+      "status": "yellow"
+    },
+    {
+      "month": "2026-07",
+      "plant": "375",
+      "store_name": "Selgros Mureș Ernei",
+      "otif_pct": 92.9,
+      "lines": 40881,
+      "status": "yellow"
+    }
+  ]
+}

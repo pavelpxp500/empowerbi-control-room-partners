@@ -1,0 +1,978 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · demo_* tables (synthetic layer)",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "customer_pareto",
+    "row_count": 120,
+    "seed": 42,
+    "disclaimer": "Volume, margin, customers and service indicators do not exist publicly. They are generated deterministic and calibrated to published annual figures.",
+    "assumptions": [
+      "[A] the four segments exist as published on the website",
+      "[I] sales weights, margins and average baskets — assumed, not observed"
+    ]
+  },
+  "data": [
+    {
+      "customer_id": "S00201",
+      "customer_name": "Nonstop 52",
+      "segment_name": "Resellers",
+      "net_ron": 34900084.18,
+      "gm_ron": 3287587.93,
+      "cum_share_pct": 4.1
+    },
+    {
+      "customer_id": "S00049",
+      "customer_name": "Non-stop 30",
+      "segment_name": "Resellers",
+      "net_ron": 24094944.16,
+      "gm_ron": 1737245.47,
+      "cum_share_pct": 6.94
+    },
+    {
+      "customer_id": "S00105",
+      "customer_name": "Mixed store 296",
+      "segment_name": "Resellers",
+      "net_ron": 20427326.41,
+      "gm_ron": 1088776.5,
+      "cum_share_pct": 9.34
+    },
+    {
+      "customer_id": "S00205",
+      "customer_name": "Services 24",
+      "segment_name": "Other businesses",
+      "net_ron": 17917305.96,
+      "gm_ron": 2354334.0,
+      "cum_share_pct": 11.44
+    },
+    {
+      "customer_id": "S00140",
+      "customer_name": "Restaurant 69",
+      "segment_name": "HoReCa",
+      "net_ron": 17452496.79,
+      "gm_ron": 1568979.46,
+      "cum_share_pct": 13.5
+    },
+    {
+      "customer_id": "S00077",
+      "customer_name": "Pizzeria 27",
+      "segment_name": "HoReCa",
+      "net_ron": 15534269.21,
+      "gm_ron": 2007027.58,
+      "cum_share_pct": 15.32
+    },
+    {
+      "customer_id": "S00036",
+      "customer_name": "Mixed store 197",
+      "segment_name": "Resellers",
+      "net_ron": 14956489.52,
+      "gm_ron": 1292240.69,
+      "cum_share_pct": 17.08
+    },
+    {
+      "customer_id": "S00124",
+      "customer_name": "warehouse 62",
+      "segment_name": "Resellers",
+      "net_ron": 14191206.61,
+      "gm_ron": 1443245.71,
+      "cum_share_pct": 18.75
+    },
+    {
+      "customer_id": "S00002",
+      "customer_name": "Food 56",
+      "segment_name": "Resellers",
+      "net_ron": 14180320.77,
+      "gm_ron": 1328696.06,
+      "cum_share_pct": 20.42
+    },
+    {
+      "customer_id": "S00092",
+      "customer_name": "warehouse 388",
+      "segment_name": "Resellers",
+      "net_ron": 13785141.6,
+      "gm_ron": 1192414.75,
+      "cum_share_pct": 22.04
+    },
+    {
+      "customer_id": "S00079",
+      "customer_name": "Food 320",
+      "segment_name": "Resellers",
+      "net_ron": 13701074.56,
+      "gm_ron": 1124858.22,
+      "cum_share_pct": 23.65
+    },
+    {
+      "customer_id": "S00214",
+      "customer_name": "Restaurant 259",
+      "segment_name": "HoReCa",
+      "net_ron": 13075136.91,
+      "gm_ron": 1532406.05,
+      "cum_share_pct": 25.19
+    },
+    {
+      "customer_id": "S00122",
+      "customer_name": "Industry 324",
+      "segment_name": "Other businesses",
+      "net_ron": 12897460.32,
+      "gm_ron": 1712782.73,
+      "cum_share_pct": 26.7
+    },
+    {
+      "customer_id": "S00026",
+      "customer_name": "Mixed store 129",
+      "segment_name": "Resellers",
+      "net_ron": 12281385.71,
+      "gm_ron": 1365690.09,
+      "cum_share_pct": 28.15
+    },
+    {
+      "customer_id": "S00166",
+      "customer_name": "Food 30",
+      "segment_name": "Resellers",
+      "net_ron": 11942239.81,
+      "gm_ron": 948213.84,
+      "cum_share_pct": 29.55
+    },
+    {
+      "customer_id": "S00073",
+      "customer_name": "Hotel 2",
+      "segment_name": "HoReCa",
+      "net_ron": 11815237.88,
+      "gm_ron": 1382382.83,
+      "cum_share_pct": 30.94
+    },
+    {
+      "customer_id": "S00141",
+      "customer_name": "Food 240",
+      "segment_name": "Resellers",
+      "net_ron": 11435129.43,
+      "gm_ron": 1134364.84,
+      "cum_share_pct": 32.28
+    },
+    {
+      "customer_id": "S00180",
+      "customer_name": "Mixed store 12",
+      "segment_name": "Resellers",
+      "net_ron": 11183763.12,
+      "gm_ron": 943909.61,
+      "cum_share_pct": 33.6
+    },
+    {
+      "customer_id": "S00146",
+      "customer_name": "Market 76",
+      "segment_name": "Resellers",
+      "net_ron": 10740750.69,
+      "gm_ron": 923704.56,
+      "cum_share_pct": 34.86
+    },
+    {
+      "customer_id": "S00056",
+      "customer_name": "Food 392",
+      "segment_name": "Resellers",
+      "net_ron": 10409665.67,
+      "gm_ron": 1004532.74,
+      "cum_share_pct": 36.09
+    },
+    {
+      "customer_id": "S00132",
+      "customer_name": "Market 374",
+      "segment_name": "Resellers",
+      "net_ron": 10269797.74,
+      "gm_ron": 871905.83,
+      "cum_share_pct": 37.29
+    },
+    {
+      "customer_id": "S00050",
+      "customer_name": "SRL 197",
+      "segment_name": "Other businesses",
+      "net_ron": 9979805.96,
+      "gm_ron": 1341285.92,
+      "cum_share_pct": 38.47
+    },
+    {
+      "customer_id": "S00215",
+      "customer_name": "Nonstop 257",
+      "segment_name": "Resellers",
+      "net_ron": 9951166.91,
+      "gm_ron": 1276734.71,
+      "cum_share_pct": 39.64
+    },
+    {
+      "customer_id": "S00188",
+      "customer_name": "Mixed store 3",
+      "segment_name": "Resellers",
+      "net_ron": 9778515.07,
+      "gm_ron": 1005231.35,
+      "cum_share_pct": 40.79
+    },
+    {
+      "customer_id": "S00054",
+      "customer_name": "Market 76",
+      "segment_name": "Resellers",
+      "net_ron": 9550128.91,
+      "gm_ron": 724854.78,
+      "cum_share_pct": 41.91
+    },
+    {
+      "customer_id": "S00108",
+      "customer_name": "Market 211",
+      "segment_name": "Resellers",
+      "net_ron": 9536671.4,
+      "gm_ron": 903122.78,
+      "cum_share_pct": 43.03
+    },
+    {
+      "customer_id": "S00076",
+      "customer_name": "Pension 202",
+      "segment_name": "HoReCa",
+      "net_ron": 9085079.89,
+      "gm_ron": 1102020.19,
+      "cum_share_pct": 44.1
+    },
+    {
+      "customer_id": "S00100",
+      "customer_name": "Nonstop 288",
+      "segment_name": "Resellers",
+      "net_ron": 8953591.23,
+      "gm_ron": 1056523.77,
+      "cum_share_pct": 45.15
+    },
+    {
+      "customer_id": "S00006",
+      "customer_name": "Market 131",
+      "segment_name": "Resellers",
+      "net_ron": 8656519.3,
+      "gm_ron": 772161.52,
+      "cum_share_pct": 46.17
+    },
+    {
+      "customer_id": "S00009",
+      "customer_name": "Confectionery 222",
+      "segment_name": "HoReCa",
+      "net_ron": 8552056.65,
+      "gm_ron": 1035654.06,
+      "cum_share_pct": 47.17
+    },
+    {
+      "customer_id": "S00062",
+      "customer_name": "Hotel 341",
+      "segment_name": "HoReCa",
+      "net_ron": 8125216.96,
+      "gm_ron": 831209.7,
+      "cum_share_pct": 48.13
+    },
+    {
+      "customer_id": "S00203",
+      "customer_name": "Group 140",
+      "segment_name": "Other businesses",
+      "net_ron": 7823143.11,
+      "gm_ron": 986498.35,
+      "cum_share_pct": 49.05
+    },
+    {
+      "customer_id": "S00176",
+      "customer_name": "Food 218",
+      "segment_name": "Resellers",
+      "net_ron": 6953382.46,
+      "gm_ron": 636929.83,
+      "cum_share_pct": 49.87
+    },
+    {
+      "customer_id": "S00003",
+      "customer_name": "Pizzeria 291",
+      "segment_name": "HoReCa",
+      "net_ron": 6596748.59,
+      "gm_ron": 845043.49,
+      "cum_share_pct": 50.64
+    },
+    {
+      "customer_id": "S00116",
+      "customer_name": "Mixed store 135",
+      "segment_name": "Resellers",
+      "net_ron": 6539774.59,
+      "gm_ron": 592503.58,
+      "cum_share_pct": 51.41
+    },
+    {
+      "customer_id": "S00048",
+      "customer_name": "Bistro 42",
+      "segment_name": "HoReCa",
+      "net_ron": 6129152.28,
+      "gm_ron": 795563.97,
+      "cum_share_pct": 52.13
+    },
+    {
+      "customer_id": "S00189",
+      "customer_name": "Mixed store 100",
+      "segment_name": "Resellers",
+      "net_ron": 5981185.98,
+      "gm_ron": 520363.18,
+      "cum_share_pct": 52.84
+    },
+    {
+      "customer_id": "S00162",
+      "customer_name": "Market 77",
+      "segment_name": "Resellers",
+      "net_ron": 5960274.56,
+      "gm_ron": 506623.34,
+      "cum_share_pct": 53.54
+    },
+    {
+      "customer_id": "S00075",
+      "customer_name": "Nonstop 272",
+      "segment_name": "Resellers",
+      "net_ron": 5848972.54,
+      "gm_ron": 513539.79,
+      "cum_share_pct": 54.22
+    },
+    {
+      "customer_id": "S00104",
+      "customer_name": "Cantina 193",
+      "segment_name": "HoReCa",
+      "net_ron": 5814321.55,
+      "gm_ron": 608178.03,
+      "cum_share_pct": 54.91
+    },
+    {
+      "customer_id": "S00152",
+      "customer_name": "Food 53",
+      "segment_name": "Resellers",
+      "net_ron": 5756934.17,
+      "gm_ron": 447889.48,
+      "cum_share_pct": 55.58
+    },
+    {
+      "customer_id": "S00110",
+      "customer_name": "warehouse 56",
+      "segment_name": "Resellers",
+      "net_ron": 5645689.34,
+      "gm_ron": 565698.07,
+      "cum_share_pct": 56.25
+    },
+    {
+      "customer_id": "S00187",
+      "customer_name": "Mixed store 153",
+      "segment_name": "Resellers",
+      "net_ron": 5634160.79,
+      "gm_ron": 494115.9,
+      "cum_share_pct": 56.91
+    },
+    {
+      "customer_id": "S00069",
+      "customer_name": "Cantina 385",
+      "segment_name": "HoReCa",
+      "net_ron": 5592690.42,
+      "gm_ron": 539694.63,
+      "cum_share_pct": 57.57
+    },
+    {
+      "customer_id": "S00018",
+      "customer_name": "warehouse 321",
+      "segment_name": "Resellers",
+      "net_ron": 5374213.71,
+      "gm_ron": 361147.16,
+      "cum_share_pct": 58.2
+    },
+    {
+      "customer_id": "S00005",
+      "customer_name": "Catering 21",
+      "segment_name": "HoReCa",
+      "net_ron": 5257859.48,
+      "gm_ron": 597818.62,
+      "cum_share_pct": 58.82
+    },
+    {
+      "customer_id": "S00163",
+      "customer_name": "S.R.L. 205",
+      "segment_name": "Other businesses",
+      "net_ron": 5228272.52,
+      "gm_ron": 742414.7,
+      "cum_share_pct": 59.43
+    },
+    {
+      "customer_id": "S00070",
+      "customer_name": "Mixed store 53",
+      "segment_name": "Resellers",
+      "net_ron": 5113671.29,
+      "gm_ron": 533355.92,
+      "cum_share_pct": 60.03
+    },
+    {
+      "customer_id": "S00193",
+      "customer_name": "Bistro 43",
+      "segment_name": "HoReCa",
+      "net_ron": 5069551.71,
+      "gm_ron": 669687.78,
+      "cum_share_pct": 60.63
+    },
+    {
+      "customer_id": "S00157",
+      "customer_name": "Pizzeria 111",
+      "segment_name": "HoReCa",
+      "net_ron": 5010161.19,
+      "gm_ron": 562140.09,
+      "cum_share_pct": 61.22
+    },
+    {
+      "customer_id": "S00106",
+      "customer_name": "Mixed store 210",
+      "segment_name": "Resellers",
+      "net_ron": 4877921.08,
+      "gm_ron": 495108.99,
+      "cum_share_pct": 61.79
+    },
+    {
+      "customer_id": "S00211",
+      "customer_name": "Market 120",
+      "segment_name": "Resellers",
+      "net_ron": 4874086.17,
+      "gm_ron": 272948.83,
+      "cum_share_pct": 62.37
+    },
+    {
+      "customer_id": "S00154",
+      "customer_name": "Bistro 336",
+      "segment_name": "HoReCa",
+      "net_ron": 4805126.36,
+      "gm_ron": 547303.89,
+      "cum_share_pct": 62.93
+    },
+    {
+      "customer_id": "S00169",
+      "customer_name": "Food 76",
+      "segment_name": "Resellers",
+      "net_ron": 4785364.75,
+      "gm_ron": 345024.8,
+      "cum_share_pct": 63.49
+    },
+    {
+      "customer_id": "S00043",
+      "customer_name": "Cantina 14",
+      "segment_name": "HoReCa",
+      "net_ron": 4769663.63,
+      "gm_ron": 569020.87,
+      "cum_share_pct": 64.05
+    },
+    {
+      "customer_id": "S00059",
+      "customer_name": "Confectionery 44",
+      "segment_name": "HoReCa",
+      "net_ron": 4718144.05,
+      "gm_ron": 526073.06,
+      "cum_share_pct": 64.61
+    },
+    {
+      "customer_id": "S00001",
+      "customer_name": "Cantina 33",
+      "segment_name": "HoReCa",
+      "net_ron": 4568699.28,
+      "gm_ron": 334428.79,
+      "cum_share_pct": 65.15
+    },
+    {
+      "customer_id": "S00117",
+      "customer_name": "Cantina 313",
+      "segment_name": "HoReCa",
+      "net_ron": 4548799.39,
+      "gm_ron": 497638.65,
+      "cum_share_pct": 65.68
+    },
+    {
+      "customer_id": "S00136",
+      "customer_name": "Pizzeria 263",
+      "segment_name": "HoReCa",
+      "net_ron": 4406910.52,
+      "gm_ron": 504591.25,
+      "cum_share_pct": 66.2
+    },
+    {
+      "customer_id": "S00058",
+      "customer_name": "Market 1",
+      "segment_name": "Resellers",
+      "net_ron": 4357789.41,
+      "gm_ron": 305045.26,
+      "cum_share_pct": 66.71
+    },
+    {
+      "customer_id": "S00107",
+      "customer_name": "S.R.L 72",
+      "segment_name": "Other businesses",
+      "net_ron": 4348705.06,
+      "gm_ron": 470964.76,
+      "cum_share_pct": 67.22
+    },
+    {
+      "customer_id": "S00127",
+      "customer_name": "Catering 199",
+      "segment_name": "HoReCa",
+      "net_ron": 4310366.2,
+      "gm_ron": 367243.2,
+      "cum_share_pct": 67.73
+    },
+    {
+      "customer_id": "S00020",
+      "customer_name": "Cantina 374",
+      "segment_name": "HoReCa",
+      "net_ron": 4281592.16,
+      "gm_ron": 488957.82,
+      "cum_share_pct": 68.23
+    },
+    {
+      "customer_id": "S00087",
+      "customer_name": "S.R.L 26",
+      "segment_name": "Other businesses",
+      "net_ron": 4145832.73,
+      "gm_ron": 480087.43,
+      "cum_share_pct": 68.72
+    },
+    {
+      "customer_id": "S00137",
+      "customer_name": "Restaurant 216",
+      "segment_name": "HoReCa",
+      "net_ron": 4128638.56,
+      "gm_ron": 508648.27,
+      "cum_share_pct": 69.21
+    },
+    {
+      "customer_id": "S00072",
+      "customer_name": "SRL 100",
+      "segment_name": "Other businesses",
+      "net_ron": 3945212.15,
+      "gm_ron": 482104.92,
+      "cum_share_pct": 69.67
+    },
+    {
+      "customer_id": "S00064",
+      "customer_name": "Non-stop 35",
+      "segment_name": "Resellers",
+      "net_ron": 3929411.53,
+      "gm_ron": 355611.74,
+      "cum_share_pct": 70.13
+    },
+    {
+      "customer_id": "S00042",
+      "customer_name": "Food 171",
+      "segment_name": "Resellers",
+      "net_ron": 3866066.14,
+      "gm_ron": 322816.52,
+      "cum_share_pct": 70.59
+    },
+    {
+      "customer_id": "S00016",
+      "customer_name": "Group 237",
+      "segment_name": "Other businesses",
+      "net_ron": 3780311.43,
+      "gm_ron": 445320.69,
+      "cum_share_pct": 71.03
+    },
+    {
+      "customer_id": "S00151",
+      "customer_name": "warehouse 6",
+      "segment_name": "Resellers",
+      "net_ron": 3753784.81,
+      "gm_ron": 322825.49,
+      "cum_share_pct": 71.47
+    },
+    {
+      "customer_id": "S00081",
+      "customer_name": "Pension 176",
+      "segment_name": "HoReCa",
+      "net_ron": 3750328.3,
+      "gm_ron": 430537.69,
+      "cum_share_pct": 71.91
+    },
+    {
+      "customer_id": "S00078",
+      "customer_name": "SRL 309",
+      "segment_name": "Other businesses",
+      "net_ron": 3647579.65,
+      "gm_ron": 571575.73,
+      "cum_share_pct": 72.34
+    },
+    {
+      "customer_id": "S00147",
+      "customer_name": "Cantina 205",
+      "segment_name": "HoReCa",
+      "net_ron": 3637614.38,
+      "gm_ron": 411414.19,
+      "cum_share_pct": 72.77
+    },
+    {
+      "customer_id": "S00065",
+      "customer_name": "Pension 130",
+      "segment_name": "HoReCa",
+      "net_ron": 3613686.62,
+      "gm_ron": 461829.15,
+      "cum_share_pct": 73.19
+    },
+    {
+      "customer_id": "S00089",
+      "customer_name": "Mixed store 24",
+      "segment_name": "Resellers",
+      "net_ron": 3564260.83,
+      "gm_ron": 392068.69,
+      "cum_share_pct": 73.61
+    },
+    {
+      "customer_id": "S00134",
+      "customer_name": "Market 267",
+      "segment_name": "Resellers",
+      "net_ron": 3561193.01,
+      "gm_ron": 309823.79,
+      "cum_share_pct": 74.03
+    },
+    {
+      "customer_id": "S00103",
+      "customer_name": "Pizzeria 389",
+      "segment_name": "HoReCa",
+      "net_ron": 3492605.4,
+      "gm_ron": 356245.75,
+      "cum_share_pct": 74.44
+    },
+    {
+      "customer_id": "S00129",
+      "customer_name": "Confectionery 57",
+      "segment_name": "HoReCa",
+      "net_ron": 3450628.17,
+      "gm_ron": 434779.15,
+      "cum_share_pct": 74.85
+    },
+    {
+      "customer_id": "S00024",
+      "customer_name": "Catering 150",
+      "segment_name": "HoReCa",
+      "net_ron": 3421800.34,
+      "gm_ron": 355525.06,
+      "cum_share_pct": 75.25
+    },
+    {
+      "customer_id": "S00119",
+      "customer_name": "Nonstop 173",
+      "segment_name": "Resellers",
+      "net_ron": 3338444.24,
+      "gm_ron": 275755.49,
+      "cum_share_pct": 75.64
+    },
+    {
+      "customer_id": "S00114",
+      "customer_name": "warehouse 351",
+      "segment_name": "Resellers",
+      "net_ron": 3306938.21,
+      "gm_ron": 329701.74,
+      "cum_share_pct": 76.03
+    },
+    {
+      "customer_id": "S00041",
+      "customer_name": "Confectionery 12",
+      "segment_name": "HoReCa",
+      "net_ron": 3259979.39,
+      "gm_ron": 367399.68,
+      "cum_share_pct": 76.41
+    },
+    {
+      "customer_id": "S00040",
+      "customer_name": "Mixed store 224",
+      "segment_name": "Resellers",
+      "net_ron": 3184613.76,
+      "gm_ron": 277061.4,
+      "cum_share_pct": 76.79
+    },
+    {
+      "customer_id": "S00019",
+      "customer_name": "Non-stop 85",
+      "segment_name": "Resellers",
+      "net_ron": 3179527.1,
+      "gm_ron": 390445.93,
+      "cum_share_pct": 77.16
+    },
+    {
+      "customer_id": "S00008",
+      "customer_name": "Logistics 237",
+      "segment_name": "Other businesses",
+      "net_ron": 3121341.3,
+      "gm_ron": 309949.19,
+      "cum_share_pct": 77.53
+    },
+    {
+      "customer_id": "S00017",
+      "customer_name": "Confectionery 78",
+      "segment_name": "HoReCa",
+      "net_ron": 3118603.26,
+      "gm_ron": 329012.64,
+      "cum_share_pct": 77.9
+    },
+    {
+      "customer_id": "S00055",
+      "customer_name": "Confectionery 287",
+      "segment_name": "HoReCa",
+      "net_ron": 3104116.49,
+      "gm_ron": 327484.29,
+      "cum_share_pct": 78.26
+    },
+    {
+      "customer_id": "S00139",
+      "customer_name": "Nonstop 119",
+      "segment_name": "Resellers",
+      "net_ron": 3062622.58,
+      "gm_ron": 250828.79,
+      "cum_share_pct": 78.62
+    },
+    {
+      "customer_id": "S00067",
+      "customer_name": "SRL 335",
+      "segment_name": "Other businesses",
+      "net_ron": 3042813.65,
+      "gm_ron": 423863.94,
+      "cum_share_pct": 78.98
+    },
+    {
+      "customer_id": "S00171",
+      "customer_name": "Market 174",
+      "segment_name": "Resellers",
+      "net_ron": 2991361.21,
+      "gm_ron": 212984.92,
+      "cum_share_pct": 79.33
+    },
+    {
+      "customer_id": "S00167",
+      "customer_name": "Bistro 118",
+      "segment_name": "HoReCa",
+      "net_ron": 2921661.15,
+      "gm_ron": 283985.46,
+      "cum_share_pct": 79.67
+    },
+    {
+      "customer_id": "S00125",
+      "customer_name": "Services 92",
+      "segment_name": "Other businesses",
+      "net_ron": 2857395.43,
+      "gm_ron": 368889.75,
+      "cum_share_pct": 80.01
+    },
+    {
+      "customer_id": "S00118",
+      "customer_name": "Restaurant 317",
+      "segment_name": "HoReCa",
+      "net_ron": 2851502.95,
+      "gm_ron": 303399.91,
+      "cum_share_pct": 80.35
+    },
+    {
+      "customer_id": "S00120",
+      "customer_name": "SRL 300",
+      "segment_name": "Other businesses",
+      "net_ron": 2833704.3,
+      "gm_ron": 418538.13,
+      "cum_share_pct": 80.68
+    },
+    {
+      "customer_id": "S00112",
+      "customer_name": "Cantina 41",
+      "segment_name": "HoReCa",
+      "net_ron": 2828486.26,
+      "gm_ron": 321598.89,
+      "cum_share_pct": 81.01
+    },
+    {
+      "customer_id": "S00013",
+      "customer_name": "Industries 175",
+      "segment_name": "Other businesses",
+      "net_ron": 2751064.97,
+      "gm_ron": 276482.03,
+      "cum_share_pct": 81.34
+    },
+    {
+      "customer_id": "S00195",
+      "customer_name": "Cantina 134",
+      "segment_name": "HoReCa",
+      "net_ron": 2721475.0,
+      "gm_ron": 299906.55,
+      "cum_share_pct": 81.66
+    },
+    {
+      "customer_id": "S00063",
+      "customer_name": "Industry 235",
+      "segment_name": "Other businesses",
+      "net_ron": 2681277.73,
+      "gm_ron": 300034.98,
+      "cum_share_pct": 81.97
+    },
+    {
+      "customer_id": "S00047",
+      "customer_name": "Pension 355",
+      "segment_name": "HoReCa",
+      "net_ron": 2672717.8,
+      "gm_ron": 299344.39,
+      "cum_share_pct": 82.28
+    },
+    {
+      "customer_id": "S00212",
+      "customer_name": "Confectionery 106",
+      "segment_name": "HoReCa",
+      "net_ron": 2640126.64,
+      "gm_ron": 244211.71,
+      "cum_share_pct": 82.6
+    },
+    {
+      "customer_id": "S00051",
+      "customer_name": "Pension 349",
+      "segment_name": "HoReCa",
+      "net_ron": 2571867.29,
+      "gm_ron": 303737.53,
+      "cum_share_pct": 82.9
+    },
+    {
+      "customer_id": "S00080",
+      "customer_name": "Bistro 247",
+      "segment_name": "HoReCa",
+      "net_ron": 2565146.99,
+      "gm_ron": 314487.02,
+      "cum_share_pct": 83.2
+    },
+    {
+      "customer_id": "S00014",
+      "customer_name": "Bistro 233",
+      "segment_name": "HoReCa",
+      "net_ron": 2541454.35,
+      "gm_ron": 272443.91,
+      "cum_share_pct": 83.5
+    },
+    {
+      "customer_id": "S00210",
+      "customer_name": "Cantina 34",
+      "segment_name": "HoReCa",
+      "net_ron": 2539962.78,
+      "gm_ron": 299969.6,
+      "cum_share_pct": 83.8
+    },
+    {
+      "customer_id": "S00027",
+      "customer_name": "S.R.L 64",
+      "segment_name": "Other businesses",
+      "net_ron": 2535525.98,
+      "gm_ron": 378300.48,
+      "cum_share_pct": 84.09
+    },
+    {
+      "customer_id": "S00192",
+      "customer_name": "Services 334",
+      "segment_name": "Other businesses",
+      "net_ron": 2526605.56,
+      "gm_ron": 311025.14,
+      "cum_share_pct": 84.39
+    },
+    {
+      "customer_id": "S00068",
+      "customer_name": "Industry 272",
+      "segment_name": "Other businesses",
+      "net_ron": 2514866.43,
+      "gm_ron": 316873.17,
+      "cum_share_pct": 84.69
+    },
+    {
+      "customer_id": "S00094",
+      "customer_name": "Pension 147",
+      "segment_name": "HoReCa",
+      "net_ron": 2398892.37,
+      "gm_ron": 269395.61,
+      "cum_share_pct": 84.97
+    },
+    {
+      "customer_id": "S00208",
+      "customer_name": "Cantina 234",
+      "segment_name": "HoReCa",
+      "net_ron": 2391591.26,
+      "gm_ron": 213090.78,
+      "cum_share_pct": 85.25
+    },
+    {
+      "customer_id": "S00030",
+      "customer_name": "Confectionery 246",
+      "segment_name": "HoReCa",
+      "net_ron": 2316712.12,
+      "gm_ron": 276847.1,
+      "cum_share_pct": 85.52
+    },
+    {
+      "customer_id": "S00111",
+      "customer_name": "Confectionery 259",
+      "segment_name": "HoReCa",
+      "net_ron": 2314606.98,
+      "gm_ron": 288862.95,
+      "cum_share_pct": 85.8
+    },
+    {
+      "customer_id": "S00165",
+      "customer_name": "Cantina 213",
+      "segment_name": "HoReCa",
+      "net_ron": 2305427.47,
+      "gm_ron": 257977.33,
+      "cum_share_pct": 86.07
+    },
+    {
+      "customer_id": "S00099",
+      "customer_name": "Confectionery 14",
+      "segment_name": "HoReCa",
+      "net_ron": 2265652.02,
+      "gm_ron": 286151.85,
+      "cum_share_pct": 86.33
+    },
+    {
+      "customer_id": "S00033",
+      "customer_name": "Industry 74",
+      "segment_name": "Other businesses",
+      "net_ron": 2237017.83,
+      "gm_ron": 318775.04,
+      "cum_share_pct": 86.6
+    },
+    {
+      "customer_id": "S00159",
+      "customer_name": "SRL 148",
+      "segment_name": "Other businesses",
+      "net_ron": 2227113.0,
+      "gm_ron": 319813.43,
+      "cum_share_pct": 86.86
+    },
+    {
+      "customer_id": "S00028",
+      "customer_name": "Cantina 346",
+      "segment_name": "HoReCa",
+      "net_ron": 2219517.8,
+      "gm_ron": 283876.33,
+      "cum_share_pct": 87.12
+    },
+    {
+      "customer_id": "S00218",
+      "customer_name": "Group 53",
+      "segment_name": "Other businesses",
+      "net_ron": 2200576.0,
+      "gm_ron": 288935.63,
+      "cum_share_pct": 87.38
+    },
+    {
+      "customer_id": "S00011",
+      "customer_name": "Pension 27",
+      "segment_name": "HoReCa",
+      "net_ron": 2193510.9,
+      "gm_ron": 216499.53,
+      "cum_share_pct": 87.64
+    },
+    {
+      "customer_id": "S00190",
+      "customer_name": "Pension 222",
+      "segment_name": "HoReCa",
+      "net_ron": 2181139.35,
+      "gm_ron": 270897.51,
+      "cum_share_pct": 87.89
+    },
+    {
+      "customer_id": "S00010",
+      "customer_name": "Logistic 132",
+      "segment_name": "Other businesses",
+      "net_ron": 2146634.43,
+      "gm_ron": 314267.28,
+      "cum_share_pct": 88.14
+    }
+  ]
+}

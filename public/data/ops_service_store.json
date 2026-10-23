@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — calculated from mixed inputs",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "store",
+    "row_count": 24,
+    "seed": 43,
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "method": "Outbound lines are aggregated by store; each percentage retains its own denominator."
+  },
+  "data": [
+    {
+      "plant": "357",
+      "lines": 10221,
+      "otif_pct": 86.7,
+      "failed_lines": 1359,
+      "missed_value_ron": 13624.38
+    },
+    {
+      "plant": "360",
+      "lines": 8680,
+      "otif_pct": 86.71,
+      "failed_lines": 1154,
+      "missed_value_ron": 10157.78
+    },
+    {
+      "plant": "362",
+      "lines": 12349,
+      "otif_pct": 87.6,
+      "failed_lines": 1531,
+      "missed_value_ron": 8895.95
+    },
+    {
+      "plant": "369",
+      "lines": 8205,
+      "otif_pct": 89.6,
+      "failed_lines": 853,
+      "missed_value_ron": 8787.29
+    },
+    {
+      "plant": "350",
+      "lines": 10354,
+      "otif_pct": 91.2,
+      "failed_lines": 911,
+      "missed_value_ron": 8033.02
+    },
+    {
+      "plant": "366",
+      "lines": 10840,
+      "otif_pct": 92.2,
+      "failed_lines": 846,
+      "missed_value_ron": 4733.03
+    },
+    {
+      "plant": "370",
+      "lines": 9486,
+      "otif_pct": 92.2,
+      "failed_lines": 740,
+      "missed_value_ron": 3764.26
+    },
+    {
+      "plant": "352",
+      "lines": 11882,
+      "otif_pct": 92.3,
+      "failed_lines": 915,
+      "missed_value_ron": 9203.34
+    },
+    {
+      "plant": "373",
+      "lines": 9423,
+      "otif_pct": 92.3,
+      "failed_lines": 726,
+      "missed_value_ron": 3716.44
+    },
+    {
+      "plant": "375",
+      "lines": 9149,
+      "otif_pct": 92.9,
+      "failed_lines": 650,
+      "missed_value_ron": 4437.84
+    },
+    {
+      "plant": "368",
+      "lines": 9485,
+      "otif_pct": 93.2,
+      "failed_lines": 645,
+      "missed_value_ron": 5720.55
+    },
+    {
+      "plant": "354",
+      "lines": 10018,
+      "otif_pct": 93.3,
+      "failed_lines": 671,
+      "missed_value_ron": 4756.96
+    },
+    {
+      "plant": "355",
+      "lines": 11504,
+      "otif_pct": 93.5,
+      "failed_lines": 748,
+      "missed_value_ron": 3873.16
+    },
+    {
+      "plant": "371",
+      "lines": 9754,
+      "otif_pct": 93.69,
+      "failed_lines": 615,
+      "missed_value_ron": 1550.15
+    },
+    {
+      "plant": "359",
+      "lines": 13397,
+      "otif_pct": 93.8,
+      "failed_lines": 831,
+      "missed_value_ron": 4726.68
+    },
+    {
+      "plant": "351",
+      "lines": 13134,
+      "otif_pct": 93.9,
+      "failed_lines": 801,
+      "missed_value_ron": 5679.3
+    },
+    {
+      "plant": "356",
+      "lines": 12191,
+      "otif_pct": 94.5,
+      "failed_lines": 671,
+      "missed_value_ron": 3843.24
+    },
+    {
+      "plant": "367",
+      "lines": 11426,
+      "otif_pct": 94.5,
+      "failed_lines": 628,
+      "missed_value_ron": 3664.9
+    },
+    {
+      "plant": "361",
+      "lines": 11444,
+      "otif_pct": 94.8,
+      "failed_lines": 595,
+      "missed_value_ron": 3812.0
+    },
+    {
+      "plant": "372",
+      "lines": 9855,
+      "otif_pct": 95.4,
+      "failed_lines": 453,
+      "missed_value_ron": 2278.3
+    },
+    {
+      "plant": "365",
+      "lines": 10204,
+      "otif_pct": 97.2,
+      "failed_lines": 286,
+      "missed_value_ron": 1646.58
+    },
+    {
+      "plant": "363",
+      "lines": 12260,
+      "otif_pct": 98.3,
+      "failed_lines": 208,
+      "missed_value_ron": 1101.48
+    },
+    {
+      "plant": "358",
+      "lines": 11011,
+      "otif_pct": 98.8,
+      "failed_lines": 132,
+      "missed_value_ron": 588.81
+    },
+    {
+      "plant": "364",
+      "lines": 11266,
+      "otif_pct": 99.7,
+      "failed_lines": 34,
+      "missed_value_ron": 196.82
+    }
+  ]
+}

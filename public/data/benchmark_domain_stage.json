@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "data_label": "ENGINE OUTPUT — BENCHMARK PORTFOLIO",
+    "publisher": "Independent analysis — sanitised analytical derivative",
+    "source": "Independent aggregation of 74 external solution entries from the supplied material",
+    "generated_at": "2026-08-30T00:00:00+03:00",
+    "snapshot_id": "external-solutions-2026-08-30",
+    "source_sha256": "1cee28b9a9d658ed48e77db5c321f0fc21ba42c0fafe6eda7611b2e100b4a02b",
+    "etl_version": "benchmark-sanitize-2.0",
+    "grain": "external solution domain × snapshot",
+    "row_count": 8,
+    "method": "Allow-listed fields, removal of internal links, names and comments, and deterministic aggregation; stages remain as declared in the source.",
+    "caveat": "Generalised catalogue based on external material supplied by the beneficiary. It does not prove implementation, adoption, validation or operational performance at Selgros, and it is not officially issued or approved by Selgros Romania.",
+    "assumptions": [
+      "The benchmark describes requirements and deliverables from the supplied external material; it does not measure Selgros performance.",
+      "Mapping to Selgros routes is an independent inference and does not confirm adoption or operational equivalence."
+    ]
+  },
+  "data": [
+    {
+      "domain": "Finance",
+      "total": 11,
+      "prod": 0,
+      "operational": 2,
+      "livrat": 2,
+      "validare": 0,
+      "dev": 6,
+      "spec": 1,
+      "avg_source_stage_index": 59.5,
+      "avg_complexity_score": 75.4,
+      "acceptance_checks": 44
+    },
+    {
+      "domain": "Fulfilment & OTIF",
+      "total": 11,
+      "prod": 1,
+      "operational": 0,
+      "livrat": 0,
+      "validare": 0,
+      "dev": 10,
+      "spec": 0,
+      "avg_source_stage_index": 50.0,
+      "avg_complexity_score": 83.8,
+      "acceptance_checks": 44
+    },
+    {
+      "domain": "Master data",
+      "total": 10,
+      "prod": 3,
+      "operational": 0,
+      "livrat": 3,
+      "validare": 0,
+      "dev": 3,
+      "spec": 1,
+      "avg_source_stage_index": 71.5,
+      "avg_complexity_score": 74.2,
+      "acceptance_checks": 40
+    },
+    {
+      "domain": "Navigation & delivery",
+      "total": 7,
+      "prod": 0,
+      "operational": 0,
+      "livrat": 3,
+      "validare": 0,
+      "dev": 4,
+      "spec": 0,
+      "avg_source_stage_index": 62.1,
+      "avg_complexity_score": 62.3,
+      "acceptance_checks": 28
+    },
+    {
+      "domain": "Platform & methodology",
+      "total": 6,
+      "prod": 3,
+      "operational": 0,
+      "livrat": 3,
+      "validare": 0,
+      "dev": 0,
+      "spec": 0,
+      "avg_source_stage_index": 92.5,
+      "avg_complexity_score": 65.0,
+      "acceptance_checks": 24
+    },
+    {
+      "domain": "Stock & warehouse",
+      "total": 8,
+      "prod": 2,
+      "operational": 0,
+      "livrat": 0,
+      "validare": 0,
+      "dev": 5,
+      "spec": 1,
+      "avg_source_stage_index": 56.2,
+      "avg_complexity_score": 80.0,
+      "acceptance_checks": 33
+    },
+    {
+      "domain": "Transport & TMS",
+      "total": 8,
+      "prod": 2,
+      "operational": 0,
+      "livrat": 3,
+      "validare": 1,
+      "dev": 2,
+      "spec": 0,
+      "avg_source_stage_index": 76.9,
+      "avg_complexity_score": 80.2,
+      "acceptance_checks": 32
+    },
+    {
+      "domain": "Sales & forecasting",
+      "total": 13,
+      "prod": 3,
+      "operational": 0,
+      "livrat": 1,
+      "validare": 0,
+      "dev": 9,
+      "spec": 0,
+      "avg_source_stage_index": 60.8,
+      "avg_complexity_score": 79.7,
+      "acceptance_checks": 52
+    }
+  ]
+}

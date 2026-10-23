@@ -1,0 +1,234 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "www.selgros.ro — public pages (JSON-LD + drupalSettings) and sitemaps",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "category_l1",
+    "row_count": 37
+  },
+  "data": [
+    {
+      "cat_l1": "Power tools and hand tools",
+      "pairs": 960,
+      "oos_pct": 90.94,
+      "skus": 40
+    },
+    {
+      "cat_l1": "Children's clothing, footwear and accessories",
+      "pairs": 26472,
+      "oos_pct": 83.42,
+      "skus": 1103
+    },
+    {
+      "cat_l1": "Women's and men's clothing, footwear and accessories",
+      "pairs": 37896,
+      "oos_pct": 64.38,
+      "skus": 1579
+    },
+    {
+      "cat_l1": "Automotive",
+      "pairs": 2184,
+      "oos_pct": 63.42,
+      "skus": 91
+    },
+    {
+      "cat_l1": "Foodservice",
+      "pairs": 2448,
+      "oos_pct": 59.72,
+      "skus": 102
+    },
+    {
+      "cat_l1": "Electronics, appliances and IT",
+      "pairs": 10152,
+      "oos_pct": 55.07,
+      "skus": 423
+    },
+    {
+      "cat_l1": "Sports and outdoors",
+      "pairs": 3768,
+      "oos_pct": 54.38,
+      "skus": 157
+    },
+    {
+      "cat_l1": "Garden and patio",
+      "pairs": 8064,
+      "oos_pct": 53.63,
+      "skus": 336
+    },
+    {
+      "cat_l1": "Kitchen and tableware",
+      "pairs": 6696,
+      "oos_pct": 53.2,
+      "skus": 279
+    },
+    {
+      "cat_l1": "Toys",
+      "pairs": 17256,
+      "oos_pct": 52.93,
+      "skus": 719
+    },
+    {
+      "cat_l1": "Cleaning, organisation and storage",
+      "pairs": 2160,
+      "oos_pct": 42.96,
+      "skus": 90
+    },
+    {
+      "cat_l1": "Fruit and vegetables",
+      "pairs": 4680,
+      "oos_pct": 42.86,
+      "skus": 195
+    },
+    {
+      "cat_l1": "Ice cream",
+      "pairs": 1608,
+      "oos_pct": 33.46,
+      "skus": 67
+    },
+    {
+      "cat_l1": "Baby products",
+      "pairs": 2376,
+      "oos_pct": 31.1,
+      "skus": 99
+    },
+    {
+      "cat_l1": "Household cleaning and care",
+      "pairs": 18792,
+      "oos_pct": 29.24,
+      "skus": 783
+    },
+    {
+      "cat_l1": "Ready-to-eat",
+      "pairs": 2640,
+      "oos_pct": 29.02,
+      "skus": 110
+    },
+    {
+      "cat_l1": "Textiles",
+      "pairs": 1704,
+      "oos_pct": 28.81,
+      "skus": 71
+    },
+    {
+      "cat_l1": "Bakery",
+      "pairs": 2424,
+      "oos_pct": 26.73,
+      "skus": 101
+    },
+    {
+      "cat_l1": "Frozen meat",
+      "pairs": 696,
+      "oos_pct": 26.15,
+      "skus": 29
+    },
+    {
+      "cat_l1": "Laundry detergents and fabric softeners",
+      "pairs": 9816,
+      "oos_pct": 25.96,
+      "skus": 409
+    },
+    {
+      "cat_l1": "Confectionery and snacks",
+      "pairs": 27768,
+      "oos_pct": 25.41,
+      "skus": 1157
+    },
+    {
+      "cat_l1": "Office supplies and stationery",
+      "pairs": 16128,
+      "oos_pct": 25.06,
+      "skus": 672
+    },
+    {
+      "cat_l1": "Fish and seafood",
+      "pairs": 2976,
+      "oos_pct": 24.06,
+      "skus": 124
+    },
+    {
+      "cat_l1": "Frozen foods",
+      "pairs": 6744,
+      "oos_pct": 23.8,
+      "skus": 281
+    },
+    {
+      "cat_l1": "Personal care and cosmetics",
+      "pairs": 29832,
+      "oos_pct": 23.47,
+      "skus": 1243
+    },
+    {
+      "cat_l1": "Wine and sparkling wine",
+      "pairs": 22008,
+      "oos_pct": 21.62,
+      "skus": 917
+    },
+    {
+      "cat_l1": "Spirits",
+      "pairs": 14088,
+      "oos_pct": 21.02,
+      "skus": 587
+    },
+    {
+      "cat_l1": "Staples and canned goods",
+      "pairs": 35040,
+      "oos_pct": 19.58,
+      "skus": 1460
+    },
+    {
+      "cat_l1": "Fresh meat",
+      "pairs": 1440,
+      "oos_pct": 19.03,
+      "skus": 60
+    },
+    {
+      "cat_l1": "Cereals and breakfast",
+      "pairs": 5328,
+      "oos_pct": 17.23,
+      "skus": 222
+    },
+    {
+      "cat_l1": "Pet food and accessories",
+      "pairs": 3768,
+      "oos_pct": 16.93,
+      "skus": 157
+    },
+    {
+      "cat_l1": "Coffee and tea",
+      "pairs": 8952,
+      "oos_pct": 16.49,
+      "skus": 373
+    },
+    {
+      "cat_l1": "Beer and cider",
+      "pairs": 4392,
+      "oos_pct": 16.46,
+      "skus": 183
+    },
+    {
+      "cat_l1": "Non-alcoholic beverages",
+      "pairs": 13488,
+      "oos_pct": 16.18,
+      "skus": 562
+    },
+    {
+      "cat_l1": "Cheese, dairy and eggs",
+      "pairs": 20352,
+      "oos_pct": 15.85,
+      "skus": 848
+    },
+    {
+      "cat_l1": "Water",
+      "pairs": 3000,
+      "oos_pct": 13.23,
+      "skus": 125
+    },
+    {
+      "cat_l1": "Deli meats",
+      "pairs": 2712,
+      "oos_pct": 12.24,
+      "skus": 113
+    }
+  ]
+}

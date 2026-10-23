@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "direction",
+    "row_count": 2,
+    "seed": 43,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "direction": "outbound",
+      "lines": 257538,
+      "otif_pct": 93.4,
+      "on_time_pct": 95.45,
+      "in_full_pct": 97.02,
+      "qty_missed": 9083.11,
+      "missed_value_ron": 118792.22
+    },
+    {
+      "direction": "inbound",
+      "lines": 12000,
+      "otif_pct": 89.4,
+      "on_time_pct": 93.31,
+      "in_full_pct": 94.78,
+      "qty_missed": 84537.0,
+      "missed_value_ron": 1657846.71
+    }
+  ]
+}

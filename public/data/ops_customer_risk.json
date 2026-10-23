@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "risk_class",
+    "row_count": 4,
+    "seed": 42,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "generated customer master and risk classes (seed 42)"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "risk_class": "A",
+      "customers": 90,
+      "net_ron_12m": 368747048.22,
+      "credit_limit_ron": 9067700.0,
+      "completeness_pct": 85.6
+    },
+    {
+      "risk_class": "B",
+      "customers": 77,
+      "net_ron_12m": 283835599.53,
+      "credit_limit_ron": 7815300.0,
+      "completeness_pct": 85.2
+    },
+    {
+      "risk_class": "C",
+      "customers": 40,
+      "net_ron_12m": 151173360.48,
+      "credit_limit_ron": 3653700.0,
+      "completeness_pct": 86.1
+    },
+    {
+      "risk_class": "D",
+      "customers": 13,
+      "net_ron_12m": 46780935.33,
+      "credit_limit_ron": 1864500.0,
+      "completeness_pct": 89.0
+    }
+  ]
+}

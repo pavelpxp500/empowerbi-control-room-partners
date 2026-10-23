@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "data_label": "REAL DATA — extracted from www.selgros.ro, 28–29 Aug 2026",
+    "source": "mixed - see column kind",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "anchor",
+    "row_count": 14
+  },
+  "data": [
+    {
+      "anchor": "URLs produced in sitemap",
+      "value": 16222,
+      "kind": "counted"
+    },
+    {
+      "anchor": "Live pages",
+      "value": 16080,
+      "kind": "counted"
+    },
+    {
+      "anchor": "Dead pages (HTTP 404)",
+      "value": 142,
+      "kind": "counted"
+    },
+    {
+      "anchor": "Published categories L1",
+      "value": 38,
+      "kind": "counted"
+    },
+    {
+      "anchor": "Published categories L2",
+      "value": 320,
+      "kind": "counted"
+    },
+    {
+      "anchor": "Plant codes / stores",
+      "value": 24,
+      "kind": "counted"
+    },
+    {
+      "anchor": "Facts price × store",
+      "value": 385920,
+      "kind": "Recommended"
+    },
+    {
+      "anchor": "Lines in DWH",
+      "value": 1858530,
+      "kind": "Recommended"
+    },
+    {
+      "anchor": "EAV pairs",
+      "value": 336059,
+      "kind": "Recommended"
+    },
+    {
+      "anchor": "DQ gate (PASS / total)",
+      "value": 9,
+      "kind": "Recommended"
+    },
+    {
+      "anchor": "FY2025 turnover (billion RON)",
+      "value": 4.46,
+      "kind": "third source"
+    },
+    {
+      "anchor": "FY2024 turnover (RON billion)",
+      "value": 4.55,
+      "kind": "third source"
+    },
+    {
+      "anchor": "Employees 2025",
+      "value": 4822,
+      "kind": "third source"
+    },
+    {
+      "anchor": "Synthetic-layer seed",
+      "value": 42,
+      "kind": "parameter"
+    }
+  ]
+}

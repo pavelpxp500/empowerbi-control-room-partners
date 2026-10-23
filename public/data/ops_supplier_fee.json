@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "fee_type",
+    "row_count": 3,
+    "seed": 46,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "generated supplier fees for May–July 2026 (seed 46)"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "fee_type": "logistics",
+      "fee_rows": 195,
+      "suppliers": 65,
+      "fee_due_ron": 9366982.32,
+      "fee_invoiced_ron": 7783750.55,
+      "fee_open_ron": 1583231.77,
+      "open_pct": 16.9
+    },
+    {
+      "fee_type": "promotion",
+      "fee_rows": 120,
+      "suppliers": 40,
+      "fee_due_ron": 7098587.27,
+      "fee_invoiced_ron": 6478968.48,
+      "fee_open_ron": 619618.79,
+      "open_pct": 8.73
+    },
+    {
+      "fee_type": "listing",
+      "fee_rows": 120,
+      "suppliers": 40,
+      "fee_due_ron": 2095642.39,
+      "fee_invoiced_ron": 1798592.73,
+      "fee_open_ron": 297049.66,
+      "open_pct": 14.17
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "_meta": {
+    "data_label": "ENGINE OUTPUT — demo data, deterministically generated (seed 42)",
+    "source": "selgros.duckdb · operational fact_* / dim_* tables",
+    "generated_at": "2026-08-30T22:28:27Z",
+    "etl_version": "1.0.0",
+    "grain": "warehouse_x_date_x_time_window",
+    "row_count": 100,
+    "seed": 45,
+    "disclaimer": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast.",
+    "inputs_real": [
+      "public product and price catalogue",
+      "public network of 24 stores"
+    ],
+    "inputs_synthetic": [
+      "deterministically generated operational events for ISO week 2026-W28"
+    ],
+    "caveat": "Operational data is generated deterministically to demonstrate the data contract, reconciliations and indicator mechanics. It is neither an observation of Selgros operations nor a forecast."
+  },
+  "data": [
+    {
+      "warehouse_id": "W359",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 20,
+      "utilisation_pct": 111.1,
+      "labour_hours_est": 8.4
+    },
+    {
+      "warehouse_id": "W373",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 20,
+      "utilisation_pct": 111.1,
+      "labour_hours_est": 8.4
+    },
+    {
+      "warehouse_id": "W370",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 26,
+      "utilisation_pct": 108.3,
+      "labour_hours_est": 10.9
+    },
+    {
+      "warehouse_id": "W355",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 26,
+      "utilisation_pct": 108.3,
+      "labour_hours_est": 10.9
+    },
+    {
+      "warehouse_id": "W364",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 39,
+      "utilisation_pct": 108.3,
+      "labour_hours_est": 16.4
+    },
+    {
+      "warehouse_id": "W350",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "18:00–21:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 19,
+      "utilisation_pct": 105.6,
+      "labour_hours_est": 8.0
+    },
+    {
+      "warehouse_id": "W373",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 19,
+      "utilisation_pct": 105.6,
+      "labour_hours_est": 8.0
+    },
+    {
+      "warehouse_id": "W367",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 31,
+      "utilisation_pct": 103.3,
+      "labour_hours_est": 13.0
+    },
+    {
+      "warehouse_id": "W366",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 37,
+      "utilisation_pct": 102.8,
+      "labour_hours_est": 15.5
+    },
+    {
+      "warehouse_id": "W370",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 24,
+      "utilisation_pct": 100.0,
+      "labour_hours_est": 10.1
+    },
+    {
+      "warehouse_id": "W367",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 30,
+      "utilisation_pct": 100.0,
+      "labour_hours_est": 12.6
+    },
+    {
+      "warehouse_id": "W358",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 30,
+      "utilisation_pct": 100.0,
+      "labour_hours_est": 12.6
+    },
+    {
+      "warehouse_id": "W352",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "12:00–15:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 30,
+      "utilisation_pct": 100.0,
+      "labour_hours_est": 12.6
+    },
+    {
+      "warehouse_id": "W366",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 36,
+      "utilisation_pct": 100.0,
+      "labour_hours_est": 15.1
+    },
+    {
+      "warehouse_id": "W366",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 36,
+      "utilisation_pct": 100.0,
+      "labour_hours_est": 15.1
+    },
+    {
+      "warehouse_id": "W369",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 35,
+      "utilisation_pct": 97.2,
+      "labour_hours_est": 14.7
+    },
+    {
+      "warehouse_id": "W362",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 35,
+      "utilisation_pct": 97.2,
+      "labour_hours_est": 14.7
+    },
+    {
+      "warehouse_id": "W351",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 35,
+      "utilisation_pct": 97.2,
+      "labour_hours_est": 14.7
+    },
+    {
+      "warehouse_id": "W362",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 35,
+      "utilisation_pct": 97.2,
+      "labour_hours_est": 14.7
+    },
+    {
+      "warehouse_id": "W361",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 29,
+      "utilisation_pct": 96.7,
+      "labour_hours_est": 12.2
+    },
+    {
+      "warehouse_id": "W370",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "15:00–18:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 23,
+      "utilisation_pct": 95.8,
+      "labour_hours_est": 9.7
+    },
+    {
+      "warehouse_id": "W350",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 17,
+      "utilisation_pct": 94.4,
+      "labour_hours_est": 7.1
+    },
+    {
+      "warehouse_id": "W359",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 17,
+      "utilisation_pct": 94.4,
+      "labour_hours_est": 7.1
+    },
+    {
+      "warehouse_id": "W357",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 17,
+      "utilisation_pct": 94.4,
+      "labour_hours_est": 7.1
+    },
+    {
+      "warehouse_id": "W364",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 34,
+      "utilisation_pct": 94.4,
+      "labour_hours_est": 14.3
+    },
+    {
+      "warehouse_id": "W900",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 14,
+      "capacity_pallets": 196,
+      "booked_pallets": 183,
+      "utilisation_pct": 93.4,
+      "labour_hours_est": 76.9
+    },
+    {
+      "warehouse_id": "W371",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 28,
+      "utilisation_pct": 93.3,
+      "labour_hours_est": 11.8
+    },
+    {
+      "warehouse_id": "W367",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 28,
+      "utilisation_pct": 93.3,
+      "labour_hours_est": 11.8
+    },
+    {
+      "warehouse_id": "W358",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "18:00–21:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 28,
+      "utilisation_pct": 93.3,
+      "labour_hours_est": 11.8
+    },
+    {
+      "warehouse_id": "W365",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 28,
+      "utilisation_pct": 93.3,
+      "labour_hours_est": 11.8
+    },
+    {
+      "warehouse_id": "W371",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 28,
+      "utilisation_pct": 93.3,
+      "labour_hours_est": 11.8
+    },
+    {
+      "warehouse_id": "W372",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 22,
+      "utilisation_pct": 91.7,
+      "labour_hours_est": 9.2
+    },
+    {
+      "warehouse_id": "W351",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 33,
+      "utilisation_pct": 91.7,
+      "labour_hours_est": 13.9
+    },
+    {
+      "warehouse_id": "W351",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 33,
+      "utilisation_pct": 91.7,
+      "labour_hours_est": 13.9
+    },
+    {
+      "warehouse_id": "W355",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 22,
+      "utilisation_pct": 91.7,
+      "labour_hours_est": 9.2
+    },
+    {
+      "warehouse_id": "W369",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 33,
+      "utilisation_pct": 91.7,
+      "labour_hours_est": 13.9
+    },
+    {
+      "warehouse_id": "W367",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "12:00–15:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 27,
+      "utilisation_pct": 90.0,
+      "labour_hours_est": 11.3
+    },
+    {
+      "warehouse_id": "W352",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 27,
+      "utilisation_pct": 90.0,
+      "labour_hours_est": 11.3
+    },
+    {
+      "warehouse_id": "W352",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 27,
+      "utilisation_pct": 90.0,
+      "labour_hours_est": 11.3
+    },
+    {
+      "warehouse_id": "W359",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 16,
+      "utilisation_pct": 88.9,
+      "labour_hours_est": 6.7
+    },
+    {
+      "warehouse_id": "W350",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "18:00–21:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 16,
+      "utilisation_pct": 88.9,
+      "labour_hours_est": 6.7
+    },
+    {
+      "warehouse_id": "W360",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 16,
+      "utilisation_pct": 88.9,
+      "labour_hours_est": 6.7
+    },
+    {
+      "warehouse_id": "W364",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 32,
+      "utilisation_pct": 88.9,
+      "labour_hours_est": 13.4
+    },
+    {
+      "warehouse_id": "W368",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 16,
+      "utilisation_pct": 88.9,
+      "labour_hours_est": 6.7
+    },
+    {
+      "warehouse_id": "W356",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 32,
+      "utilisation_pct": 88.9,
+      "labour_hours_est": 13.4
+    },
+    {
+      "warehouse_id": "W373",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 16,
+      "utilisation_pct": 88.9,
+      "labour_hours_est": 6.7
+    },
+    {
+      "warehouse_id": "W357",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 16,
+      "utilisation_pct": 88.9,
+      "labour_hours_est": 6.7
+    },
+    {
+      "warehouse_id": "W370",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 21,
+      "utilisation_pct": 87.5,
+      "labour_hours_est": 8.8
+    },
+    {
+      "warehouse_id": "W354",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 21,
+      "utilisation_pct": 87.5,
+      "labour_hours_est": 8.8
+    },
+    {
+      "warehouse_id": "W367",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 26,
+      "utilisation_pct": 86.7,
+      "labour_hours_est": 10.9
+    },
+    {
+      "warehouse_id": "W369",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 31,
+      "utilisation_pct": 86.1,
+      "labour_hours_est": 13.0
+    },
+    {
+      "warehouse_id": "W356",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 31,
+      "utilisation_pct": 86.1,
+      "labour_hours_est": 13.0
+    },
+    {
+      "warehouse_id": "W369",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 31,
+      "utilisation_pct": 86.1,
+      "labour_hours_est": 13.0
+    },
+    {
+      "warehouse_id": "W372",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "12:00–15:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 20,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 8.4
+    },
+    {
+      "warehouse_id": "W366",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 30,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 12.6
+    },
+    {
+      "warehouse_id": "W361",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 25,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 10.5
+    },
+    {
+      "warehouse_id": "W355",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 20,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 8.4
+    },
+    {
+      "warehouse_id": "W368",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W367",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 25,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 10.5
+    },
+    {
+      "warehouse_id": "W354",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "12:00–15:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 20,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 8.4
+    },
+    {
+      "warehouse_id": "W368",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "15:00–18:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W375",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 30,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 12.6
+    },
+    {
+      "warehouse_id": "W367",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "12:00–15:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 25,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 10.5
+    },
+    {
+      "warehouse_id": "W357",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W372",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 20,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 8.4
+    },
+    {
+      "warehouse_id": "W350",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W360",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W358",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 25,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 10.5
+    },
+    {
+      "warehouse_id": "W362",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "18:00–21:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 30,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 12.6
+    },
+    {
+      "warehouse_id": "W368",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W357",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W360",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W368",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W368",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W351",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 30,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 12.6
+    },
+    {
+      "warehouse_id": "W364",
+      "date": "2026-07-10T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 30,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 12.6
+    },
+    {
+      "warehouse_id": "W370",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 20,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 8.4
+    },
+    {
+      "warehouse_id": "W368",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "15:00–18:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W359",
+      "date": "2026-07-06T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 15,
+      "utilisation_pct": 83.3,
+      "labour_hours_est": 6.3
+    },
+    {
+      "warehouse_id": "W900",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 14,
+      "capacity_pallets": 196,
+      "booked_pallets": 159,
+      "utilisation_pct": 81.1,
+      "labour_hours_est": 66.8
+    },
+    {
+      "warehouse_id": "W375",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 29,
+      "utilisation_pct": 80.6,
+      "labour_hours_est": 12.2
+    },
+    {
+      "warehouse_id": "W366",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 29,
+      "utilisation_pct": 80.6,
+      "labour_hours_est": 12.2
+    },
+    {
+      "warehouse_id": "W366",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 29,
+      "utilisation_pct": 80.6,
+      "labour_hours_est": 12.2
+    },
+    {
+      "warehouse_id": "W364",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "12:00–15:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 29,
+      "utilisation_pct": 80.6,
+      "labour_hours_est": 12.2
+    },
+    {
+      "warehouse_id": "W366",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 29,
+      "utilisation_pct": 80.6,
+      "labour_hours_est": 12.2
+    },
+    {
+      "warehouse_id": "W375",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 6,
+      "capacity_pallets": 36,
+      "booked_pallets": 29,
+      "utilisation_pct": 80.6,
+      "labour_hours_est": 12.2
+    },
+    {
+      "warehouse_id": "W363",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 24,
+      "utilisation_pct": 80.0,
+      "labour_hours_est": 10.1
+    },
+    {
+      "warehouse_id": "W363",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 24,
+      "utilisation_pct": 80.0,
+      "labour_hours_est": 10.1
+    },
+    {
+      "warehouse_id": "W365",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 24,
+      "utilisation_pct": 80.0,
+      "labour_hours_est": 10.1
+    },
+    {
+      "warehouse_id": "W365",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "18:00–21:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 24,
+      "utilisation_pct": 80.0,
+      "labour_hours_est": 10.1
+    },
+    {
+      "warehouse_id": "W371",
+      "date": "2026-07-12T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 24,
+      "utilisation_pct": 80.0,
+      "labour_hours_est": 10.1
+    },
+    {
+      "warehouse_id": "W358",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "15:00–18:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 24,
+      "utilisation_pct": 80.0,
+      "labour_hours_est": 10.1
+    },
+    {
+      "warehouse_id": "W358",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 5,
+      "capacity_pallets": 30,
+      "booked_pallets": 24,
+      "utilisation_pct": 80.0,
+      "labour_hours_est": 10.1
+    },
+    {
+      "warehouse_id": "W372",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 19,
+      "utilisation_pct": 79.2,
+      "labour_hours_est": 8.0
+    },
+    {
+      "warehouse_id": "W372",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 19,
+      "utilisation_pct": 79.2,
+      "labour_hours_est": 8.0
+    },
+    {
+      "warehouse_id": "W355",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "15:00–18:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 19,
+      "utilisation_pct": 79.2,
+      "labour_hours_est": 8.0
+    },
+    {
+      "warehouse_id": "W370",
+      "date": "2026-07-11T00:00:00.000",
+      "time_window": "15:00–18:00",
+      "ramps": 4,
+      "capacity_pallets": 24,
+      "booked_pallets": 19,
+      "utilisation_pct": 79.2,
+      "labour_hours_est": 8.0
+    },
+    {
+      "warehouse_id": "W360",
+      "date": "2026-07-07T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 14,
+      "utilisation_pct": 77.8,
+      "labour_hours_est": 5.9
+    },
+    {
+      "warehouse_id": "W360",
+      "date": "2026-07-08T00:00:00.000",
+      "time_window": "09:00–12:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 14,
+      "utilisation_pct": 77.8,
+      "labour_hours_est": 5.9
+    },
+    {
+      "warehouse_id": "W350",
+      "date": "2026-07-09T00:00:00.000",
+      "time_window": "06:00–09:00",
+      "ramps": 3,
+      "capacity_pallets": 18,
+      "booked_pallets": 14,
+      "utilisation_pct": 77.8,
+      "labour_hours_est": 5.9
+    }
+  ]
+}
